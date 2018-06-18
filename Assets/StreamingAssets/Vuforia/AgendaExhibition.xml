@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="AgendaBeer" sideLength="85.000000"/>
+        <ImageTarget name="flyerBack" size="1.000000 1.414430"/>
+        <ImageTarget name="flyerFront" size="1.000000 1.412752"/>
+        <ImageTarget name="archPortal" size="1.000000 0.494966"/>
+        <ImageTarget name="infoCylinder" size="1.000000 1.003768"/>
+        <ImageTarget name="clock" size="1.000000 0.998442"/>
+        <ImageTarget name="wayfinding_02" size="1.000000 1.003768"/>
+        <ImageTarget name="wayfinding_01" size="1.000000 1.003296"/>
+        <ImageTarget name="variableWall" size="1.000000 1.013705"/>
+        <ImageTarget name="trainTimes" size="1.000000 1.133552"/>
+        <ImageTarget name="introWall.Right" size="1.000000 1.000931"/>
+        <ImageTarget name="introWall.Front" size="1.000000 1.000931"/>
+        <ImageTarget name="introWall.Top" size="1.000000 1.000931"/>
+        <ImageTarget name="introWall.Back" size="1.000000 1.000931"/>
+        <ImageTarget name="introWall.Left" size="1.000000 1.000931"/>
+        <ImageTarget name="introWall.Bottom" size="1.000000 1.000931"/>
+        <MultiTarget name="introWall">
+            <Part name="introWall.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="introWall.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="introWall.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="introWall.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="introWall.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="introWall.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

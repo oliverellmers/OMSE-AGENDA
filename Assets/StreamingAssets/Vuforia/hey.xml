@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="news4" sideLength="297.000000"/>
+        <CylinderTarget name="news3" sideLength="297.000000"/>
+        <CylinderTarget name="news2" sideLength="297.000000"/>
+        <CylinderTarget name="news1" sideLength="297.000000"/>
+        <CylinderTarget name="bottle" sideLength="8.500000"/>
+        <ImageTarget name="SPICY" size="1.000000 1.013705"/>
+        <ImageTarget name="trainNew" size="1.000000 1.133552"/>
+        <ImageTarget name="way2" size="1.000000 1.003296"/>
+        <ImageTarget name="way1" size="1.000000 1.003768"/>
+        <ImageTarget name="var2" size="1.000000 1.013705"/>
+        <ImageTarget name="train1" size="1.000000 1.296433"/>
+        <ImageTarget name="clock" size="1.000000 0.998442"/>
+        <ImageTarget name="info3" size="1.000000 1.003768"/>
+        <ImageTarget name="introAlt" size="1.000000 0.658254"/>
+        <ImageTarget name="a2" size="1.000000 1.003768"/>
+        <ImageTarget name="a1" size="1.000000 1.003768"/>
+        <ImageTarget name="wayFind2" size="1.000000 1.003768"/>
+        <ImageTarget name="wayFind1" size="1.000000 1.003768"/>
+        <ImageTarget name="posterAlt" size="1.000000 1.412752"/>
+        <ImageTarget name="welcome2Small" size="1.000000 1.328962"/>
+        <ImageTarget name="welcome2" size="1.000000 1.323032"/>
+        <ImageTarget name="welcome1" size="1.000000 1.323032"/>
+        <ImageTarget name="nuu" size="1.000000 0.494966"/>
+        <ImageTarget name="flyerBack" size="1.000000 1.414430"/>
+        <ImageTarget name="flyerFront" size="1.000000 1.412752"/>
+        <ImageTarget name="scale1-06" size="1.000000 1.413793"/>
+        <ImageTarget name="mark-05" size="1.000000 1.000000"/>
+        <ImageTarget name="mark-001" size="1.000000 1.000000"/>
+        <ImageTarget name="mark-01" size="1.000000 1.000000"/>
+        <ImageTarget name="MARKER1-01" size="1.000000 1.000000"/>
+        <ImageTarget name="clockCube.Front" size="1.284000 2.626000"/>
+        <ImageTarget name="clockCube.Top" size="1.284000 1.284000"/>
+        <ImageTarget name="introWall2.Bottom" size="1.000000 1.000931"/>
+        <ImageTarget name="introWall2.Left" size="1.000000 1.000224"/>
+        <ImageTarget name="introWall2.Right" size="1.000000 1.000931"/>
+        <ImageTarget name="introWall2.Back" size="1.000000 1.000931"/>
+        <ImageTarget name="introWall2.Front" size="1.000000 1.000931"/>
+        <ImageTarget name="introWall2.Top" size="1.000000 1.000931"/>
+        <ImageTarget name="introTest.Right" size="1.088000 1.074082"/>
+        <ImageTarget name="introTest.Back" size="1.088000 1.074082"/>
+        <ImageTarget name="introTest.Front" size="1.088000 1.074082"/>
+        <MultiTarget name="clockCube">
+            <Part name="clockCube.Front" translation="0 0 1.248" rotation="AD: 1 0 0 90"/>
+            <Part name="clockCube.Top" translation="0 -0.65 0" rotation="AD: 1 0 0 0"/>
+        </MultiTarget>
+        <MultiTarget name="introWall2">
+            <Part name="introWall2.Left" translation="0 -1 0" rotation="AD: 0 1 0 0"/>
+            <Part name="introWall2.Right" translation="0 0 0" rotation="AD: 0 1 0 0"/>
+            <Part name="introWall2.Front" translation="-1 0 0" rotation="AD: 1 0 0 0"/>
+            <Part name="introWall2.Back" translation="1 0 0" rotation="AD: 0 1 0 0"/>
+            <Part name="introWall2.Top" translation="1 -1 0" rotation="AD: 1 0 0 0"/>
+            <Part name="introWall2.Bottom" translation="-1 -1 0" rotation="AD: 1 0 0 0"/>
+        </MultiTarget>
+        <MultiTarget name="introTest">
+            <Part name="introTest.Right" translation="0.5440000295639038 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="introTest.Front" translation="0 0 0.5440000295639038" rotation="AD: 1 0 0 0"/>
+            <Part name="introTest.Back" translation="0 0 -0.5440000295639038" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

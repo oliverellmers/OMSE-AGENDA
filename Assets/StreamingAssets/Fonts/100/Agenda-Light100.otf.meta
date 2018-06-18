@@ -1,0 +1,41 @@
+fileFormatVersion: 2
+guid: afc1991e4a1bd4eda98355c0abcf2772
+timeCreated: 1522758031
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Agenda
+  fontNames:
+  - Agenda
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0120b160573b5440a98c1cfcdfad6aa8, type: 3}
+  - {fileID: 12800000, guid: 87de2df0b4547430a9bb86621b68464f, type: 3}
+  - {fileID: 12800000, guid: 83a76f438ea7d4a0e80e6a76b54d9e36, type: 3}
+  - {fileID: 12800000, guid: 58c330a3bdb1d4a3788def9ca8fefc8c, type: 3}
+  - {fileID: 12800000, guid: 0b6874340f9634ac982666d059a857a5, type: 3}
+  - {fileID: 12800000, guid: a1d780742c0fa41368c60fd8dcaff1bb, type: 3}
+  - {fileID: 12800000, guid: 7f4bb284bdce041dc8d3d0ec8125d763, type: 3}
+  - {fileID: 12800000, guid: 7444eec5ec4be43f49cd21c9f67df7f5, type: 3}
+  - {fileID: 12800000, guid: ad597dd54af2944f5b49b46cceaf8dcb, type: 3}
+  - {fileID: 12800000, guid: 121771263dd2d4cdf9418ef9972975a4, type: 3}
+  - {fileID: 12800000, guid: 95836566a21c247b39db94ef7c609673, type: 3}
+  - {instanceID: 0}
+  - {fileID: 12800000, guid: 1e7c940918210464aba7e3dd2bdb14da, type: 3}
+  - {fileID: 12800000, guid: 1da932a9b9e3f4a3caca77975146b53d, type: 3}
+  - {fileID: 12800000, guid: 6673fd1bf7a834ba5af49b490b38010d, type: 3}
+  - {fileID: 12800000, guid: 22cd6c0d4d3c342fc96d317dd52ee636, type: 3}
+  - {fileID: 12800000, guid: 5e0e0ebded7504bf395c5d47a630575b, type: 3}
+  - {fileID: 12800000, guid: 1d79ef1e31e074c8c8053fc8a82cd4d5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

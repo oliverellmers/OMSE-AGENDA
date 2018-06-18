@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.7.4">
+        <CylinderTarget name="AgendaBeer" version="3.0" targetId="c28cd72d15bc45e2b0b49365f39e12f2" sideLength="85.000000" topDiameter="59.000000" bottomDiameter="59.000000" sideImage="AgendaBeer.Body_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>
