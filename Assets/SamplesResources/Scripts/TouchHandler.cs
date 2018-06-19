@@ -6,7 +6,6 @@ countries.
 ==============================================================================*/
 
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class TouchHandler : MonoBehaviour
 {
@@ -21,6 +20,16 @@ public class TouchHandler : MonoBehaviour
     public static bool DoubleTap
     {
         get { return (Input.touchSupported) && Input.touches[0].tapCount == 2; }
+    }
+
+    public static bool IsSingleFingerStationary
+    {
+        get { return IsSingleFingerDown() && (Input.touches[0].phase == TouchPhase.Stationary); }
+    }
+
+    public static bool IsSingleFingerDragging
+    {
+        get { return IsSingleFingerDown() && (Input.touches[0].phase == TouchPhase.Moved); }
     }
 
     #endregion // PUBLIC MEMBERS
@@ -38,6 +47,7 @@ public class TouchHandler : MonoBehaviour
     float cachedAugmentationScale;
     Vector3 cachedAugmentationRotation;
     #endregion // PRIVATE_MEMBERS
+
 
     #region MONOBEHAVIOUR_METHODS
 
@@ -97,35 +107,24 @@ public class TouchHandler : MonoBehaviour
             // disable runtime testing of pinch scaling
             enablePinchScaling = false;
         }
-
-
     }
 
     #endregion // MONOBEHAVIOUR_METHODS
 
 
-    #region PUBLIC_METHODS
+    #region PRIVATE_METHODS
 
-    public static bool IsSingleFingerDragging()
+    static bool IsSingleFingerDown()
     {
-        if (Input.touchCount == 0) {
-            if (EventSystem.current.IsPointerOverGameObject())
-            {
-                Debug.Log("Clicked on the UI");
-            }
-        }
-        
-
         if (Input.touchCount == 0 || Input.touchCount >= 2)
             lastTouchCount = Input.touchCount;
 
         return (
             Input.touchCount == 1 &&
             Input.touches[0].fingerId == 0 &&
-            (Input.touches[0].phase == TouchPhase.Moved) &&
             lastTouchCount == 0);
     }
 
-    #endregion // PUBLIC_METHODS
+    #endregion // PRIVATE_METHODS
 
 }
