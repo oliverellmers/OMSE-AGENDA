@@ -5,7 +5,9 @@ Vuforia is a trademark of PTC Inc., registered in the United States and other
 countries.   
 ==============================================================================*/
 
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class TouchHandler : MonoBehaviour
 {
@@ -57,56 +59,74 @@ public class TouchHandler : MonoBehaviour
         cachedAugmentationRotation = m_AugmentationObject.localEulerAngles;
     }
 
+    private bool IsPointerOverUIObject()
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        return results.Count > 0;
+    }
+
     void Update()
     {
         touches = Input.touches;
 
-        if (Input.touchCount == 2)
-        {
-            float currentTouchDistance = Vector2.Distance(touches[0].position, touches[1].position);
-            float diff_y = touches[0].position.y - touches[1].position.y;
-            float diff_x = touches[0].position.x - touches[1].position.x;
-            float currentTouchAngle = Mathf.Atan2(diff_y, diff_x) * Mathf.Rad2Deg;
-
-            if (isFirstFrameWithTwoTouches)
+       // if (!IsPointerOverUIObject())
+        //{
+           // Debug.Log("Not over UI - can interact");
+            if (Input.touchCount == 2)
             {
-                cachedTouchDistance = currentTouchDistance;
-                cachedTouchAngle = currentTouchAngle;
-                isFirstFrameWithTwoTouches = false;
+                float currentTouchDistance = Vector2.Distance(touches[0].position, touches[1].position);
+                float diff_y = touches[0].position.y - touches[1].position.y;
+                float diff_x = touches[0].position.x - touches[1].position.x;
+                float currentTouchAngle = Mathf.Atan2(diff_y, diff_x) * Mathf.Rad2Deg;
+
+                if (isFirstFrameWithTwoTouches)
+                {
+                    cachedTouchDistance = currentTouchDistance;
+                    cachedTouchAngle = currentTouchAngle;
+                    isFirstFrameWithTwoTouches = false;
+                }
+
+                float angleDelta = currentTouchAngle - cachedTouchAngle;
+                float scaleMultiplier = (currentTouchDistance / cachedTouchDistance);
+                float scaleAmount = cachedAugmentationScale * scaleMultiplier;
+                float scaleAmountClamped = Mathf.Clamp(scaleAmount, scaleRangeMin, scaleRangeMax);
+
+                if (enableRotation)
+                {
+                    m_AugmentationObject.localEulerAngles = cachedAugmentationRotation - new Vector3(0, angleDelta * 3f, 0);
+                }
+                if (enableRotation && enablePinchScaling)
+                {
+                    // Optional Pinch Scaling can be enabled via Inspector for this Script Component
+                    m_AugmentationObject.localScale = new Vector3(scaleAmountClamped, scaleAmountClamped, scaleAmountClamped);
+                }
+
             }
-
-            float angleDelta = currentTouchAngle - cachedTouchAngle;
-            float scaleMultiplier = (currentTouchDistance / cachedTouchDistance);
-            float scaleAmount = cachedAugmentationScale * scaleMultiplier;
-            float scaleAmountClamped = Mathf.Clamp(scaleAmount, scaleRangeMin, scaleRangeMax);
-
-            if (enableRotation)
+            else if (Input.touchCount < 2)
             {
-                m_AugmentationObject.localEulerAngles = cachedAugmentationRotation - new Vector3(0, angleDelta * 3f, 0);
+                cachedAugmentationScale = m_AugmentationObject.localScale.x;
+                cachedAugmentationRotation = m_AugmentationObject.localEulerAngles;
+                isFirstFrameWithTwoTouches = true;
             }
-            if (enableRotation && enablePinchScaling)
+            else if (Input.touchCount == 6)
             {
-                // Optional Pinch Scaling can be enabled via Inspector for this Script Component
-                m_AugmentationObject.localScale = new Vector3(scaleAmountClamped, scaleAmountClamped, scaleAmountClamped);
+                // enable runtime testing of pinch scaling
+                enablePinchScaling = true;
             }
+            else if (Input.touchCount == 5)
+            {
+                // disable runtime testing of pinch scaling
+                enablePinchScaling = false;
+            }
+        //}
+        //else {
+        //    Debug.Log("Over UI - can not interact with AR objects");
+        //}
 
-        }
-        else if (Input.touchCount < 2)
-        {
-            cachedAugmentationScale = m_AugmentationObject.localScale.x;
-            cachedAugmentationRotation = m_AugmentationObject.localEulerAngles;
-            isFirstFrameWithTwoTouches = true;
-        }
-        else if (Input.touchCount == 6)
-        {
-            // enable runtime testing of pinch scaling
-            enablePinchScaling = true;
-        }
-        else if (Input.touchCount == 5)
-        {
-            // disable runtime testing of pinch scaling
-            enablePinchScaling = false;
-        }
+        
     }
 
     #endregion // MONOBEHAVIOUR_METHODS

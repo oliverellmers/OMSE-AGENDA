@@ -167,7 +167,7 @@ public class GroundPlaneUI : MonoBehaviour
         return true;
     }
 
-    public bool IsCanvasButtonPressed()
+    public bool IsCanvasButtonPressed() //TODO: Steal this and make it global for all canvas elements
     {
         m_PointerEventData = new PointerEventData(m_EventSystem)
         {
