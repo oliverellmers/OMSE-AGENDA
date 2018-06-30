@@ -27,9 +27,11 @@ public class GraphicsControl : MonoBehaviour {
     public CanvasGroup infoOverlay;
     public RectTransform infoXBtn;
 
+    /*
     public CanvasGroup instructionCanvasGroup;
     public Text instructionsText;
     public string[] instructions;
+    */
 
 
 
@@ -57,7 +59,7 @@ public class GraphicsControl : MonoBehaviour {
         logoIconEyeR.localScale = new Vector2(0f, 0f);
 
         AnimateGraphicsIn();
-        ShowInstructions();
+        //ShowInstructions();
     }
 
     private void AnimateGraphicsIn() {
@@ -148,6 +150,7 @@ public class GraphicsControl : MonoBehaviour {
     }
 
     //text instructions opacity with target detection - fade out after 5-10 seconds, X to close
+    /*
     public void ShowInstructions() {
 
         //TODO: this to be determined by trackable object
@@ -161,6 +164,7 @@ public class GraphicsControl : MonoBehaviour {
         yield return new WaitForSeconds(10f);
         instructionCanvasGroup.DOFade(0.0f, transitionTime);
     }
+    */
 
     public void OpenOMSEWebsite() {
         Application.OpenURL("https://omsetype.co/");
