@@ -1,0 +1,2459 @@
+fileFormatVersion: 2
+guid: 57a48f4ba52976f45998de30cfb03858
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Wave2SpriteSheet_0
+    21300002: Wave2SpriteSheet_1
+    21300004: Wave2SpriteSheet_2
+    21300006: Wave2SpriteSheet_3
+    21300008: Wave2SpriteSheet_4
+    21300010: Wave2SpriteSheet_5
+    21300012: Wave2SpriteSheet_6
+    21300014: Wave2SpriteSheet_7
+    21300016: Wave2SpriteSheet_8
+    21300018: Wave2SpriteSheet_9
+    21300020: Wave2SpriteSheet_10
+    21300022: Wave2SpriteSheet_11
+    21300024: Wave2SpriteSheet_12
+    21300026: Wave2SpriteSheet_13
+    21300028: Wave2SpriteSheet_14
+    21300030: Wave2SpriteSheet_15
+    21300032: Wave2SpriteSheet_16
+    21300034: Wave2SpriteSheet_17
+    21300036: Wave2SpriteSheet_18
+    21300038: Wave2SpriteSheet_19
+    21300040: Wave2SpriteSheet_20
+    21300042: Wave2SpriteSheet_21
+    21300044: Wave2SpriteSheet_22
+    21300046: Wave2SpriteSheet_23
+    21300048: Wave2SpriteSheet_24
+    21300050: Wave2SpriteSheet_25
+    21300052: Wave2SpriteSheet_26
+    21300054: Wave2SpriteSheet_27
+    21300056: Wave2SpriteSheet_28
+    21300058: Wave2SpriteSheet_29
+    21300060: Wave2SpriteSheet_30
+    21300062: Wave2SpriteSheet_31
+    21300064: Wave2SpriteSheet_32
+    21300066: Wave2SpriteSheet_33
+    21300068: Wave2SpriteSheet_34
+    21300070: Wave2SpriteSheet_35
+    21300072: Wave2SpriteSheet_36
+    21300074: Wave2SpriteSheet_37
+    21300076: Wave2SpriteSheet_38
+    21300078: Wave2SpriteSheet_39
+    21300080: Wave2SpriteSheet_40
+    21300082: Wave2SpriteSheet_41
+    21300084: Wave2SpriteSheet_42
+    21300086: Wave2SpriteSheet_43
+    21300088: Wave2SpriteSheet_44
+    21300090: Wave2SpriteSheet_45
+    21300092: Wave2SpriteSheet_46
+    21300094: Wave2SpriteSheet_47
+    21300096: Wave2SpriteSheet_48
+    21300098: Wave2SpriteSheet_49
+    21300100: Wave2SpriteSheet_50
+    21300102: Wave2SpriteSheet_51
+    21300104: Wave2SpriteSheet_52
+    21300106: Wave2SpriteSheet_53
+    21300108: Wave2SpriteSheet_54
+    21300110: Wave2SpriteSheet_55
+    21300112: Wave2SpriteSheet_56
+    21300114: Wave2SpriteSheet_57
+    21300116: Wave2SpriteSheet_58
+    21300118: Wave2SpriteSheet_59
+    21300120: Wave2SpriteSheet_60
+    21300122: Wave2SpriteSheet_61
+    21300124: Wave2SpriteSheet_62
+    21300126: Wave2SpriteSheet_63
+    21300128: Wave2SpriteSheet_64
+    21300130: Wave2SpriteSheet_65
+    21300132: Wave2SpriteSheet_66
+    21300134: Wave2SpriteSheet_67
+    21300136: Wave2SpriteSheet_68
+    21300138: Wave2SpriteSheet_69
+    21300140: Wave2SpriteSheet_70
+    21300142: Wave2SpriteSheet_71
+    21300144: Wave2SpriteSheet_72
+    21300146: Wave2SpriteSheet_73
+    21300148: Wave2SpriteSheet_74
+    21300150: Wave2SpriteSheet_75
+    21300152: Wave2SpriteSheet_76
+    21300154: Wave2SpriteSheet_77
+    21300156: Wave2SpriteSheet_78
+    21300158: Wave2SpriteSheet_79
+    21300160: Wave2SpriteSheet_80
+    21300162: Wave2SpriteSheet_81
+    21300164: Wave2SpriteSheet_82
+    21300166: Wave2SpriteSheet_83
+    21300168: Wave2SpriteSheet_84
+    21300170: Wave2SpriteSheet_85
+    21300172: Wave2SpriteSheet_86
+    21300174: Wave2SpriteSheet_87
+    21300176: Wave2SpriteSheet_88
+    21300178: Wave2SpriteSheet_89
+    21300180: Wave2SpriteSheet_90
+    21300182: Wave2SpriteSheet_91
+    21300184: Wave2SpriteSheet_92
+    21300186: Wave2SpriteSheet_93
+    21300188: Wave2SpriteSheet_94
+    21300190: Wave2SpriteSheet_95
+    21300192: Wave2SpriteSheet_96
+    21300194: Wave2SpriteSheet_97
+    21300196: Wave2SpriteSheet_98
+    21300198: Wave2SpriteSheet_99
+    21300200: Wave2SpriteSheet_100
+    21300202: Wave2SpriteSheet_101
+    21300204: Wave2SpriteSheet_102
+    21300206: Wave2SpriteSheet_103
+    21300208: Wave2SpriteSheet_104
+    21300210: Wave2SpriteSheet_105
+    21300212: Wave2SpriteSheet_106
+    21300214: Wave2SpriteSheet_107
+    21300216: Wave2SpriteSheet_108
+    21300218: Wave2SpriteSheet_109
+    21300220: Wave2SpriteSheet_110
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5645
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a47231834ed82439cad79f54611ab5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 5645
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7ac4098c2107f4f8e72e34a636f673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 5645
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b938419ccbd365040b4361578595c5fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 5645
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a437bf6032eb843aa1c992812fcb40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 5645
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca39e4420950bd749a3291a82d999b94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 5645
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325f1410097861c4dbfb3e23f806ddfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 5645
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15572901275372e4fa963947e7ffbcab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 5645
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45330a0c4982e524bac557197f9a40a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 5645
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28b4f864c8f88449b121970ef2e4a77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 5645
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc982bb8f822c046ad65e308827beba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5132
+        width: 485
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066f86d4094392c418fd7924ae73bbe5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 5132
+        width: 488
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e5ea65c2bad3047ad40225378de6a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 5132
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e00839eb6679a947ad47391999b91c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 5132
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713198484c9a39744ae58ef105a9aa28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 5132
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e4017b081fd0e499d3921f9d680f3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 5132
+        width: 488
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d7a662378d1c941aed3229479eeea8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 5132
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a25aab1d2d05034a96965d12668cd02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 5132
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c219638258e424ab9cdfd73423123f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 5132
+        width: 488
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581113a98c7791a478f4c67c0916265a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 5132
+        width: 485
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fea45cdc064c94f8977443c47e2f62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 4622
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9201b63a3513a9409deb5349e125940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 4622
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de22bc582929d3b409143f0b4ca26366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 4622
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74206befa2da4e4d93897e64ac21157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 4622
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c37fd12770596541bc022c7cd66f927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 4622
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d60b6fd4d400374487ee753f745b020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 4622
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf0e9cdf7bc15141882d430dcac567d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 4622
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293cb77270ca1a64f9101eaacb20e554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 4622
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083163bbdbec3e044b537d6f75d508c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 4622
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bd3ae07d9d6604ca0f89646073744b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 4622
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28deb8f30f3b66458870acc68bad52e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 4109
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69499ad1eef88b4fb1be7bf093d5dfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 4109
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5c2470080558e48ace1c787dcdd908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 4109
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090971b7e7a94b84f850c1eca5a98368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 4109
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add5530520711e3428cd35c2486b9263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 4109
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a003e3ef0e1ac6647a65217d4d7be9aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 4109
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84f5cf5b0af95e4ebf6dd16e82a8fcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 4109
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64edd7fd0591644eab339a659aaf125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 4109
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a4411d1d8f2b44e8fb5294f08d1d43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 4109
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3d8dc60bd64e14bb8569f013a2b5b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 4109
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5876fce502d7a40a3b1b28089871da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3596
+        width: 485
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c7409b446032d41b6d795e1e090560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 3596
+        width: 488
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44ef873504935f4293d036535f8a464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 3596
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed699241d4057a4ebf89cc34041e943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 3596
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef513ecd11efdd344a7169d140480034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 3596
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cd6be6a7ab26c4fbca821ca2dc4ede
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 3596
+        width: 488
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4eefe30e1c17246ad2925f092ad6c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 3596
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae97fefb5b8247c4e869c5679f9487f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 3596
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9686f95b225ddbc43b2d6d4054a9463e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 3596
+        width: 488
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870031a659c671242ac6221172772a20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 3596
+        width: 485
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2758d1c1320c42741bc952eb19044424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3086
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c6ab55a6e6ce44cb14aac883ad8e26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 3086
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad327198c0c2d14884a3169d4ee71df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 3086
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5d863d59347da4ea817dfbe3b9d48c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 3086
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c08852a6806e14dbc396551e82e067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 3086
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566bb9c27b2322946a4cc2d02356cc19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 3086
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7565696ac4be647b7344e775c50c8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 3086
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4e8a33e0a459642b39b4ec8a4c4a0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 3086
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae53e519045b02d488fe87f3022a55ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 3086
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a1f75eb1004f241a0db2b2b93924df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 3086
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c628b935dea15fc489ba7dcf77bd6668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2573
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c976bb7085e29b040880dc543f0ddc9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2573
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc636727c05251d43b2b90c70de8df50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2573
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5c9d4cc7a04fa44b1e1e8beabaf2a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 2573
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41923928a9771e439f026a47e4d4950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 2573
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e992a654dd24a4f8cdd674c12643a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 2573
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1b5259b5e738f428a5f91b16b03e41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 2573
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b26b48c37f4bb842a6a683386da115c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 2573
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a89c95e89e1e6940b62e4ca535c7446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 2573
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a895cc04a7a3ca34d9a486f59de6f241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 2573
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdf4cdd6858f164c99f9fdd7c6b2e15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2060
+        width: 485
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5888350b079084cbdf2a464f09acd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2060
+        width: 488
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb893d86d796e2419e363f465bbb04f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2060
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb1a900434eb104998af61a49b908cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 2060
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77bb705e2e3e3f41ab5c68b4e014ba7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 2060
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3889bbb1742e1e478f5bcf2aec34126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 2060
+        width: 488
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420f30b52a1532141bec7433efe6883b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 2060
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b64743531b1b924daa260bdca381f5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 2060
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fa5d271645eb9418a3d0ee1f4f303f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 2060
+        width: 488
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302f02760f9cf0e429029590bd5fa552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 2060
+        width: 485
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d6bd8a259c8b74296ab0dc316f383e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1550
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f983858bea44f46afa497b3cd02308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1550
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea01ffe57dacd5b4c9d093c1baaddf92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1550
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8450fe3be9cbc41a799513dc2fa07e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1550
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b80928b81268da449f9b50eb29b0f17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1550
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a53905e9da7ae4a8c9b44a0e891fc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 1550
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781b0254d8932584b92543dc4d0448ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 1550
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79096d367b9c68d40b3c6877f2b4a943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 1550
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4142fc849fb924286bdf1d7464530a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 1550
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cf04dc76b7a6c40a6b2b1050ec7fbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 1550
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9acf6dd65940a4185f0e0f843a5e00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1037
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21bdd0dd1eed5341914f88a8eec53e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1037
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f5d2f358b8c864388b29bc22fa33ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1037
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11efdff3217c6494195337e7e2360ed2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1037
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2937dc975e74fb4196012de81c26f27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1037
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8828e443cabdd4c935de345e271de8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 1037
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38635216bb7935e45905de357a6ee376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 1037
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783b7893e3574c240b6fe1d9491cb0c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 1037
+        width: 486
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a027e14676560004f81b08b8d9c9206f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 1037
+        width: 488
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdd99337f457574b8f4700ac3c599d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 1037
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6033f4fee425018479e6988589290967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 524
+        width: 485
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0007f3168b4890d4eb9a6dca9ead9fb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 524
+        width: 488
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9cd24a78b2a904eb2b83083a62abda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 524
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e74980619babd8468e644c373891d69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 524
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccf883532ba9264ab524c6d23bea8b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 524
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e98931d2206a74096e9b71bf34169d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 524
+        width: 488
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e65effe51818c941b8eba192aef3491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 524
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3137c08b690d08741ab03ada57c4f2c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 524
+        width: 486
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7306eaaa460ad94e8ada0ce26e1e91b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 524
+        width: 488
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d00cd76ef02a5d48a38dd438bef9294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 4621
+        y: 524
+        width: 485
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55ddbf722944d14790d48eabf4921a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wave2SpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 485
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85327bfd0afc5db44929b35d3e0ecd5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aa0e0b3651f35ba42b67596cb395ee5b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

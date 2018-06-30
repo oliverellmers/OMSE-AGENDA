@@ -1,0 +1,2144 @@
+fileFormatVersion: 2
+guid: a793cf2411749ff4d9321d001a1c7fd7
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cube_Spritesheet_0
+    21300002: cube_Spritesheet_1
+    21300004: cube_Spritesheet_2
+    21300006: cube_Spritesheet_3
+    21300008: cube_Spritesheet_4
+    21300010: cube_Spritesheet_5
+    21300012: cube_Spritesheet_6
+    21300014: cube_Spritesheet_7
+    21300016: cube_Spritesheet_8
+    21300018: cube_Spritesheet_9
+    21300020: cube_Spritesheet_10
+    21300022: cube_Spritesheet_11
+    21300024: cube_Spritesheet_12
+    21300026: cube_Spritesheet_13
+    21300028: cube_Spritesheet_14
+    21300030: cube_Spritesheet_15
+    21300032: cube_Spritesheet_16
+    21300034: cube_Spritesheet_17
+    21300036: cube_Spritesheet_18
+    21300038: cube_Spritesheet_19
+    21300040: cube_Spritesheet_20
+    21300042: cube_Spritesheet_21
+    21300044: cube_Spritesheet_22
+    21300046: cube_Spritesheet_23
+    21300048: cube_Spritesheet_24
+    21300050: cube_Spritesheet_25
+    21300052: cube_Spritesheet_26
+    21300054: cube_Spritesheet_27
+    21300056: cube_Spritesheet_28
+    21300058: cube_Spritesheet_29
+    21300060: cube_Spritesheet_30
+    21300062: cube_Spritesheet_31
+    21300064: cube_Spritesheet_32
+    21300066: cube_Spritesheet_33
+    21300068: cube_Spritesheet_34
+    21300070: cube_Spritesheet_35
+    21300072: cube_Spritesheet_36
+    21300074: cube_Spritesheet_37
+    21300076: cube_Spritesheet_38
+    21300078: cube_Spritesheet_39
+    21300080: cube_Spritesheet_40
+    21300082: cube_Spritesheet_41
+    21300084: cube_Spritesheet_42
+    21300086: cube_Spritesheet_43
+    21300088: cube_Spritesheet_44
+    21300090: cube_Spritesheet_45
+    21300092: cube_Spritesheet_46
+    21300094: cube_Spritesheet_47
+    21300096: cube_Spritesheet_48
+    21300098: cube_Spritesheet_49
+    21300100: cube_Spritesheet_50
+    21300102: cube_Spritesheet_51
+    21300104: cube_Spritesheet_52
+    21300106: cube_Spritesheet_53
+    21300108: cube_Spritesheet_54
+    21300110: cube_Spritesheet_55
+    21300112: cube_Spritesheet_56
+    21300114: cube_Spritesheet_57
+    21300116: cube_Spritesheet_58
+    21300118: cube_Spritesheet_59
+    21300120: cube_Spritesheet_60
+    21300122: cube_Spritesheet_61
+    21300124: cube_Spritesheet_62
+    21300126: cube_Spritesheet_63
+    21300128: cube_Spritesheet_64
+    21300130: cube_Spritesheet_65
+    21300132: cube_Spritesheet_66
+    21300134: cube_Spritesheet_67
+    21300136: cube_Spritesheet_68
+    21300138: cube_Spritesheet_69
+    21300140: cube_Spritesheet_70
+    21300142: cube_Spritesheet_71
+    21300144: cube_Spritesheet_72
+    21300146: cube_Spritesheet_73
+    21300148: cube_Spritesheet_74
+    21300150: cube_Spritesheet_75
+    21300152: cube_Spritesheet_76
+    21300154: cube_Spritesheet_77
+    21300156: cube_Spritesheet_78
+    21300158: cube_Spritesheet_79
+    21300160: cube_Spritesheet_80
+    21300162: cube_Spritesheet_81
+    21300164: cube_Spritesheet_82
+    21300166: cube_Spritesheet_83
+    21300168: cube_Spritesheet_84
+    21300170: cube_Spritesheet_85
+    21300172: cube_Spritesheet_86
+    21300174: cube_Spritesheet_87
+    21300176: cube_Spritesheet_88
+    21300178: cube_Spritesheet_89
+    21300180: cube_Spritesheet_90
+    21300182: cube_Spritesheet_91
+    21300184: cube_Spritesheet_92
+    21300186: cube_Spritesheet_93
+    21300188: cube_Spritesheet_94
+    21300190: cube_Spritesheet_95
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cube_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 4629
+        width: 419
+        height: 477
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774b8fd96850e6f4c860283f9c9db15b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 4626
+        width: 419
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cfbbe376646a64c8a4b777b71cdf3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 4618
+        width: 420
+        height: 488
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e65069502fdcc546b70ef25e732bb3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 4626
+        width: 417
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d4842359b60214a8b251880fce7e22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 4857
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14191196bdfa4064aa0ccf35c76411d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 4626
+        width: 421
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a160e639ef5b4fd468ee3c4620310359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 4626
+        width: 429
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f805ee226474942b69c0163f634520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 4626
+        width: 423
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b22b2bdc16e9141a21caed27f55b59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3627
+        y: 4626
+        width: 428
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bc5453fcfc9734cbe546212a39c947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 4137
+        y: 4626
+        width: 429
+        height: 483
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284a63fcacca1de4884a8af61d43c7e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 4649
+        y: 4624
+        width: 430
+        height: 485
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7eb5b61a35ed0d4a87acd9f98970388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 4779
+        width: 5
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e70982a52b36549aaf5f3a6a97db89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 4111
+        width: 430
+        height: 485
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbc123edffb50f45834c426a38cd245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 4111
+        width: 433
+        height: 485
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cfe06af673a114f8454b4f73f2966f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 4107
+        width: 432
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e301932d9777c94d8f43a94f575e610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 4107
+        width: 433
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59bc083eb7459244909024fffea075f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 4114
+        width: 439
+        height: 482
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05e58a5a95b1d54eba3d710df0c01c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 4114
+        width: 435
+        height: 480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cad06993c1de547adcadfe5d92061a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 3111
+        y: 4116
+        width: 433
+        height: 479
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9d62be4095aa0499d921ecf26bdae9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3626
+        y: 4116
+        width: 428
+        height: 475
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc4c8df8260be1459a2b803927baf95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 4139
+        y: 4119
+        width: 427
+        height: 470
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b775bbac0136f43b640a4f897bba1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 4654
+        y: 4121
+        width: 422
+        height: 465
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d17ab820ae05174986983fab80a74f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3614
+        width: 417
+        height: 457
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43bb128a8605a742b011b7b50c4fc18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 3616
+        width: 421
+        height: 450
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc6bece4f74b4743beeea8f0a743e4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 3621
+        width: 402
+        height: 443
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f3be7d871f49640bdab1fdebaa90bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 3626
+        width: 393
+        height: 433
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3b80d6026d22e49888c64ec16fbdea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 3631
+        width: 382
+        height: 420
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f2a8d92cd55c94b9b99cf9e0a83996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 3639
+        width: 374
+        height: 407
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab7e442a3a8b2f4b94d8401e05ff199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 3646
+        width: 357
+        height: 393
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d4bda4df2693943a462f0e14c05494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 3669
+        y: 3654
+        width: 342
+        height: 377
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd1d7bbfb7a22742a4282ebf01703da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 4187
+        y: 3657
+        width: 328
+        height: 367
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0106eefbf29922c408ce5327d6647599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 4698
+        y: 3667
+        width: 321
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee2b7407cf0bef489a2b941e9252b3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3157
+        width: 326
+        height: 342
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb0c0d24f82c8d43ac79eb69368ce2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3164
+        width: 330
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54206303a4ca43488152631e0ded01b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 3166
+        width: 348
+        height: 328
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cf9be4640275c488d7fc7a758eaa7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 3164
+        width: 364
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d830731b6992e489a69c39bd154c59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 3156
+        width: 378
+        height: 350
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a8f85842ca0c140a7ec23be2a5d7ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 3146
+        width: 390
+        height: 370
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e267ab5e7c8c73c40bdfba2f35bbaf3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 3126
+        y: 3136
+        width: 405
+        height: 388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff52cd619f17284b8c3984ed827f897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3634
+        y: 3127
+        width: 412
+        height: 404
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dc832112dcd454b9220a96e2fe54d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 4141
+        y: 3124
+        width: 425
+        height: 412
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0dff71358d3be4aa903fc9a94b809c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 4649
+        y: 3119
+        width: 430
+        height: 425
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2bafd2f05e6eb4d813a0024bc2b203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2597
+        width: 432
+        height: 439
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05da77e1e116074fbeb8fe49310189c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 2594
+        width: 439
+        height: 447
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d8df3aef32be746ad4a3097492420c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 2589
+        width: 432
+        height: 457
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e6ee97448d93b4ab27339938d6a6c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 2586
+        width: 430
+        height: 465
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ae1242453d95846800694e6acddbf3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 2581
+        width: 425
+        height: 473
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297ac4dbf9c70bb46a8c2223267739d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 2579
+        width: 419
+        height: 486
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f3c0ba872df58478c233bd97c4134e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 2576
+        width: 429
+        height: 485
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b800767bba2dd4ca8e27593d0d78e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 3624
+        y: 2576
+        width: 432
+        height: 485
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0c922627dcd6145b32eea768a69836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 2574
+        width: 443
+        height: 490
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096ad9526e72c8d4192d97db678e7cf9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 4639
+        y: 2571
+        width: 450
+        height: 495
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a69e4d728ca974993f3345e27e75a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2059
+        width: 455
+        height: 495
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2078ad8721de8df4bb7342d05327c1b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 2056
+        width: 457
+        height: 498
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b6db9924fed2a44b2fd4bdd56c82d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 2056
+        width: 462
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d410cbc44127549a913bec8f03524e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 2056
+        width: 465
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bcede422195fd4793a2db6cbbdc7c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 2056
+        width: 462
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69019d1b64739f34b8126452665aad5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 2056
+        width: 460
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6ede4876e090b4db3c8ddcfcee1b09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 2056
+        width: 457
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2227f854876114489a738fba6ba5a73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 2056
+        width: 450
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0203d8a5db61f4a9098f8fa1579a65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 2056
+        width: 443
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4556524fee4f14cbce0b8fe1638119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 4646
+        y: 2056
+        width: 435
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bd61ddd469b4841ac15511cbc41cce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1544
+        width: 422
+        height: 502
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893e06f79718e414ab7065262ed547df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1787
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6416e6cac630b428703f6bcb1a27b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1544
+        width: 417
+        height: 502
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5f0592dfa8a134d8574809d963c417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1544
+        width: 430
+        height: 502
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd2193c28b58454684c50264c88ed2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1544
+        width: 440
+        height: 502
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdb6ff8d46c6da48a744609e2dd0ca1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 1544
+        width: 447
+        height: 502
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beed921a86a487240b81d4028936058c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 1544
+        width: 456
+        height: 502
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacd6c1fc25443f4e8bb261734be1243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 1544
+        width: 457
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffec478190506f4c98406ef4dd3a2d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 3609
+        y: 1544
+        width: 462
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429b1aeda3faea845b06c4fd8e36b1ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 1544
+        width: 464
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc96cc129554012428865f7e2aa0adb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 4631
+        y: 1544
+        width: 465
+        height: 502
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126151bd10bd9574d91bef45598e9de5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1031
+        width: 465
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acabef5b915b42449bb87ed695483bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1034
+        width: 463
+        height: 497
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cb9e37c02e7f843be3a0dc501dff21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1034
+        width: 460
+        height: 497
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bb9987466c81140bd412011d69ab5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 1034
+        width: 457
+        height: 497
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e062f0b49a729df45954c6ba841e44e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1034
+        width: 455
+        height: 497
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a116fc84a1072d4188ff82427bab4a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 1036
+        width: 452
+        height: 493
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503f7f8c9d4446f4e9b3bad7b9d669a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 1036
+        width: 447
+        height: 493
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21f044bc021fc844a471168c463903a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 1036
+        width: 445
+        height: 493
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4473439a5b4f7744cb4d19d0e195ff0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 1036
+        width: 440
+        height: 490
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ec5a15ee409f444b2047b5909d522f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 4646
+        y: 1037
+        width: 439
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd39b877c4968640a00214e2ddb7817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 4837
+        y: 1027
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71b3a82b971c23488a986badd8c2d2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 526
+        width: 435
+        height: 488
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff569b47c66d1c645832d99288f3fd47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 529
+        width: 431
+        height: 485
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9395c4cfa45259f4184f0b88f4282a4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 526
+        width: 428
+        height: 488
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46969fdeb945cd47b8d25714aa84317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 529
+        width: 427
+        height: 482
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7eddaef86783b45b08d74b722936b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 529
+        width: 425
+        height: 482
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8b5a6139d64ef47949fe3d876dbdad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 529
+        width: 429
+        height: 482
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3accb042dda764ebc968e912f12ea4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 3117
+        y: 529
+        width: 419
+        height: 482
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fea9115c97698a459ca1176673fab6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 3627
+        y: 529
+        width: 422
+        height: 482
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0222ccdc392288945be126663a9e23ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 4137
+        y: 767
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e881f52a62e8ef49b4f33bdc56e84ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 4144
+        y: 529
+        width: 422
+        height: 482
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68c1df606b911b47bd9df2dca9f492d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 4649
+        y: 531
+        width: 422
+        height: 478
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453816c708f41b34d9b85be0ce883c49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cube_Spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 19
+        width: 419
+        height: 486
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7445e861e364549801b0e3a21c8904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 540bdca147188bc4495dc7e11a9b34a3
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
