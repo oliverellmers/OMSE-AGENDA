@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 1339ee80513e95a4b98eb3fa6b4234e5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Agenda
+  fontNames:
+  - Agenda
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7444eec5ec4be43f49cd21c9f67df7f5, type: 3}
+  - {fileID: 12800000, guid: 0171f0882e54773429a6a722cb9e942d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

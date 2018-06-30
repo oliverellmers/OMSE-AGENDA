@@ -9,11 +9,11 @@ public class GraphicsControl : MonoBehaviour {
     public float transitionTime;
 
 
-    public RectTransform menuButton;
-    public RectTransform menuButtonImage;
-    public Vector2 menuButton_openSizeDelta;
-    public RectTransform menuButtonXX;
-    public CanvasGroup menuButtonNumbers;
+    //public RectTransform menuButton;
+    //public RectTransform menuButtonImage;
+    //public Vector2 menuButton_openSizeDelta;
+    //public RectTransform menuButtonXX;
+    //public CanvasGroup menuButtonNumbers;
 
     public RectTransform scanButton;
     public RectTransform scanButtonFill;
@@ -43,11 +43,11 @@ public class GraphicsControl : MonoBehaviour {
         infoOverlay.interactable = false;
         infoOverlay.alpha = 0.0f;
 
-        menuButton_originalSizeDelta = menuButton.sizeDelta;
-        menuButtonImage.localScale = new Vector2(0f, 0f);
-        menuButtonNumbers.interactable = false;
-        menuButtonNumbers.blocksRaycasts = false;
-        menuButtonNumbers.alpha = 0f;
+        //menuButton_originalSizeDelta = menuButton.sizeDelta;
+        //menuButtonImage.localScale = new Vector2(0f, 0f);
+        //menuButtonNumbers.interactable = false;
+        //menuButtonNumbers.blocksRaycasts = false;
+        //menuButtonNumbers.alpha = 0f;
 
         scanButtonFill.localScale = new Vector2(0f, 0f);
         scanButtonStroke.localScale = new Vector2(0f, 0f);
@@ -79,24 +79,25 @@ public class GraphicsControl : MonoBehaviour {
         scanButtonStroke.DOScale(new Vector2(1f, 1f), transitionTime).SetEase(Ease.InCubic);
         yield return new WaitForSeconds(transitionTime / 2);
 
-        menuButtonImage.DOScale(new Vector2(1f, 1f), transitionTime).SetEase(Ease.InCubic);
-        menuButtonImage.DOLocalRotate(new Vector3(0f, 0f, 360f), transitionTime * 2f, RotateMode.FastBeyond360).SetEase(Ease.OutBounce);
+        //menuButtonImage.DOScale(new Vector2(1f, 1f), transitionTime).SetEase(Ease.InCubic);
+        //menuButtonImage.DOLocalRotate(new Vector3(0f, 0f, 360f), transitionTime * 2f, RotateMode.FastBeyond360).SetEase(Ease.OutBounce);
         yield return new WaitForSeconds(transitionTime);
     }
 
+    /*
     public void ScaleMenuButtonY(bool b) {
         StartCoroutine(ScaleMenuButtonEnumY(b));
     }
 
     IEnumerator ScaleMenuButtonEnumY(bool b) {
         if (b) {
-            menuButton.DOSizeDelta(menuButton_openSizeDelta, transitionTime).SetEase(Ease.OutCubic);
-            menuButtonXX.DOLocalRotate(new Vector3(0f, 0f, 45f), transitionTime, RotateMode.FastBeyond360).SetEase(Ease.OutBounce);
+            //menuButton.DOSizeDelta(menuButton_openSizeDelta, transitionTime).SetEase(Ease.OutCubic);
+            //menuButtonXX.DOLocalRotate(new Vector3(0f, 0f, 45f), transitionTime, RotateMode.FastBeyond360).SetEase(Ease.OutBounce);
             yield return new WaitForSeconds(0.1f);
 
-            menuButtonNumbers.interactable = true;
-            menuButtonNumbers.blocksRaycasts = true;
-            menuButtonNumbers.DOFade(1f, transitionTime);
+            //menuButtonNumbers.interactable = true;
+            //menuButtonNumbers.blocksRaycasts = true;
+            //menuButtonNumbers.DOFade(1f, transitionTime);
         }
         else {
 
@@ -110,6 +111,7 @@ public class GraphicsControl : MonoBehaviour {
         }
         yield return new WaitForSeconds(transitionTime);
     }
+    */
 
     public void ScaleScanButton() {
         StartCoroutine(ScaleScanButtonEnum());

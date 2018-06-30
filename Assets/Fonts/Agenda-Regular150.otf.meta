@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: 831b690c0b556c74fb6392be8d8c34bd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Agenda
+  fontNames:
+  - Agenda
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1339ee80513e95a4b98eb3fa6b4234e5, type: 3}
+  - {fileID: 12800000, guid: 2634d5b2912b15c4682fb7c6f2c00322, type: 3}
+  - {fileID: 12800000, guid: 4b6a7ed28551d544f858cbc58b8ded9f, type: 3}
+  - {fileID: 12800000, guid: 2509a4a385d07a34dab6f91bbae1a251, type: 3}
+  - {fileID: 12800000, guid: 7444eec5ec4be43f49cd21c9f67df7f5, type: 3}
+  - {fileID: 12800000, guid: 73f593874873a40489d880a4c7d6dd23, type: 3}
+  - {fileID: 12800000, guid: 20caa41805976524ba2e947f2b69197b, type: 3}
+  - {fileID: 12800000, guid: 0171f0882e54773429a6a722cb9e942d, type: 3}
+  - {fileID: 12800000, guid: 2fbdc08a48ffa8e43b9e904ecf3049c5, type: 3}
+  - {fileID: 12800000, guid: 1c2a91baba0d091409b31b41b802109f, type: 3}
+  - {fileID: 12800000, guid: 57f190eab1bcab14fb31f1fbb6bcad73, type: 3}
+  - {fileID: 12800000, guid: 718a983b9659d5144a59d9dc31417f08, type: 3}
+  - {fileID: 12800000, guid: 2ee3ef0dc32b55a439eb018318adbd51, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
