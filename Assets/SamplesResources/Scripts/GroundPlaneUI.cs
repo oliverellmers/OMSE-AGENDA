@@ -14,21 +14,23 @@ public class GroundPlaneUI : MonoBehaviour
 {
     #region PUBLIC_MEMBERS
     [Header("UI Elements")]
-    public Text m_Title;
-    public Text m_TrackerStatus;
+    //public Text m_Title;
+    //public Text m_TrackerStatus;
     public Text m_Instructions;
     public CanvasGroup m_ScreenReticle;
 
     [Header("UI Buttons")]
-    public Button m_ResetButton;
-    public Toggle m_PlacementToggle, m_GroundToggle, m_MidAirToggle;
+    //public Button m_ResetButton;
+    //public Toggle m_PlacementToggle;//, m_GroundToggle, m_MidAirToggle;
     #endregion // PUBLIC_MEMBERS
 
 
     #region PRIVATE_MEMBERS
+    /*
     const string TITLE_PLACEMENT = "Product Placement";
     const string TITLE_GROUNDPLANE = "Ground Plane";
     const string TITLE_MIDAIR = "Mid-Air";
+    */
 
     GraphicRaycaster m_GraphicRayCaster;
     PointerEventData m_PointerEventData;
@@ -44,12 +46,12 @@ public class GroundPlaneUI : MonoBehaviour
     #region MONOBEHAVIOUR_METHODS
     void Start()
     {
-        m_ResetButton.interactable = m_MidAirToggle.interactable =
-            m_GroundToggle.interactable = m_PlacementToggle.interactable = false;
+        //m_ResetButton.interactable = /*m_MidAirToggle.interactable =
+          //  m_GroundToggle.interactable =*/ m_PlacementToggle.interactable = false;
 
-        m_Title.text = TITLE_PLACEMENT;
-        m_TrackerStatus.text = "";
-        m_TrackerStatusImage = m_TrackerStatus.GetComponentInParent<Image>();
+        //m_Title.text = TITLE_PLACEMENT;
+        //m_TrackerStatus.text = "";
+        //m_TrackerStatusImage = m_TrackerStatus.GetComponentInParent<Image>();
 
         m_ProductPlacement = FindObjectOfType<ProductPlacement>();
         m_TouchHandler = FindObjectOfType<TouchHandler>();
@@ -57,14 +59,14 @@ public class GroundPlaneUI : MonoBehaviour
         m_GraphicRayCaster = FindObjectOfType<GraphicRaycaster>();
         m_EventSystem = FindObjectOfType<EventSystem>();
 
-        Vuforia.DeviceTrackerARController.Instance.RegisterDevicePoseStatusChangedCallback(OnDevicePoseStatusChanged);
+        //Vuforia.DeviceTrackerARController.Instance.RegisterDevicePoseStatusChangedCallback(OnDevicePoseStatusChanged);
     }
 
     void Update()
     {
-        m_ResetButton.interactable = m_MidAirToggle.interactable = m_GroundToggle.interactable = m_ProductPlacement.IsPlaced;
+        //m_ResetButton.interactable = /*m_MidAirToggle.interactable = m_GroundToggle.interactable =*/ m_ProductPlacement.IsPlaced;
 
-        m_TrackerStatusImage.enabled = !string.IsNullOrEmpty(m_TrackerStatus.text);
+        //m_TrackerStatusImage.enabled = !string.IsNullOrEmpty(m_TrackerStatus.text);
     }
 
     void LateUpdate()
@@ -120,7 +122,7 @@ public class GroundPlaneUI : MonoBehaviour
     {
         Debug.Log("OnDestroy() called.");
 
-        Vuforia.DeviceTrackerARController.Instance.UnregisterDevicePoseStatusChangedCallback(OnDevicePoseStatusChanged);
+        //Vuforia.DeviceTrackerARController.Instance.UnregisterDevicePoseStatusChangedCallback(OnDevicePoseStatusChanged);
     }
     #endregion // MONOBEHAVIOUR_METHODS
 
@@ -128,11 +130,12 @@ public class GroundPlaneUI : MonoBehaviour
     #region PUBLIC_METHODS
     public void Reset()
     {
-        m_ResetButton.interactable = m_MidAirToggle.interactable = m_GroundToggle.interactable = false;
+        //m_ResetButton.interactable = m_MidAirToggle.interactable = m_GroundToggle.interactable = false;
 
-        m_PlacementToggle.isOn = true;
+        //m_PlacementToggle.isOn = true;
     }
 
+    /*
     public void UpdateTitle()
     {
         switch (PlaneManager.planeMode)
@@ -148,26 +151,27 @@ public class GroundPlaneUI : MonoBehaviour
                 break;
         }
     }
+    */
 
     public bool InitializeUI()
     {
         // Runs only once after first successful Automatic hit test
-        m_PlacementToggle.interactable = true;
-        m_GroundToggle.interactable = true;
+        //m_PlacementToggle.interactable = true;
+        //m_GroundToggle.interactable = true;
 
         if (Vuforia.VuforiaRuntimeUtilities.IsPlayMode())
         {
-            m_MidAirToggle.interactable = true;
-            m_ResetButton.interactable = true;
+            //m_MidAirToggle.interactable = true;
+            //m_ResetButton.interactable = true;
         }
 
         // Make the PlacementToggle active
-        m_PlacementToggle.isOn = true;
+        //m_PlacementToggle.isOn = true;
 
         return true;
     }
 
-    public bool IsCanvasButtonPressed() //TODO: Steal this and make it global for all canvas elements
+    public bool IsCanvasButtonPressed()
     {
         m_PointerEventData = new PointerEventData(m_EventSystem)
         {
@@ -190,7 +194,7 @@ public class GroundPlaneUI : MonoBehaviour
     }
     #endregion // PUBLIC_METHODS
 
-
+    /*
     #region VUFORIA_CALLBACKS
     void OnDevicePoseStatusChanged(Vuforia.TrackableBehaviour.Status status, Vuforia.TrackableBehaviour.StatusInfo statusInfo)
     {
@@ -214,5 +218,6 @@ public class GroundPlaneUI : MonoBehaviour
 
     }
     #endregion // VUFORIA_CALLBACKS
+    */
 
 }
