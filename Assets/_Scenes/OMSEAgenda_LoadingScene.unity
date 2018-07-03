@@ -475,7 +475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneLoader: {fileID: 675994901}
   loadDelay: 5
-  nextScene: OMSEAgenda_Main_GroundPlaneIntegration
+  nextScene: OMSEAgenda_Main_PlacementIntegration
 --- !u!114 &675994903
 MonoBehaviour:
   m_ObjectHideFlags: 0
