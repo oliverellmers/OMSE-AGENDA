@@ -25,7 +25,9 @@ public class GraphicsControl : MonoBehaviour {
     public RectTransform logoIconEyeR;
 
     public CanvasGroup infoOverlay;
-    public RectTransform infoXBtn;
+    //public RectTransform infoXBtn;
+
+    public CanvasGroup instructionsOverlay;
 
     /*
     public CanvasGroup instructionCanvasGroup;
@@ -60,6 +62,8 @@ public class GraphicsControl : MonoBehaviour {
 
         AnimateGraphicsIn();
         //ShowInstructions();
+
+        ShowHideInstructions(true);
     }
 
     private void AnimateGraphicsIn() {
@@ -185,15 +189,36 @@ public class GraphicsControl : MonoBehaviour {
             isSpinning = true;
         }
         */
-        StartCoroutine(DoSpinCloseInfoButton());
+        //StartCoroutine(DoSpinCloseInfoButton());
     }
 
+    /*
     IEnumerator DoSpinCloseInfoButton() {
 
         infoXBtn.DOLocalRotate(new Vector3(0f, 0f, 360f), transitionTime * 2f, RotateMode.FastBeyond360).SetEase(Ease.OutCubic);
         yield return new WaitForSeconds(transitionTime * 2.0f);
     }
+    */
 
+    public void ShowHideInstructions(bool b) {
+        StartCoroutine(DOShowHideInstructions(b));
+    }
+
+    IEnumerator DOShowHideInstructions(bool b) {
+
+        if (b)
+        {
+            instructionsOverlay.interactable = true;
+            instructionsOverlay.blocksRaycasts = true;
+            instructionsOverlay.DOFade(1f, transitionTime);
+        }
+        else {
+            instructionsOverlay.interactable = false;
+            instructionsOverlay.blocksRaycasts = false;
+            instructionsOverlay.DOFade(0f, transitionTime);
+        }
+        yield return new WaitForSeconds(transitionTime);
+    }
 
 
 
