@@ -73,7 +73,7 @@ public class GraphicsControl : MonoBehaviour {
 
     IEnumerator GraphicsStartAnimationsEnum() {
 
-        logoIcon.DOScale(new Vector2(1f, 1f), transitionTime).SetEase(Ease.InCubic);
+        logoIcon.DOScale(new Vector2(0.8f, 0.8f), transitionTime).SetEase(Ease.InCubic);
         yield return new WaitForSeconds(transitionTime / 5);
         logoIconEyeL.DOScale(new Vector2(1f, 1f), transitionTime).SetEase(Ease.InCubic);
         yield return new WaitForSeconds(transitionTime / 5);
