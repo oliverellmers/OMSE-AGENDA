@@ -1,8 +1,8 @@
-/*============================================================================== 
+/*==============================================================================
 Copyright (c) 2017-2018 PTC Inc. All Rights Reserved.
 
-Vuforia is a trademark of PTC Inc., registered in the United States and other 
-countries.   
+Vuforia is a trademark of PTC Inc., registered in the United States and other
+countries.
 ==============================================================================*/
 
 using System.Collections.Generic;
@@ -20,11 +20,13 @@ public class PlaneManager : MonoBehaviour
 
     #region PUBLIC_MEMBERS
     public PlaneFinderBehaviour m_PlaneFinder;
+    public MidAirPositionerBehaviour m_MidAirPositioner;
 
-    [Header("Placement Augmentations")]
+    [Header("Plane, Mid-Air, & Placement Augmentations")]
+    public GameObject m_PlaneAugmentation;
+    public GameObject m_MidAirAugmentation;
     public GameObject m_PlacementAugmentation;
-
-    public static bool GroundPlaneHitReceived;
+    public static bool GroundPlaneHitReceived, AstronautIsPlaced;
     public static PlaneMode planeMode = PlaneMode.PLACEMENT;
 
     public static bool AnchorExists
@@ -32,7 +34,6 @@ public class PlaneManager : MonoBehaviour
         get { return anchorExists; }
         private set { anchorExists = value; }
     }
-
     #endregion // PUBLIC_MEMBERS
 
 
@@ -47,18 +48,14 @@ public class PlaneManager : MonoBehaviour
     SmartTerrain m_SmartTerrain;
     PositionalDeviceTracker m_PositionalDeviceTracker;
     ContentPositioningBehaviour m_ContentPositioningBehaviour;
-
     TouchHandler m_TouchHandler;
     ProductPlacement m_ProductPlacement;
-    AnchorBehaviour /*m_PlaneAnchor, m_MidAirAnchor,*/ m_PlacementAnchor;
-
-    GroundPlaneUI m_GroundPlaneUI; 
-    TrackableBehaviour.StatusInfo m_StatusInfo;
+    GroundPlaneUI m_GroundPlaneUI;
+    AnchorBehaviour m_PlaneAnchor, m_MidAirAnchor, m_PlacementAnchor;
     int AutomaticHitTestFrameCount;
     int m_AnchorCounter;
     bool uiHasBeenInitialized;
     static bool anchorExists; // backs public AnchorExists property
-    
     #endregion // PRIVATE_MEMBERS
 
 
@@ -73,20 +70,21 @@ public class PlaneManager : MonoBehaviour
 
         m_PlaneFinder.HitTestMode = HitTestMode.AUTOMATIC;
 
-        m_ProductPlacement = m_PlacementAugmentation.GetComponentInChildren<ProductPlacement>();
-        m_TouchHandler = m_PlacementAugmentation.GetComponentInChildren<TouchHandler>();
-        m_PlacementAnchor = m_PlacementAugmentation.GetComponentInParent<AnchorBehaviour>();
-
+        m_ProductPlacement = FindObjectOfType<ProductPlacement>();
+        m_TouchHandler = FindObjectOfType<TouchHandler>();
         m_GroundPlaneUI = FindObjectOfType<GroundPlaneUI>();
 
-        
+        m_PlaneAnchor = m_PlaneAugmentation.GetComponentInParent<AnchorBehaviour>();
+        m_MidAirAnchor = m_MidAirAugmentation.GetComponentInParent<AnchorBehaviour>();
+        m_PlacementAnchor = m_PlacementAugmentation.GetComponentInParent<AnchorBehaviour>();
 
+        UtilityHelper.EnableRendererColliderCanvas(m_PlaneAugmentation, false);
+        UtilityHelper.EnableRendererColliderCanvas(m_MidAirAugmentation, false);
         UtilityHelper.EnableRendererColliderCanvas(m_PlacementAugmentation, false);
     }
 
     void Update()
     {
-
         if (!VuforiaRuntimeUtilities.IsPlayMode() && !AnchorExists)
         {
             AnchorExists = DoAnchorsExist();
@@ -96,7 +94,7 @@ public class PlaneManager : MonoBehaviour
 
         SetSurfaceIndicatorVisible(
             GroundPlaneHitReceived &&
-            (/*planeMode == PlaneMode.GROUND || */(planeMode == PlaneMode.PLACEMENT && Input.touchCount == 0)));
+            (planeMode == PlaneMode.GROUND || (planeMode == PlaneMode.PLACEMENT && Input.touchCount == 0)));
     }
 
     void OnDestroy()
@@ -139,55 +137,66 @@ public class PlaneManager : MonoBehaviour
             return;
         }
 
-        if (m_StatusInfo == TrackableBehaviour.StatusInfo.NORMAL ||
-            (m_StatusInfo == TrackableBehaviour.StatusInfo.UNKNOWN && !VuforiaRuntimeUtilities.IsPlayMode()))
+        if (!m_GroundPlaneUI.IsCanvasButtonPressed())
         {
-            if (!m_GroundPlaneUI.IsCanvasButtonPressed())
+            Debug.Log("HandleInteractiveHitTest() called.");
+
+            // If the PlaneFinderBehaviour's Mode is Automatic, then the Interactive HitTestResult will be centered.
+
+            // PlaneMode.Ground and PlaneMode.Placement both use PlaneFinder's ContentPositioningBehaviour
+            m_ContentPositioningBehaviour = m_PlaneFinder.GetComponent<ContentPositioningBehaviour>();
+            m_ContentPositioningBehaviour.DuplicateStage = false;
+
+            // Place object based on Ground Plane mode
+            switch (planeMode)
             {
-                Debug.Log("HandleInteractiveHitTest() called.");
+                case PlaneMode.GROUND:
 
-                // If the PlaneFinderBehaviour's Mode is Automatic, then the Interactive HitTestResult will be centered.
+                    m_ContentPositioningBehaviour.AnchorStage = m_PlaneAnchor;
+                    m_ContentPositioningBehaviour.PositionContentAtPlaneAnchor(result);
+                    UtilityHelper.EnableRendererColliderCanvas(m_PlaneAugmentation, true);
 
-                // PlaneMode.Ground and PlaneMode.Placement both use PlaneFinder's ContentPositioningBehaviour
-                m_ContentPositioningBehaviour = m_PlaneFinder.GetComponent<ContentPositioningBehaviour>();
-                m_ContentPositioningBehaviour.DuplicateStage = false;
+                    // Astronaut should rotate toward camera with each placement
+                    m_PlaneAugmentation.transform.localPosition = Vector3.zero;
+                    UtilityHelper.RotateTowardCamera(m_PlaneAugmentation);
 
-                // Place object based on Ground Plane mode
-                switch (planeMode)
-                {
-                    case PlaneMode.GROUND:
-                        /*
-                        m_ContentPositioningBehaviour.AnchorStage = m_PlaneAnchor;
+                    AstronautIsPlaced = true;
+
+                    break;
+
+                case PlaneMode.PLACEMENT:
+
+                    if (!m_ProductPlacement.IsPlaced || TouchHandler.DoubleTap)
+                    {
+                        m_ContentPositioningBehaviour.AnchorStage = m_PlacementAnchor;
                         m_ContentPositioningBehaviour.PositionContentAtPlaneAnchor(result);
-                        UtilityHelper.EnableRendererColliderCanvas(m_PlaneAugmentation, true);
+                        UtilityHelper.EnableRendererColliderCanvas(m_PlacementAugmentation, true);
+                    }
 
-                        // Astronaut should rotate toward camera with each placement
-                        m_PlaneAugmentation.transform.localPosition = Vector3.zero;
-                        UtilityHelper.RotateTowardCamera(m_PlaneAugmentation);
-                        */
-                        break;
+                    if (!m_ProductPlacement.IsPlaced)
+                    {
+                        m_ProductPlacement.SetProductAnchor(m_PlacementAnchor.transform);
+                        m_TouchHandler.enableRotation = true;
+                    }
 
-                    case PlaneMode.PLACEMENT:
-
-                        if (!m_ProductPlacement.IsPlaced || TouchHandler.DoubleTap)
-                        {
-                            m_ContentPositioningBehaviour.AnchorStage = m_PlacementAnchor;
-                            m_ContentPositioningBehaviour.PositionContentAtPlaneAnchor(result);
-                            UtilityHelper.EnableRendererColliderCanvas(m_PlacementAugmentation, true);
-                        }
-
-                        if (!m_ProductPlacement.IsPlaced)
-                        {
-                            m_ProductPlacement.SetProductAnchor(m_PlacementAnchor.transform);
-                            m_TouchHandler.enableRotation = true;
-                        }
-                        
-
-                        break;
-                }
+                    break;
             }
         }
+    }
 
+    public void PlaceObjectInMidAir(Transform midAirTransform)
+    {
+        if (planeMode == PlaneMode.MIDAIR)
+        {
+            Debug.Log("PlaceObjectInMidAir() called.");
+
+            m_ContentPositioningBehaviour.AnchorStage = m_MidAirAnchor;
+            m_ContentPositioningBehaviour.PositionContentAtMidAirAnchor(midAirTransform);
+            UtilityHelper.EnableRendererColliderCanvas(m_MidAirAugmentation, true);
+
+            m_MidAirAugmentation.transform.localPosition = Vector3.zero;
+            UtilityHelper.RotateTowardCamera(m_MidAirAugmentation);
+        }
     }
 
     #endregion // GROUNDPLANE_CALLBACKS
@@ -195,15 +204,38 @@ public class PlaneManager : MonoBehaviour
 
     #region PUBLIC_BUTTON_METHODS
 
+    public void SetGroundMode(bool active)
+    {
+        if (active)
+        {
+            planeMode = PlaneMode.GROUND;
+            m_GroundPlaneUI.UpdateTitle();
+            m_PlaneFinder.enabled = true;
+            m_MidAirPositioner.enabled = false;
+            m_TouchHandler.enableRotation = false;
+        }
+    }
+
+    public void SetMidAirMode(bool active)
+    {
+        if (active)
+        {
+            planeMode = PlaneMode.MIDAIR;
+            m_GroundPlaneUI.UpdateTitle();
+            m_PlaneFinder.enabled = false;
+            m_MidAirPositioner.enabled = true;
+            m_TouchHandler.enableRotation = false;
+        }
+    }
 
     public void SetPlacementMode(bool active)
     {
         if (active)
         {
             planeMode = PlaneMode.PLACEMENT;
-            //m_GroundPlaneUI.UpdateTitle();
+            m_GroundPlaneUI.UpdateTitle();
             m_PlaneFinder.enabled = true;
-            //m_MidAirPositioner.enabled = false;
+            m_MidAirPositioner.enabled = false;
             m_TouchHandler.enableRotation = m_PlacementAugmentation.activeInHierarchy;
         }
     }
@@ -212,11 +244,21 @@ public class PlaneManager : MonoBehaviour
     {
         Debug.Log("ResetScene() called.");
 
+        // reset augmentations
+        m_PlaneAugmentation.transform.position = Vector3.zero;
+        m_PlaneAugmentation.transform.localEulerAngles = Vector3.zero;
+        UtilityHelper.EnableRendererColliderCanvas(m_PlaneAugmentation, false);
+
+        m_MidAirAugmentation.transform.position = Vector3.zero;
+        m_MidAirAugmentation.transform.localEulerAngles = Vector3.zero;
+        UtilityHelper.EnableRendererColliderCanvas(m_MidAirAugmentation, false);
+
         m_ProductPlacement.Reset();
         UtilityHelper.EnableRendererColliderCanvas(m_PlacementAugmentation, false);
 
         DeleteAnchors();
         m_ProductPlacement.SetProductAnchor(null);
+        AstronautIsPlaced = false;
         m_GroundPlaneUI.Reset();
         m_TouchHandler.enableRotation = false;
     }
@@ -230,8 +272,7 @@ public class PlaneManager : MonoBehaviour
 
         // Stop and restart trackers
         m_SmartTerrain.Stop(); // stop SmartTerrain tracker before PositionalDeviceTracker
-        m_PositionalDeviceTracker.Stop();
-        m_PositionalDeviceTracker.Start();
+        m_PositionalDeviceTracker.Reset();
         m_SmartTerrain.Start(); // start SmartTerrain tracker after PositionalDeviceTracker
     }
 
@@ -242,6 +283,8 @@ public class PlaneManager : MonoBehaviour
 
     void DeleteAnchors()
     {
+        m_PlaneAnchor.UnConfigureAnchor();
+        m_MidAirAnchor.UnConfigureAnchor();
         m_PlacementAnchor.UnConfigureAnchor();
         AnchorExists = DoAnchorsExist();
     }
@@ -279,7 +322,7 @@ public class PlaneManager : MonoBehaviour
 
 
     #region VUFORIA_CALLBACKS
-    private bool hasSwitchedAR = true;
+
     void OnVuforiaStarted()
     {
         Debug.Log("OnVuforiaStarted() called.");
@@ -306,14 +349,6 @@ public class PlaneManager : MonoBehaviour
 
             MessageBox.DisplayMessageBox(unsupportedDeviceTitle, unsupportedDeviceBody, false, null);
         }
-
-        if (!hasSwitchedAR)
-            return;
-
-        SwitchARContentManagement switchAr = GameObject.Find("SwitchARContentManagement").GetComponent<SwitchARContentManagement>();
-        switchAr.SwitchA(true);
-        switchAr.SwitchB(false);
-        hasSwitchedAR = false;
     }
 
     void OnVuforiaPaused(bool paused)
@@ -349,8 +384,6 @@ public class PlaneManager : MonoBehaviour
     void OnDevicePoseStatusChanged(TrackableBehaviour.Status status, TrackableBehaviour.StatusInfo statusInfo)
     {
         Debug.Log("OnDevicePoseStatusChanged(" + status + ", " + statusInfo + ")");
-
-        m_StatusInfo = statusInfo;
     }
 
     #endregion // DEVICE_TRACKER_CALLBACK_METHODS

@@ -148,7 +148,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 220, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &24723704
 CanvasGroup:
@@ -253,7 +253,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 44839578}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Padding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,6 +324,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Instructions: {fileID: 848692490}
   m_ScreenReticle: {fileID: 1095033002}
+--- !u!21 &107890599
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Height: 482.00003
+    - _LineWeight: 2
+    - _PixelWorldScale: Infinity
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Width: 472
+    m_Colors:
+    - _Radius: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &111118486
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,7 +368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 111118487}
   - component: {fileID: 111118488}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Toggle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -567,7 +602,7 @@ GameObject:
   - component: {fileID: 128095359}
   - component: {fileID: 128095358}
   - component: {fileID: 128095357}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ImageFill_LogoEyeL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -587,9 +622,9 @@ RectTransform:
   m_Father: {fileID: 819778119}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 16, y: -20}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 8, y: 8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &128095357
@@ -615,7 +650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 825275549}
+  m_Material: {fileID: 1225891478}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
@@ -623,7 +658,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 1038099635}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -639,6 +674,41 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 128095355}
+--- !u!21 &147417754
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Height: 100
+    - _LineWeight: 0
+    - _PixelWorldScale: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Width: 100
+    m_Colors:
+    - _Radius: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &152055427
 GameObject:
   m_ObjectHideFlags: 0
@@ -649,7 +719,7 @@ GameObject:
   - component: {fileID: 152055428}
   - component: {fileID: 152055430}
   - component: {fileID: 152055429}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -718,7 +788,7 @@ GameObject:
   - component: {fileID: 155650916}
   - component: {fileID: 155650915}
   - component: {fileID: 155650914}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Animation Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -823,7 +893,7 @@ RectTransform:
   m_LocalScale: {x: 0.8115819, y: 0.8115819, z: 0.8115819}
   m_Children: []
   m_Father: {fileID: 1882850586}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -881,7 +951,7 @@ GameObject:
   - component: {fileID: 161203054}
   - component: {fileID: 161203056}
   - component: {fileID: 161203055}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -956,7 +1026,7 @@ GameObject:
   - component: {fileID: 163341061}
   - component: {fileID: 163341060}
   - component: {fileID: 163341059}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LogoContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1006,7 +1076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1307642010}
+  m_Material: {fileID: 1302825633}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
@@ -1014,7 +1084,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 1038099635}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1040,7 +1110,7 @@ GameObject:
   - component: {fileID: 163901143}
   - component: {fileID: 163901145}
   - component: {fileID: 163901144}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text_linkOMSE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1392,6 +1462,41 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!21 &239463872
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Height: 85
+    - _LineWeight: 2
+    - _PixelWorldScale: 2.5600004
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Width: 85
+    m_Colors:
+    - _Radius: {r: 42, g: 42, b: 42, a: 42}
 --- !u!1 &243085877
 GameObject:
   m_ObjectHideFlags: 0
@@ -1451,7 +1556,7 @@ GameObject:
   - component: {fileID: 246066920}
   - component: {fileID: 246066919}
   - component: {fileID: 246066918}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Animation Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1570,199 +1675,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ARContentA: {fileID: 1270682275}
   ARContentB: {fileID: 921576532}
---- !u!213 &271530975
-Sprite:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_Rect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  m_Offset: {x: -0.5, y: -0.5}
-  m_Border: {x: 0, y: 0, z: 0, w: 0}
-  m_PixelsToUnits: 100
-  m_Pivot: {x: 0, y: 0}
-  m_Extrude: 0
-  m_IsPolygon: 0
-  m_AtlasName: 
-  m_PackingTag: 
-  m_RenderDataKey:
-    00000000000000000000000000000000: 0
-  m_AtlasTags: []
-  m_SpriteAtlas: {fileID: 0}
-  m_RD:
-    serializedVersion: 2
-    texture: {fileID: 866009559}
-    alphaTexture: {fileID: 0}
-    m_SubMeshes:
-    - serializedVersion: 2
-      firstByte: 0
-      indexCount: 6
-      topology: 0
-      baseVertex: 0
-      firstVertex: 0
-      vertexCount: 4
-      localAABB:
-        m_Center: {x: 0, y: 0, z: 0}
-        m_Extent: {x: 0, y: 0, z: 0}
-    m_IndexBuffer: 000001000200020001000300
-    m_VertexData:
-      serializedVersion: 2
-      m_VertexCount: 4
-      m_Channels:
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 3
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 1
-        offset: 0
-        format: 0
-        dimension: 2
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      m_DataSize: 80
-      _typelessdata: 000000000ad7233c000000000ad7233c0ad7233c000000000000000000000000000000000ad7233c00000000000000000000000000000000000000000000000000000000000000000000000000000000
-    m_Bindpose: []
-    m_SourceSkin: []
-    textureRect:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 1
-      height: 1
-    textureRectOffset: {x: 0, y: 0}
-    atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 64
-    uvTransform: {x: 100, y: 0, z: 100, w: 0}
-    downscaleMultiplier: 1
-  m_AtlasRD:
-    serializedVersion: 2
-    texture: {fileID: 866009559}
-    alphaTexture: {fileID: 0}
-    m_SubMeshes:
-    - serializedVersion: 2
-      firstByte: 0
-      indexCount: 6
-      topology: 0
-      baseVertex: 0
-      firstVertex: 0
-      vertexCount: 4
-      localAABB:
-        m_Center: {x: 0, y: 0, z: 0}
-        m_Extent: {x: 0, y: 0, z: 0}
-    m_IndexBuffer: 000001000200020001000300
-    m_VertexData:
-      serializedVersion: 2
-      m_VertexCount: 4
-      m_Channels:
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 3
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 1
-        offset: 0
-        format: 0
-        dimension: 2
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      - stream: 0
-        offset: 0
-        format: 0
-        dimension: 0
-      m_DataSize: 80
-      _typelessdata: 000000000ad7233c000000000ad7233c0ad7233c000000000000000000000000000000000ad7233c00000000000000000000000000000000000000000000000000000000000000000000000000000000
-    m_Bindpose: []
-    m_SourceSkin: []
-    textureRect:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 1
-      height: 1
-    textureRectOffset: {x: 0, y: 0}
-    atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 64
-    uvTransform: {x: 100, y: 0, z: 100, w: 0}
-    downscaleMultiplier: 1
-  m_PhysicsShape: []
-  m_Bones: []
-  m_SpriteID: 
 --- !u!1 &278173070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,7 +1684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 278173071}
   - component: {fileID: 278173073}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Welcome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1840,7 +1752,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0.3}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 234.52278, y: -182.30186}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &283340480
 MonoBehaviour:
@@ -1988,7 +1900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 338633694}
   - component: {fileID: 338633695}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Discover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2029,7 +1941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 340293324}
   - component: {fileID: 340293325}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Toggle (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2110,7 +2022,7 @@ GameObject:
   - component: {fileID: 343445903}
   - component: {fileID: 343445905}
   - component: {fileID: 343445904}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2184,7 +2096,7 @@ GameObject:
   - component: {fileID: 347805416}
   - component: {fileID: 347805418}
   - component: {fileID: 347805417}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2254,7 +2166,7 @@ GameObject:
   - component: {fileID: 348870330}
   - component: {fileID: 348870329}
   - component: {fileID: 348870328}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LogoContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2304,7 +2216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1480176322}
+  m_Material: {fileID: 1307792088}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
@@ -2312,7 +2224,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 1038099635}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2364,7 +2276,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0.3}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 234.52278, y: -182.30186}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &356617906
 MonoBehaviour:
@@ -2770,41 +2682,6 @@ MonoBehaviour:
   m_AugmentationObject: {fileID: 379713784}
   enableRotation: 0
   enablePinchScaling: 1
---- !u!21 &391725382
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Height: 49
-    - _LineWeight: 4
-    - _PixelWorldScale: 2.0479991
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _Width: 49
-    m_Colors:
-    - _Radius: {r: 24.000002, g: 24.000002, b: 24.000002, a: 24.000002}
 --- !u!1 &400770039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2816,7 +2693,7 @@ GameObject:
   - component: {fileID: 400770043}
   - component: {fileID: 400770042}
   - component: {fileID: 400770041}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Animation Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3045,41 +2922,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 424087734}
---- !u!21 &426660350
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Height: 61
-    - _LineWeight: 0
-    - _PixelWorldScale: 2.5599997
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _Width: 61
-    m_Colors:
-    - _Radius: {r: 30, g: 30, b: 30, a: 30}
 --- !u!1 &473222006
 GameObject:
   m_ObjectHideFlags: 0
@@ -3160,7 +3002,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 479515061}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Padding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3188,41 +3030,6 @@ RectTransform:
   m_AnchoredPosition: {x: 16, y: -26}
   m_SizeDelta: {x: -32, y: -140}
   m_Pivot: {x: 0, y: 0.5}
---- !u!21 &485124212
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Height: 9
-    - _LineWeight: 0
-    - _PixelWorldScale: 2.0480042
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _Width: 9
-    m_Colors:
-    - _Radius: {r: 4, g: 4, b: 4, a: 4}
 --- !u!1 &488721673
 GameObject:
   m_ObjectHideFlags: 0
@@ -3266,41 +3073,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Instructions: {fileID: 2105366004}
   m_ScreenReticle: {fileID: 24723704}
---- !u!21 &499768377
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Height: 587.04095
-    - _LineWeight: 2
-    - _PixelWorldScale: Infinity
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _Width: 438.7807
-    m_Colors:
-    - _Radius: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &508454820
 GameObject:
   m_ObjectHideFlags: 0
@@ -3383,7 +3155,7 @@ GameObject:
   - component: {fileID: 530659227}
   - component: {fileID: 530659231}
   - component: {fileID: 530659230}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: XBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3598,7 +3370,7 @@ GameObject:
   - component: {fileID: 602824483}
   - component: {fileID: 602824485}
   - component: {fileID: 602824484}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: MainContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3850,7 +3622,7 @@ GameObject:
   - component: {fileID: 621033698}
   - component: {fileID: 621033700}
   - component: {fileID: 621033699}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3918,7 +3690,7 @@ GameObject:
   - component: {fileID: 641713484}
   - component: {fileID: 641713486}
   - component: {fileID: 641713485}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ContentHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3951,13 +3723,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 641713483}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3978,6 +3750,199 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 641713483}
+--- !u!213 &642186309
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  m_Offset: {x: -0.5, y: -0.5}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0, y: 0}
+  m_Extrude: 0
+  m_IsPolygon: 0
+  m_AtlasName: 
+  m_PackingTag: 
+  m_RenderDataKey:
+    00000000000000000000000000000000: 0
+  m_AtlasTags: []
+  m_SpriteAtlas: {fileID: 0}
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 1141559093}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 6
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 4
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 000001000200020001000300
+    m_VertexData:
+      serializedVersion: 2
+      m_VertexCount: 4
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 1
+        offset: 0
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 80
+      _typelessdata: 000000000ad7233c000000000ad7233c0ad7233c000000000000000000000000000000000ad7233c00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Bindpose: []
+    m_SourceSkin: []
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 0, z: 100, w: 0}
+    downscaleMultiplier: 1
+  m_AtlasRD:
+    serializedVersion: 2
+    texture: {fileID: 1141559093}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 6
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 4
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 000001000200020001000300
+    m_VertexData:
+      serializedVersion: 2
+      m_VertexCount: 4
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 1
+        offset: 0
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 80
+      _typelessdata: 000000000ad7233c000000000ad7233c0ad7233c000000000000000000000000000000000ad7233c00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Bindpose: []
+    m_SourceSkin: []
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 0, z: 100, w: 0}
+    downscaleMultiplier: 1
+  m_PhysicsShape: []
+  m_Bones: []
+  m_SpriteID: 
 --- !u!1 &645662648
 GameObject:
   m_ObjectHideFlags: 0
@@ -3990,7 +3955,7 @@ GameObject:
   - component: {fileID: 645662652}
   - component: {fileID: 645662651}
   - component: {fileID: 645662650}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas_Instructions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4084,41 +4049,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!21 &654003226
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Height: 49
-    - _LineWeight: 4
-    - _PixelWorldScale: 2.0479991
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _Width: 49
-    m_Colors:
-    - _Radius: {r: 24.000002, g: 24.000002, b: 24.000002, a: 24.000002}
 --- !u!1 &673479515
 GameObject:
   m_ObjectHideFlags: 0
@@ -4130,7 +4060,7 @@ GameObject:
   - component: {fileID: 673479518}
   - component: {fileID: 673479517}
   - component: {fileID: 673479519}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: InstructionsContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4185,6 +4115,41 @@ MonoBehaviour:
   m_Script: {fileID: -146154839, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!21 &679328477
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Height: 9
+    - _LineWeight: 0
+    - _PixelWorldScale: 2.0480042
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Width: 9
+    m_Colors:
+    - _Radius: {r: 4, g: 4, b: 4, a: 4}
 --- !u!1 &695731009
 GameObject:
   m_ObjectHideFlags: 0
@@ -4193,7 +4158,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 695731010}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4217,7 +4182,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00001519755, y: 0.0000039776414}
+  m_AnchoredPosition: {x: -0.00001519755, y: 0.0000650128}
   m_SizeDelta: {x: -0.0000132049245, y: 800}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &711174624
@@ -4230,7 +4195,8 @@ GameObject:
   - component: {fileID: 711174625}
   - component: {fileID: 711174627}
   - component: {fileID: 711174626}
-  m_Layer: 5
+  - component: {fileID: 711174628}
+  m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4289,6 +4255,52 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 711174624}
+--- !u!225 &711174628
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 711174624}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!21 &715401759
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Height: 9
+    - _LineWeight: 0
+    - _PixelWorldScale: 0.4704399
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Width: 9
+    m_Colors:
+    - _Radius: {r: 4, g: 4, b: 4, a: 4}
 --- !u!1 &734701385
 GameObject:
   m_ObjectHideFlags: 0
@@ -4369,7 +4381,7 @@ GameObject:
   - component: {fileID: 754098270}
   - component: {fileID: 754098269}
   - component: {fileID: 754098268}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Vertical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4391,9 +4403,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -16, y: 0}
-  m_SizeDelta: {x: 20, y: -17}
+  m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &754098268
 MonoBehaviour:
@@ -4433,7 +4445,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2069173715}
   m_HandleRect: {fileID: 2069173714}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.99999976
   m_Size: 0.7125512
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4483,7 +4495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759591939}
   - component: {fileID: 759591940}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: 3DObjects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4523,7 +4535,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 767557270}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4754,7 +4766,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1882850586}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4805,9 +4817,9 @@ GameObject:
   - component: {fileID: 819778124}
   - component: {fileID: 819778123}
   - component: {fileID: 819778122}
-  - component: {fileID: 819778121}
   - component: {fileID: 819778120}
-  m_Layer: 5
+  - component: {fileID: 819778121}
+  m_Layer: 0
   m_Name: ImageStroke_LogoOutline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4862,7 +4874,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819778118}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -4890,8 +4902,8 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
-  m_TargetGraphic: {fileID: 819778123}
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1249755278}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -4942,15 +4954,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 654003226}
+  m_Material: {fileID: 1969811131}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 1038099635}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4966,41 +4978,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 819778118}
---- !u!21 &825275549
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Height: 9
-    - _LineWeight: 0
-    - _PixelWorldScale: 2.0480042
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _Width: 9
-    m_Colors:
-    - _Radius: {r: 4, g: 4, b: 4, a: 4}
 --- !u!1 &841565030
 GameObject:
   m_ObjectHideFlags: 0
@@ -5031,9 +5008,9 @@ RectTransform:
   m_Father: {fileID: 1095033001}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 110, y: -110}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841565032
@@ -5099,10 +5076,10 @@ RectTransform:
   m_Father: {fileID: 356617905}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 117.26139, y: -16.180344}
+  m_SizeDelta: {x: 214.52278, y: 22.360687}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &848692490
 MonoBehaviour:
@@ -5143,43 +5120,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 848692488}
---- !u!28 &866009559
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 2
-  m_Width: 1
-  m_Height: 1
-  m_CompleteImageSize: 4
-  m_TextureFormat: 4
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  image data: 4
-  _typelessdata: ffffffff
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &866308513
 GameObject:
   m_ObjectHideFlags: 0
@@ -5190,7 +5130,7 @@ GameObject:
   - component: {fileID: 866308514}
   - component: {fileID: 866308516}
   - component: {fileID: 866308515}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ImageLogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5308,7 +5248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 426660350}
+  m_Material: {fileID: 1302059816}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -5316,7 +5256,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 1038099635}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5355,7 +5295,7 @@ GameObject:
   - component: {fileID: 873054369}
   - component: {fileID: 873054371}
   - component: {fileID: 873054370}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5507,7 +5447,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 967724245}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5546,7 +5486,7 @@ GameObject:
   - component: {fileID: 982296936}
   - component: {fileID: 982296938}
   - component: {fileID: 982296937}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: WebLinkBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5740,7 +5680,7 @@ GameObject:
   - component: {fileID: 987645638}
   - component: {fileID: 987645640}
   - component: {fileID: 987645639}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5809,7 +5749,7 @@ GameObject:
   - component: {fileID: 991858584}
   - component: {fileID: 991858586}
   - component: {fileID: 991858585}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5867,6 +5807,199 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 991858583}
+--- !u!213 &1038099635
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  m_Offset: {x: -0.5, y: -0.5}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Pivot: {x: 0, y: 0}
+  m_Extrude: 0
+  m_IsPolygon: 0
+  m_AtlasName: 
+  m_PackingTag: 
+  m_RenderDataKey:
+    00000000000000000000000000000000: 0
+  m_AtlasTags: []
+  m_SpriteAtlas: {fileID: 0}
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 1243503930}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 6
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 4
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 000001000200020001000300
+    m_VertexData:
+      serializedVersion: 2
+      m_VertexCount: 4
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 1
+        offset: 0
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 80
+      _typelessdata: 000000000ad7233c000000000ad7233c0ad7233c000000000000000000000000000000000ad7233c00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Bindpose: []
+    m_SourceSkin: []
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 0, z: 100, w: 0}
+    downscaleMultiplier: 1
+  m_AtlasRD:
+    serializedVersion: 2
+    texture: {fileID: 1243503930}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 6
+      topology: 0
+      baseVertex: 0
+      firstVertex: 0
+      vertexCount: 4
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 000001000200020001000300
+    m_VertexData:
+      serializedVersion: 2
+      m_VertexCount: 4
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 1
+        offset: 0
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 80
+      _typelessdata: 000000000ad7233c000000000ad7233c0ad7233c000000000000000000000000000000000ad7233c00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Bindpose: []
+    m_SourceSkin: []
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -1, y: -1}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 0, z: 100, w: 0}
+    downscaleMultiplier: 1
+  m_PhysicsShape: []
+  m_Bones: []
+  m_SpriteID: 
 --- !u!1 &1043352314
 GameObject:
   m_ObjectHideFlags: 0
@@ -5876,7 +6009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1043352315}
   - component: {fileID: 1043352316}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text_Title_OMSELogo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5976,6 +6109,75 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1054588838}
+--- !u!1 &1080751773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1080751774}
+  - component: {fileID: 1080751776}
+  - component: {fileID: 1080751775}
+  m_Layer: 5
+  m_Name: LogoHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1080751774
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1080751773}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1249755276}
+  m_Father: {fileID: 1882850586}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 0, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1080751775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1080751773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.6509434, g: 0.14431292, b: 0.14431292, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1080751776
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1080751773}
 --- !u!1001 &1087513497
 Prefab:
   m_ObjectHideFlags: 0
@@ -6107,7 +6309,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 220, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1095033002
 CanvasGroup:
@@ -6337,6 +6539,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlaneFinder: {fileID: 1393980397}
   m_PlacementAugmentation: {fileID: 243085877}
+--- !u!28 &1141559093
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 1
+  m_Height: 1
+  m_CompleteImageSize: 4
+  m_TextureFormat: 4
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  image data: 4
+  _typelessdata: ffffffff
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1143911426
 GameObject:
   m_ObjectHideFlags: 0
@@ -6347,7 +6586,7 @@ GameObject:
   - component: {fileID: 1143911427}
   - component: {fileID: 1143911429}
   - component: {fileID: 1143911428}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6436,9 +6675,9 @@ RectTransform:
   m_Father: {fileID: 1249755276}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 16, y: -20}
   m_SizeDelta: {x: 8, y: 8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1157679638
@@ -6464,7 +6703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2126605442}
+  m_Material: {fileID: 1373604919}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -6472,7 +6711,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 642186309}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6498,7 +6737,7 @@ GameObject:
   - component: {fileID: 1167453508}
   - component: {fileID: 1167453510}
   - component: {fileID: 1167453509}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6684,7 +6923,7 @@ GameObject:
   - component: {fileID: 1187396250}
   - component: {fileID: 1187396249}
   - component: {fileID: 1187396251}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Animation Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6792,9 +7031,9 @@ RectTransform:
   m_Father: {fileID: 1249755276}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 32, y: -20}
   m_SizeDelta: {x: 8, y: 8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1197360545
@@ -6820,7 +7059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 485124212}
+  m_Material: {fileID: 715401759}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -6828,7 +7067,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 642186309}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6854,7 +7093,7 @@ GameObject:
   - component: {fileID: 1207663625}
   - component: {fileID: 1207663627}
   - component: {fileID: 1207663626}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ImageLogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6922,7 +7161,7 @@ GameObject:
   - component: {fileID: 1214690887}
   - component: {fileID: 1214690889}
   - component: {fileID: 1214690888}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LogoFitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6946,7 +7185,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 48, y: 48}
+  m_SizeDelta: {x: 0, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1214690888
 MonoBehaviour:
@@ -6967,6 +7206,78 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1214690886}
+--- !u!21 &1225891478
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Height: 9
+    - _LineWeight: 0
+    - _PixelWorldScale: 2.0480042
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Width: 9
+    m_Colors:
+    - _Radius: {r: 4, g: 4, b: 4, a: 4}
+--- !u!28 &1243503930
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 1
+  m_Height: 1
+  m_CompleteImageSize: 4
+  m_TextureFormat: 4
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  image data: 4
+  _typelessdata: ffffffff
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1244412931
 GameObject:
   m_ObjectHideFlags: 0
@@ -6978,7 +7289,7 @@ GameObject:
   - component: {fileID: 1244412935}
   - component: {fileID: 1244412934}
   - component: {fileID: 1244412933}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scroll View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7080,7 +7391,7 @@ GameObject:
   - component: {fileID: 1247785749}
   - component: {fileID: 1247785751}
   - component: {fileID: 1247785750}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7154,6 +7465,7 @@ GameObject:
   - component: {fileID: 1249755281}
   - component: {fileID: 1249755283}
   - component: {fileID: 1249755282}
+  - component: {fileID: 1249755284}
   m_Layer: 5
   m_Name: ImageStroke_LogoOutline
   m_TagString: Untagged
@@ -7173,13 +7485,13 @@ RectTransform:
   m_Children:
   - {fileID: 1157679637}
   - {fileID: 1197360544}
-  m_Father: {fileID: 1882850586}
-  m_RootOrder: 2
+  m_Father: {fileID: 1080751774}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 353.956}
-  m_SizeDelta: {x: -552, y: -752}
+  m_AnchoredPosition: {x: 0, y: 3.9559937}
+  m_SizeDelta: {x: -458.7586, y: -52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1249755277
 MonoBehaviour:
@@ -7204,7 +7516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 391725382}
+  m_Material: {fileID: 1376512706}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -7212,7 +7524,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 642186309}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7349,6 +7661,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1249755284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1249755275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1254083943, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 2
+  m_AspectRatio: 1
 --- !u!1 &1262431985
 GameObject:
   m_ObjectHideFlags: 0
@@ -7448,6 +7773,76 @@ Transform:
   m_Father: {fileID: 2043556665}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1302059816
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Height: 61
+    - _LineWeight: 0
+    - _PixelWorldScale: 2.5599997
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Width: 61
+    m_Colors:
+    - _Radius: {r: 30, g: 30, b: 30, a: 30}
+--- !u!21 &1302825633
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Height: 96
+    - _LineWeight: 2
+    - _PixelWorldScale: Infinity
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Width: 438.7807
+    m_Colors:
+    - _Radius: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1305126189
 GameObject:
   m_ObjectHideFlags: 0
@@ -7458,7 +7853,7 @@ GameObject:
   - component: {fileID: 1305126192}
   - component: {fileID: 1305126191}
   - component: {fileID: 1305126190}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7510,7 +7905,42 @@ Transform:
   m_Father: {fileID: 1761383651}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1307642010
+--- !u!21 &1307156539
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Height: 587.04095
+    - _LineWeight: 2
+    - _PixelWorldScale: Infinity
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Width: 438.7807
+    m_Colors:
+    - _Radius: {r: 0, g: 0, b: 0, a: 0}
+--- !u!21 &1307792088
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -7542,7 +7972,7 @@ Material:
     - _StencilOp: 0
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
-    - _Width: 438.7807
+    - _Width: 472
     m_Colors:
     - _Radius: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1313319712
@@ -7642,7 +8072,7 @@ GameObject:
   - component: {fileID: 1318607127}
   - component: {fileID: 1318607129}
   - component: {fileID: 1318607128}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7798,7 +8228,7 @@ GameObject:
   - component: {fileID: 1326925025}
   - component: {fileID: 1326925024}
   - component: {fileID: 1326925023}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TextContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7847,7 +8277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1638844298}
+  m_Material: {fileID: 1307156539}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
@@ -7855,7 +8285,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 1038099635}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7871,6 +8301,76 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1326925021}
+--- !u!21 &1373604919
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Height: 9
+    - _LineWeight: 0
+    - _PixelWorldScale: 0.4704399
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Width: 9
+    m_Colors:
+    - _Radius: {r: 4, g: 4, b: 4, a: 4}
+--- !u!21 &1376512706
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Height: 49
+    - _LineWeight: 4
+    - _PixelWorldScale: 0.4704412
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Width: 49
+    m_Colors:
+    - _Radius: {r: 24.000002, g: 24.000002, b: 24.000002, a: 24.000002}
 --- !u!1 &1381790742
 GameObject:
   m_ObjectHideFlags: 0
@@ -7882,7 +8382,7 @@ GameObject:
   - component: {fileID: 1381790746}
   - component: {fileID: 1381790745}
   - component: {fileID: 1381790744}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Scrollbar Horizontal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7904,9 +8404,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1381790744
 MonoBehaviour:
@@ -8122,7 +8622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1434502274}
   - component: {fileID: 1434502275}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Snap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8154,76 +8654,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1434502273}
---- !u!21 &1435371002
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Height: 100
-    - _LineWeight: 0
-    - _PixelWorldScale: 1
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _Width: 100
-    m_Colors:
-    - _Radius: {r: 0, g: 0, b: 0, a: 0}
---- !u!21 &1443379843
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Height: 85
-    - _LineWeight: 2
-    - _PixelWorldScale: 2.5600004
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _Width: 85
-    m_Colors:
-    - _Radius: {r: 42, g: 42, b: 42, a: 42}
 --- !u!1 &1459274026
 GameObject:
   m_ObjectHideFlags: 0
@@ -8234,7 +8664,7 @@ GameObject:
   - component: {fileID: 1459274027}
   - component: {fileID: 1459274029}
   - component: {fileID: 1459274028}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8373,7 +8803,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1462805125}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Padding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8410,7 +8840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1475460980}
   - component: {fileID: 1475460981}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Toggle (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8491,7 +8921,7 @@ GameObject:
   - component: {fileID: 1476537325}
   - component: {fileID: 1476537327}
   - component: {fileID: 1476537326}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8555,41 +8985,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1476537324}
---- !u!21 &1480176322
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Height: 96
-    - _LineWeight: 2
-    - _PixelWorldScale: Infinity
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _Width: 472
-    m_Colors:
-    - _Radius: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1502178650
 GameObject:
   m_ObjectHideFlags: 0
@@ -8599,7 +8994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1502178651}
   - component: {fileID: 1502178652}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Toggle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8680,7 +9075,7 @@ GameObject:
   - component: {fileID: 1505383799}
   - component: {fileID: 1505383801}
   - component: {fileID: 1505383800}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8755,7 +9150,7 @@ GameObject:
   - component: {fileID: 1566431101}
   - component: {fileID: 1566431103}
   - component: {fileID: 1566431102}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8829,7 +9224,7 @@ GameObject:
   - component: {fileID: 1580037566}
   - component: {fileID: 1580037568}
   - component: {fileID: 1580037567}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8898,7 +9293,7 @@ GameObject:
   - component: {fileID: 1594203837}
   - component: {fileID: 1594203835}
   - component: {fileID: 1594203834}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Horizontal Scroll Snap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9375,7 +9770,7 @@ GameObject:
   - component: {fileID: 1633493008}
   - component: {fileID: 1633493010}
   - component: {fileID: 1633493009}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BGColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9433,41 +9828,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1633493007}
---- !u!21 &1638844298
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Height: 587.04095
-    - _LineWeight: 2
-    - _PixelWorldScale: Infinity
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _Width: 438.7807
-    m_Colors:
-    - _Radius: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1689114970
 GameObject:
   m_ObjectHideFlags: 0
@@ -9478,7 +9838,7 @@ GameObject:
   - component: {fileID: 1689114971}
   - component: {fileID: 1689114973}
   - component: {fileID: 1689114972}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9754,7 +10114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1731261357}
   - component: {fileID: 1731261358}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Behaviour
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9793,7 +10153,7 @@ MonoBehaviour:
   logoIcon: {fileID: 1249755276}
   logoIconEyeL: {fileID: 1157679637}
   logoIconEyeR: {fileID: 1197360544}
-  infoOverlay: {fileID: 2105588113}
+  infoOverlay: {fileID: 711174628}
   instructionsOverlay: {fileID: 645662650}
 --- !u!1 &1744341658
 GameObject:
@@ -9805,7 +10165,7 @@ GameObject:
   - component: {fileID: 1744341659}
   - component: {fileID: 1744341661}
   - component: {fileID: 1744341660}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9871,7 +10231,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1761383651}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10030,7 +10390,7 @@ GameObject:
   - component: {fileID: 1796599416}
   - component: {fileID: 1796599418}
   - component: {fileID: 1796599417}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10107,41 +10467,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1796599415}
---- !u!21 &1816042285
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Height: 9
-    - _LineWeight: 0
-    - _PixelWorldScale: 2.0480042
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _Width: 9
-    m_Colors:
-    - _Radius: {r: 4, g: 4, b: 4, a: 4}
 --- !u!1 &1865040026
 GameObject:
   m_ObjectHideFlags: 0
@@ -10153,7 +10478,7 @@ GameObject:
   - component: {fileID: 1865040030}
   - component: {fileID: 1865040029}
   - component: {fileID: 1865040028}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ImageFill_LogoEyeR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10173,9 +10498,9 @@ RectTransform:
   m_Father: {fileID: 819778119}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 32, y: -20}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 8, y: 8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1865040028
@@ -10201,7 +10526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1816042285}
+  m_Material: {fileID: 679328477}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
@@ -10209,7 +10534,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 1038099635}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10235,7 +10560,7 @@ GameObject:
   - component: {fileID: 1867169304}
   - component: {fileID: 1867169306}
   - component: {fileID: 1867169305}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10305,7 +10630,7 @@ GameObject:
   - component: {fileID: 1880523488}
   - component: {fileID: 1880523487}
   - component: {fileID: 1880523486}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PaginationButtonsHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10472,9 +10797,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1080751774}
   - {fileID: 819730686}
   - {fileID: 157120319}
-  - {fileID: 1249755276}
   - {fileID: 366231928}
   m_Father: {fileID: 1761383651}
   m_RootOrder: 0
@@ -10643,7 +10968,7 @@ GameObject:
   - component: {fileID: 1901014258}
   - component: {fileID: 1901014257}
   - component: {fileID: 1901014259}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: XBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10796,7 +11121,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1916906408}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sliding Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11094,9 +11419,9 @@ RectTransform:
   m_Father: {fileID: 24723703}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 110, y: -110}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1939755356
@@ -11143,7 +11468,7 @@ GameObject:
   - component: {fileID: 1966819663}
   - component: {fileID: 1966819664}
   - component: {fileID: 1966819662}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Main_Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11200,7 +11525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 499768377}
+  m_Material: {fileID: 2135331339}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
@@ -11208,7 +11533,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 1038099635}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11218,6 +11543,41 @@ MonoBehaviour:
   m_FillOrigin: 0
   borderWidth: 2
   falloffDistance: 0
+--- !u!21 &1969811131
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI/Procedural UI Image
+  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Height: 49
+    - _LineWeight: 4
+    - _PixelWorldScale: 2.0479991
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Width: 49
+    m_Colors:
+    - _Radius: {r: 24.000002, g: 24.000002, b: 24.000002, a: 24.000002}
 --- !u!1 &1983918784
 GameObject:
   m_ObjectHideFlags: 0
@@ -11228,7 +11588,7 @@ GameObject:
   - component: {fileID: 1983918785}
   - component: {fileID: 1983918787}
   - component: {fileID: 1983918786}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11297,7 +11657,7 @@ GameObject:
   - component: {fileID: 1999254587}
   - component: {fileID: 1999254586}
   - component: {fileID: 1999254585}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LinkContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11347,7 +11707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1435371002}
+  m_Material: {fileID: 147417754}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -11355,7 +11715,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 1038099635}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11542,7 +11902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1443379843}
+  m_Material: {fileID: 239463872}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
@@ -11550,7 +11910,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 1038099635}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11590,7 +11950,7 @@ GameObject:
   - component: {fileID: 2041790093}
   - component: {fileID: 2041790092}
   - component: {fileID: 2041790091}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11641,7 +12001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2109591018}
+  m_Material: {fileID: 107890599}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
@@ -11649,7 +12009,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 271530975}
+  m_Sprite: {fileID: 1038099635}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11679,7 +12039,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2043556665
 Transform:
   m_ObjectHideFlags: 0
@@ -11707,7 +12067,7 @@ GameObject:
   - component: {fileID: 2054200946}
   - component: {fileID: 2054200948}
   - component: {fileID: 2054200947}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11781,7 +12141,7 @@ GameObject:
   - component: {fileID: 2069173714}
   - component: {fileID: 2069173716}
   - component: {fileID: 2069173715}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11801,8 +12161,8 @@ RectTransform:
   m_Father: {fileID: 1916906408}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.28744882}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -6.000001, y: 45}
   m_SizeDelta: {x: 7.9999986, y: -310}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -11850,7 +12210,7 @@ GameObject:
   - component: {fileID: 2078346161}
   - component: {fileID: 2078346160}
   - component: {fileID: 2078346159}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Viewport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11872,9 +12232,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: -17}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2078346159
 MonoBehaviour:
@@ -11931,7 +12291,7 @@ GameObject:
   - component: {fileID: 2078734542}
   - component: {fileID: 2078734544}
   - component: {fileID: 2078734543}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BGColor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12135,10 +12495,10 @@ RectTransform:
   m_Father: {fileID: 283340479}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 117.26139, y: -16.180344}
+  m_SizeDelta: {x: 214.52278, y: 22.360687}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2105366004
 MonoBehaviour:
@@ -12191,13 +12551,13 @@ GameObject:
   - component: {fileID: 2105588110}
   - component: {fileID: 2105588109}
   - component: {fileID: 2105588113}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas_Info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2105588109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12280,46 +12640,11 @@ CanvasGroup:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2105588108}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!21 &2109591018
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: UI/Procedural UI Image
-  m_Shader: {fileID: 4800000, guid: 27d83044d20c5de4e9d57d35e4fda368, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Height: 482.00003
-    - _LineWeight: 2
-    - _PixelWorldScale: Infinity
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _Width: 472
-    m_Colors:
-    - _Radius: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2115475227
 GameObject:
   m_ObjectHideFlags: 0
@@ -12330,7 +12655,7 @@ GameObject:
   - component: {fileID: 2115475228}
   - component: {fileID: 2115475230}
   - component: {fileID: 2115475229}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12351,7 +12676,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -12396,7 +12721,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2117744301}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Padding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12424,7 +12749,7 @@ RectTransform:
   m_AnchoredPosition: {x: 16, y: -26}
   m_SizeDelta: {x: -32, y: -140}
   m_Pivot: {x: 0, y: 0.5}
---- !u!21 &2126605442
+--- !u!21 &2135331339
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -12448,17 +12773,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _ColorMask: 15
-    - _Height: 9
-    - _LineWeight: 0
-    - _PixelWorldScale: 2.0480042
+    - _Height: 587.04095
+    - _LineWeight: 2
+    - _PixelWorldScale: Infinity
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
     - _StencilReadMask: 255
     - _StencilWriteMask: 255
-    - _Width: 9
+    - _Width: 438.7807
     m_Colors:
-    - _Radius: {r: 4, g: 4, b: 4, a: 4}
+    - _Radius: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2143809501
 GameObject:
   m_ObjectHideFlags: 0

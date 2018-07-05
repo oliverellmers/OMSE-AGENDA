@@ -28,7 +28,7 @@ public class ProductPlacement : MonoBehaviour
     #region PRIVATE_MEMBERS
     Material[] chairMaterials, chairMaterialsTransparent;
     Material ChairShadow, ChairShadowTransparent;
-    MeshRenderer meshRenderer; // chairRenderer;
+    MeshRenderer chairRenderer;
     [SerializeField]
     MeshRenderer shadowRenderer;
 
@@ -47,9 +47,8 @@ public class ProductPlacement : MonoBehaviour
     #region MONOBEHAVIOUR_METHODS
     void Start()
     {
-        meshRenderer = GetComponent<MeshRenderer>();
+        chairRenderer = GetComponent<MeshRenderer>();
 
-        
         chairMaterials = new Material[]
         {
             Resources.Load<Material>("ChairBody"),
@@ -61,11 +60,9 @@ public class ProductPlacement : MonoBehaviour
             Resources.Load<Material>("ChairBodyTransparent"),
             Resources.Load<Material>("ChairFrameTransparent")
         };
-        
 
         ChairShadow = Resources.Load<Material>("ChairShadow");
         ChairShadowTransparent = Resources.Load<Material>("ChairShadowTransparent");
-        
 
         m_GroundPlaneUI = FindObjectOfType<GroundPlaneUI>();
 
@@ -90,14 +87,14 @@ public class ProductPlacement : MonoBehaviour
     {
         if (PlaneManager.planeMode == PlaneManager.PlaneMode.PLACEMENT)
         {
-            shadowRenderer.enabled = meshRenderer.enabled = (IsPlaced || PlaneManager.GroundPlaneHitReceived);
+            shadowRenderer.enabled = chairRenderer.enabled = (IsPlaced || PlaneManager.GroundPlaneHitReceived);
             EnablePreviewModeTransparency(!IsPlaced);
             if (!IsPlaced)
                 UtilityHelper.RotateTowardCamera(gameObject);
         }
         else
         {
-            shadowRenderer.enabled = meshRenderer.enabled = IsPlaced;
+            shadowRenderer.enabled = chairRenderer.enabled = IsPlaced;
         }
 
         if (PlaneManager.planeMode == PlaneManager.PlaneMode.PLACEMENT && IsPlaced)
@@ -163,10 +160,9 @@ public class ProductPlacement : MonoBehaviour
     #region PRIVATE_METHODS
     void EnablePreviewModeTransparency(bool previewEnabled)
     {
-        meshRenderer.materials = previewEnabled ? chairMaterialsTransparent : chairMaterials;
+        chairRenderer.materials = previewEnabled ? chairMaterialsTransparent : chairMaterials;
         shadowRenderer.material = previewEnabled ? ChairShadowTransparent : ChairShadow;
     }
-    
     #endregion // PRIVATE_METHODS
 
 }

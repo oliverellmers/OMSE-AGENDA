@@ -72,9 +72,9 @@ public class TouchHandler : MonoBehaviour
     {
         touches = Input.touches;
 
-       // if (!IsPointerOverUIObject())
+        //if (!IsPointerOverUIObject())
         //{
-           // Debug.Log("Not over UI - can interact");
+            //Debug.Log("Not over UI - can interact");
             if (Input.touchCount == 2)
             {
                 float currentTouchDistance = Vector2.Distance(touches[0].position, touches[1].position);
@@ -123,7 +123,7 @@ public class TouchHandler : MonoBehaviour
             }
         //}
         //else {
-        //    Debug.Log("Over UI - can not interact with AR objects");
+           //Debug.Log("Over UI - can not interact with AR objects");
         //}
 
         
