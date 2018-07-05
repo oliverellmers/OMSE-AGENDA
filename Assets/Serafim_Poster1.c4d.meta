@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: e6d444d8d0b80c44e880fa7d4379c427
+timeCreated: 1526059682
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box
+    100002: Cap_1
+    100004: Cap_1_10
+    100006: Cap_1_2
+    100008: Cap_1_3
+    100010: Cap_1_4
+    100012: Cap_1_5
+    100014: Cap_1_6
+    100016: Cap_1_7
+    100018: Cap_1_8
+    100020: Cap_1_9
+    100022: Cap_2
+    100024: Cap_2_10
+    100026: Cap_2_2
+    100028: Cap_2_3
+    100030: Cap_2_4
+    100032: Cap_2_5
+    100034: Cap_2_6
+    100036: Cap_2_7
+    100038: Cap_2_8
+    100040: Cap_2_9
+    100042: DepthMask
+    100044: InnerBox
+    100046: //RootNode
+    100048: stripes12
+    100050: stripes13
+    100052: stripes14
+    100054: stripes15
+    100056: stripes16
+    100058: stripes17
+    100060: stripes18
+    100062: stripes19
+    100064: stripes20
+    100066: stripes21
+    400000: Box
+    400002: Cap_1
+    400004: Cap_1_10
+    400006: Cap_1_2
+    400008: Cap_1_3
+    400010: Cap_1_4
+    400012: Cap_1_5
+    400014: Cap_1_6
+    400016: Cap_1_7
+    400018: Cap_1_8
+    400020: Cap_1_9
+    400022: Cap_2
+    400024: Cap_2_10
+    400026: Cap_2_2
+    400028: Cap_2_3
+    400030: Cap_2_4
+    400032: Cap_2_5
+    400034: Cap_2_6
+    400036: Cap_2_7
+    400038: Cap_2_8
+    400040: Cap_2_9
+    400042: DepthMask
+    400044: InnerBox
+    400046: //RootNode
+    400048: stripes12
+    400050: stripes13
+    400052: stripes14
+    400054: stripes15
+    400056: stripes16
+    400058: stripes17
+    400060: stripes18
+    400062: stripes19
+    400064: stripes20
+    400066: stripes21
+    2100000: stripes21
+    2100002: stripes21.1
+    2100004: stripes21.2
+    2100006: stripes20
+    2100008: stripes20.1
+    2100010: stripes20.2
+    2100012: stripes19
+    2100014: stripes19.1
+    2100016: stripes19.2
+    2100018: stripes18
+    2100020: stripes18.1
+    2100022: stripes18.2
+    2100024: stripes17
+    2100026: stripes17.1
+    2100028: stripes17.2
+    2100030: stripes16
+    2100032: stripes16.1
+    2100034: stripes16.2
+    2100036: stripes15
+    2100038: stripes15.1
+    2100040: stripes15.2
+    2100042: stripes14
+    2100044: stripes14.1
+    2100046: stripes14.2
+    2100048: stripes13
+    2100050: stripes13.1
+    2100052: stripes13.2
+    2100054: stripes12
+    2100056: stripes12.1
+    2100058: stripes12.2
+    2100060: Blue
+    2100062: No Name
+    2300000: Box
+    2300002: Cap_1
+    2300004: Cap_1_10
+    2300006: Cap_1_2
+    2300008: Cap_1_3
+    2300010: Cap_1_4
+    2300012: Cap_1_5
+    2300014: Cap_1_6
+    2300016: Cap_1_7
+    2300018: Cap_1_8
+    2300020: Cap_1_9
+    2300022: Cap_2
+    2300024: Cap_2_10
+    2300026: Cap_2_2
+    2300028: Cap_2_3
+    2300030: Cap_2_4
+    2300032: Cap_2_5
+    2300034: Cap_2_6
+    2300036: Cap_2_7
+    2300038: Cap_2_8
+    2300040: Cap_2_9
+    2300042: DepthMask
+    2300044: stripes12
+    2300046: stripes13
+    2300048: stripes14
+    2300050: stripes15
+    2300052: stripes16
+    2300054: stripes17
+    2300056: stripes18
+    2300058: stripes19
+    2300060: stripes20
+    2300062: stripes21
+    3300000: Box
+    3300002: Cap_1
+    3300004: Cap_1_10
+    3300006: Cap_1_2
+    3300008: Cap_1_3
+    3300010: Cap_1_4
+    3300012: Cap_1_5
+    3300014: Cap_1_6
+    3300016: Cap_1_7
+    3300018: Cap_1_8
+    3300020: Cap_1_9
+    3300022: Cap_2
+    3300024: Cap_2_10
+    3300026: Cap_2_2
+    3300028: Cap_2_3
+    3300030: Cap_2_4
+    3300032: Cap_2_5
+    3300034: Cap_2_6
+    3300036: Cap_2_7
+    3300038: Cap_2_8
+    3300040: Cap_2_9
+    3300042: DepthMask
+    3300044: stripes12
+    3300046: stripes13
+    3300048: stripes14
+    3300050: stripes15
+    3300052: stripes16
+    3300054: stripes17
+    3300056: stripes18
+    3300058: stripes19
+    3300060: stripes20
+    3300062: stripes21
+    4300000: stripes21
+    4300002: Cap_1
+    4300004: Cap_2
+    4300006: stripes20
+    4300008: Cap_1_2
+    4300010: Cap_2_2
+    4300012: stripes19
+    4300014: Cap_1_3
+    4300016: Cap_2_3
+    4300018: stripes18
+    4300020: Cap_1_4
+    4300022: Cap_2_4
+    4300024: stripes17
+    4300026: Cap_1_5
+    4300028: Cap_2_5
+    4300030: stripes16
+    4300032: Cap_1_6
+    4300034: Cap_2_6
+    4300036: stripes15
+    4300038: Cap_1_7
+    4300040: Cap_2_7
+    4300042: stripes14
+    4300044: Cap_1_8
+    4300046: Cap_2_8
+    4300048: stripes13
+    4300050: Cap_1_9
+    4300052: Cap_2_9
+    4300054: stripes12
+    4300056: Cap_1_10
+    4300058: Cap_2_10
+    4300060: Box
+    4300062: DepthMask
+    9500000: //RootNode
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue
+    second: {fileID: 2100000, guid: 188c4c7890aa82545b83be9b7616daed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 45bfce30aa7da4b4da1ddeb2c5d01b6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stripes12
+    second: {fileID: 2100000, guid: 32b2b44ed7333ee4683d0b3c53299c4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stripes13
+    second: {fileID: 2100000, guid: 1e2c2219a36b2b04a94f49485c41b80a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stripes14
+    second: {fileID: 2100000, guid: e5b8281169a5d9e4a8004fd968d3cfed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stripes15
+    second: {fileID: 2100000, guid: 2be6c818b2e59194383bbce5759d1091, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stripes16
+    second: {fileID: 2100000, guid: e760ffd8f932d1a4c927cb48e7a3f3ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stripes17
+    second: {fileID: 2100000, guid: 8028baa9c10d89f4384b2b0b4e84df96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stripes18
+    second: {fileID: 2100000, guid: eb8fd42bbf1b4a44996784bea3dd0c8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stripes19
+    second: {fileID: 2100000, guid: ba1e5eb9d40cc0a45a7717fe4c5cc545, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stripes20
+    second: {fileID: 2100000, guid: 667decc2fe305a04fb7f8e1455621aec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stripes21
+    second: {fileID: 2100000, guid: 21642af44e39e7146a66d93dd0b6c3d2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
