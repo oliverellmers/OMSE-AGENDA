@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 
-public class SwitchARContentManagement : MonoBehaviour {
+public class SwitchARContentManagement : MonoBehaviour 
+{
 
     //[HideInInspector]
     //public bool isContentA = true;
@@ -23,6 +24,7 @@ public class SwitchARContentManagement : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+
         m_planeManagerA = ARContentA.GetComponentInChildren<PlaneManager>();
         m_planeManagerB = ARContentB.GetComponentInChildren<PlaneManager>();
 
@@ -44,67 +46,57 @@ public class SwitchARContentManagement : MonoBehaviour {
         m_touchHandlerA = ARContentA.GetComponentInChildren<TouchHandler>();
         m_touchHandlerB = ARContentB.GetComponentInChildren<TouchHandler>();
 
-        TurnOffB();
 
     }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
-    public void TurnOffBehaviour(bool b) {
+
+    public void SwitchA(bool b) {
         if (b)
         {
-            TurnOnB();
-            TurnOffA();
+            m_planeManagerA.enabled = true;
+            m_anchorInputListenerBehaviourA.enabled = true;
+            m_planeFinderBehaviourA.enabled = true;
+            m_contentPositioningBehaviourA.enabled = true;
+            m_anchorBehaviourA.enabled = true;
+            m_productPlacementA.enabled = true;
+            m_touchHandlerA.enabled = true;
         }
         else {
-            TurnOnA();
-            TurnOffB();
+            m_planeManagerA.enabled = false;
+            m_anchorInputListenerBehaviourA.enabled = false;
+            m_planeFinderBehaviourA.enabled = false;
+            m_contentPositioningBehaviourA.enabled = false;
+            m_anchorBehaviourA.enabled = false;
+            m_productPlacementA.enabled = false;
+            m_touchHandlerA.enabled = false;
+        }   
+    }
+
+
+    public void SwitchB(bool b)
+    {
+        if (b)
+        {
+            m_planeManagerB.enabled = true;
+            m_anchorInputListenerBehaviourB.enabled = true;
+            m_planeFinderBehaviourB.enabled = true;
+            m_contentPositioningBehaviourB.enabled = true;
+            m_anchorBehaviourB.enabled = true;
+            m_productPlacementB.enabled = true;
+            m_touchHandlerB.enabled = true;
         }
+        else {
+            m_planeManagerB.enabled = false;
+            m_anchorInputListenerBehaviourB.enabled = false;
+            m_planeFinderBehaviourB.enabled = false;
+            m_contentPositioningBehaviourB.enabled = false;
+            m_anchorBehaviourB.enabled = false;
+            m_productPlacementB.enabled = false;
+            m_touchHandlerB.enabled = false;
+        }   
     }
 
-    private void TurnOnA() {
-        m_planeManagerA.enabled = true;
-        m_anchorInputListenerBehaviourA.enabled = true;
-        m_planeFinderBehaviourA.enabled = true;
-        m_contentPositioningBehaviourA.enabled = true;
-        m_anchorBehaviourA.enabled = true;
-        m_productPlacementA.enabled = true;
-        m_touchHandlerA.enabled = true;
-    }
-    private void TurnOffA()
-    {
-        m_planeManagerA.enabled = false;
-        m_anchorInputListenerBehaviourA.enabled = false;
-        m_planeFinderBehaviourA.enabled = false;
-        m_contentPositioningBehaviourA.enabled = false;
-        m_anchorBehaviourA.enabled = false;
-        m_productPlacementA.enabled = false;
-        m_touchHandlerA.enabled = false;
-    }
-
-    private void TurnOnB()
-    {
-        m_planeManagerB.enabled = true;
-        m_anchorInputListenerBehaviourB.enabled = true;
-        m_planeFinderBehaviourB.enabled = true;
-        m_contentPositioningBehaviourB.enabled = true;
-        m_anchorBehaviourB.enabled = true;
-        m_productPlacementB.enabled = true;
-        m_touchHandlerB.enabled = true;
-    }
-    private void TurnOffB()
-    {
-        m_planeManagerB.enabled = false;
-        m_anchorInputListenerBehaviourB.enabled = false;
-        m_planeFinderBehaviourB.enabled = false;
-        m_contentPositioningBehaviourB.enabled = false;
-        m_anchorBehaviourB.enabled = false;
-        m_productPlacementB.enabled = false;
-        m_touchHandlerB.enabled = false;
-    }
 }
 
 

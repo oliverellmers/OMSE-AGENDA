@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/_Scenes/OMSEAgenda_LoadingScene.unity
     guid: a3366f6c48d7e664aa59871479b3fa00
   - enabled: 1
-    path: Assets/_Scenes/OMSEAgenda_Main_GroundPlaneIntegration.unity
-    guid: 8a2979e1e6070044abdd0ba477e03987
+    path: Assets/_Scenes/OMSEAgenda_Main_PlacementIntegration.unity
+    guid: d3bfd7fd4cb0ec6468564e3e97cac26f
   m_configObjects: {}

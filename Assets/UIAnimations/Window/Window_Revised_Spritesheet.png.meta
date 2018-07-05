@@ -1,188 +1,168 @@
 fileFormatVersion: 2
-guid: 091e22e85bea400489b42ef5c2f430a4
+guid: 3528b1fd28d9f394eb73ecd0bc58f3cd
 TextureImporter:
   fileIDToRecycleName:
-    21300000: SpinningGlobe_SpriteSheet_0
-    21300002: SpinningGlobe_SpriteSheet_1
-    21300004: SpinningGlobe_SpriteSheet_2
-    21300006: SpinningGlobe_SpriteSheet_3
-    21300008: SpinningGlobe_SpriteSheet_4
-    21300010: SpinningGlobe_SpriteSheet_5
-    21300012: SpinningGlobe_SpriteSheet_6
-    21300014: SpinningGlobe_SpriteSheet_7
-    21300016: SpinningGlobe_SpriteSheet_8
-    21300018: SpinningGlobe_SpriteSheet_9
-    21300020: SpinningGlobe_SpriteSheet_10
-    21300022: SpinningGlobe_SpriteSheet_11
-    21300024: SpinningGlobe_SpriteSheet_12
-    21300026: SpinningGlobe_SpriteSheet_13
-    21300028: SpinningGlobe_SpriteSheet_14
-    21300030: SpinningGlobe_SpriteSheet_15
-    21300032: SpinningGlobe_SpriteSheet_16
-    21300034: SpinningGlobe_SpriteSheet_17
-    21300036: SpinningGlobe_SpriteSheet_18
-    21300038: SpinningGlobe_SpriteSheet_19
-    21300040: SpinningGlobe_SpriteSheet_20
-    21300042: SpinningGlobe_SpriteSheet_21
-    21300044: SpinningGlobe_SpriteSheet_22
-    21300046: SpinningGlobe_SpriteSheet_23
-    21300048: SpinningGlobe_SpriteSheet_24
-    21300050: SpinningGlobe_SpriteSheet_25
-    21300052: SpinningGlobe_SpriteSheet_26
-    21300054: SpinningGlobe_SpriteSheet_27
-    21300056: SpinningGlobe_SpriteSheet_28
-    21300058: SpinningGlobe_SpriteSheet_29
-    21300060: SpinningGlobe_SpriteSheet_30
-    21300062: SpinningGlobe_SpriteSheet_31
-    21300064: SpinningGlobe_SpriteSheet_32
-    21300066: SpinningGlobe_SpriteSheet_33
-    21300068: SpinningGlobe_SpriteSheet_34
-    21300070: SpinningGlobe_SpriteSheet_35
-    21300072: SpinningGlobe_SpriteSheet_36
-    21300074: SpinningGlobe_SpriteSheet_37
-    21300076: SpinningGlobe_SpriteSheet_38
-    21300078: SpinningGlobe_SpriteSheet_39
-    21300080: SpinningGlobe_SpriteSheet_40
-    21300082: SpinningGlobe_SpriteSheet_41
-    21300084: SpinningGlobe_SpriteSheet_42
-    21300086: SpinningGlobe_SpriteSheet_43
-    21300088: SpinningGlobe_SpriteSheet_44
-    21300090: SpinningGlobe_SpriteSheet_45
-    21300092: SpinningGlobe_SpriteSheet_46
-    21300094: SpinningGlobe_SpriteSheet_47
-    21300096: SpinningGlobe_SpriteSheet_48
-    21300098: SpinningGlobe_SpriteSheet_49
-    21300100: SpinningGlobe_SpriteSheet_50
-    21300102: SpinningGlobe_SpriteSheet_51
-    21300104: SpinningGlobe_SpriteSheet_52
-    21300106: SpinningGlobe_SpriteSheet_53
-    21300108: SpinningGlobe_SpriteSheet_54
-    21300110: SpinningGlobe_SpriteSheet_55
-    21300112: SpinningGlobe_SpriteSheet_56
-    21300114: SpinningGlobe_SpriteSheet_57
-    21300116: SpinningGlobe_SpriteSheet_58
-    21300118: SpinningGlobe_SpriteSheet_59
-    21300120: SpinningGlobe_SpriteSheet_60
-    21300122: SpinningGlobe_SpriteSheet_61
-    21300124: SpinningGlobe_SpriteSheet_62
-    21300126: SpinningGlobe_SpriteSheet_63
-    21300128: SpinningGlobe_SpriteSheet_64
-    21300130: SpinningGlobe_SpriteSheet_65
-    21300132: SpinningGlobe_SpriteSheet_66
-    21300134: SpinningGlobe_SpriteSheet_67
-    21300136: SpinningGlobe_SpriteSheet_68
-    21300138: SpinningGlobe_SpriteSheet_69
-    21300140: SpinningGlobe_SpriteSheet_70
-    21300142: SpinningGlobe_SpriteSheet_71
-    21300144: SpinningGlobe_SpriteSheet_72
-    21300146: SpinningGlobe_SpriteSheet_73
-    21300148: SpinningGlobe_SpriteSheet_74
-    21300150: SpinningGlobe_SpriteSheet_75
-    21300152: SpinningGlobe_SpriteSheet_76
-    21300154: SpinningGlobe_SpriteSheet_77
-    21300156: SpinningGlobe_SpriteSheet_78
-    21300158: SpinningGlobe_SpriteSheet_79
-    21300160: SpinningGlobe_SpriteSheet_80
-    21300162: SpinningGlobe_SpriteSheet_81
-    21300164: SpinningGlobe_SpriteSheet_82
-    21300166: SpinningGlobe_SpriteSheet_83
-    21300168: SpinningGlobe_SpriteSheet_84
-    21300170: SpinningGlobe_SpriteSheet_85
-    21300172: SpinningGlobe_SpriteSheet_86
-    21300174: SpinningGlobe_SpriteSheet_87
-    21300176: SpinningGlobe_SpriteSheet_88
-    21300178: SpinningGlobe_SpriteSheet_89
-    21300180: SpinningGlobe_SpriteSheet_90
-    21300182: SpinningGlobe_SpriteSheet_91
-    21300184: SpinningGlobe_SpriteSheet_92
-    21300186: SpinningGlobe_SpriteSheet_93
-    21300188: SpinningGlobe_SpriteSheet_94
-    21300190: SpinningGlobe_SpriteSheet_95
-    21300192: SpinningGlobe_SpriteSheet_96
-    21300194: SpinningGlobe_SpriteSheet_97
-    21300196: SpinningGlobe_SpriteSheet_98
-    21300198: SpinningGlobe_SpriteSheet_99
-    21300200: SpinningGlobe_SpriteSheet_100
-    21300202: SpinningGlobe_SpriteSheet_101
-    21300204: SpinningGlobe_SpriteSheet_102
-    21300206: SpinningGlobe_SpriteSheet_103
-    21300208: SpinningGlobe_SpriteSheet_104
-    21300210: SpinningGlobe_SpriteSheet_105
-    21300212: SpinningGlobe_SpriteSheet_106
-    21300214: SpinningGlobe_SpriteSheet_107
-    21300216: SpinningGlobe_SpriteSheet_108
-    21300218: SpinningGlobe_SpriteSheet_109
-    21300220: SpinningGlobe_SpriteSheet_110
-    21300222: SpinningGlobe_SpriteSheet_111
-    21300224: SpinningGlobe_SpriteSheet_112
-    21300226: SpinningGlobe_SpriteSheet_113
-    21300228: SpinningGlobe_SpriteSheet_114
-    21300230: SpinningGlobe_SpriteSheet_115
-    21300232: SpinningGlobe_SpriteSheet_116
-    21300234: SpinningGlobe_SpriteSheet_117
-    21300236: SpinningGlobe_SpriteSheet_118
-    21300238: SpinningGlobe_SpriteSheet_119
-    21300240: SpinningGlobe_SpriteSheet_120
-    21300242: SpinningGlobe_SpriteSheet_121
-    21300244: SpinningGlobe_SpriteSheet_122
-    21300246: SpinningGlobe_SpriteSheet_123
-    21300248: SpinningGlobe_SpriteSheet_124
-    21300250: SpinningGlobe_SpriteSheet_125
-    21300252: SpinningGlobe_SpriteSheet_126
-    21300254: SpinningGlobe_SpriteSheet_127
-    21300256: SpinningGlobe_SpriteSheet_128
-    21300258: SpinningGlobe_SpriteSheet_129
-    21300260: SpinningGlobe_SpriteSheet_130
-    21300262: SpinningGlobe_SpriteSheet_131
-    21300264: SpinningGlobe_SpriteSheet_132
-    21300266: SpinningGlobe_SpriteSheet_133
-    21300268: SpinningGlobe_SpriteSheet_134
-    21300270: SpinningGlobe_SpriteSheet_135
-    21300272: SpinningGlobe_SpriteSheet_136
-    21300274: SpinningGlobe_SpriteSheet_137
-    21300276: SpinningGlobe_SpriteSheet_138
-    21300278: SpinningGlobe_SpriteSheet_139
-    21300280: SpinningGlobe_SpriteSheet_140
-    21300282: SpinningGlobe_SpriteSheet_141
-    21300284: SpinningGlobe_SpriteSheet_142
-    21300286: SpinningGlobe_SpriteSheet_143
-    21300288: SpinningGlobe_SpriteSheet_144
-    21300290: SpinningGlobe_SpriteSheet_145
-    21300292: SpinningGlobe_SpriteSheet_146
-    21300294: SpinningGlobe_SpriteSheet_147
-    21300296: SpinningGlobe_SpriteSheet_148
-    21300298: SpinningGlobe_SpriteSheet_149
-    21300300: SpinningGlobe_SpriteSheet_150
-    21300302: SpinningGlobe_SpriteSheet_151
-    21300304: SpinningGlobe_SpriteSheet_152
-    21300306: SpinningGlobe_SpriteSheet_153
-    21300308: SpinningGlobe_SpriteSheet_154
-    21300310: SpinningGlobe_SpriteSheet_155
-    21300312: SpinningGlobe_SpriteSheet_156
-    21300314: SpinningGlobe_SpriteSheet_157
-    21300316: SpinningGlobe_SpriteSheet_158
-    21300318: SpinningGlobe_SpriteSheet_159
-    21300320: SpinningGlobe_SpriteSheet_160
-    21300322: SpinningGlobe_SpriteSheet_161
-    21300324: SpinningGlobe_SpriteSheet_162
-    21300326: SpinningGlobe_SpriteSheet_163
-    21300328: SpinningGlobe_SpriteSheet_164
-    21300330: SpinningGlobe_SpriteSheet_165
-    21300332: SpinningGlobe_SpriteSheet_166
-    21300334: SpinningGlobe_SpriteSheet_167
-    21300336: SpinningGlobe_SpriteSheet_168
-    21300338: SpinningGlobe_SpriteSheet_169
-    21300340: SpinningGlobe_SpriteSheet_170
-    21300342: SpinningGlobe_SpriteSheet_171
-    21300344: SpinningGlobe_SpriteSheet_172
-    21300346: SpinningGlobe_SpriteSheet_173
-    21300348: SpinningGlobe_SpriteSheet_174
-    21300350: SpinningGlobe_SpriteSheet_175
-    21300352: SpinningGlobe_SpriteSheet_176
-    21300354: SpinningGlobe_SpriteSheet_177
-    21300356: SpinningGlobe_SpriteSheet_178
-    21300358: SpinningGlobe_SpriteSheet_179
-    21300360: SpinningGlobe_SpriteSheet_180
+    21300000: Window_Revised_Spritesheet_0
+    21300002: Window_Revised_Spritesheet_1
+    21300004: Window_Revised_Spritesheet_2
+    21300006: Window_Revised_Spritesheet_3
+    21300008: Window_Revised_Spritesheet_4
+    21300010: Window_Revised_Spritesheet_5
+    21300012: Window_Revised_Spritesheet_6
+    21300014: Window_Revised_Spritesheet_7
+    21300016: Window_Revised_Spritesheet_8
+    21300018: Window_Revised_Spritesheet_9
+    21300020: Window_Revised_Spritesheet_10
+    21300022: Window_Revised_Spritesheet_11
+    21300024: Window_Revised_Spritesheet_12
+    21300026: Window_Revised_Spritesheet_13
+    21300028: Window_Revised_Spritesheet_14
+    21300030: Window_Revised_Spritesheet_15
+    21300032: Window_Revised_Spritesheet_16
+    21300034: Window_Revised_Spritesheet_17
+    21300036: Window_Revised_Spritesheet_18
+    21300038: Window_Revised_Spritesheet_19
+    21300040: Window_Revised_Spritesheet_20
+    21300042: Window_Revised_Spritesheet_21
+    21300044: Window_Revised_Spritesheet_22
+    21300046: Window_Revised_Spritesheet_23
+    21300048: Window_Revised_Spritesheet_24
+    21300050: Window_Revised_Spritesheet_25
+    21300052: Window_Revised_Spritesheet_26
+    21300054: Window_Revised_Spritesheet_27
+    21300056: Window_Revised_Spritesheet_28
+    21300058: Window_Revised_Spritesheet_29
+    21300060: Window_Revised_Spritesheet_30
+    21300062: Window_Revised_Spritesheet_31
+    21300064: Window_Revised_Spritesheet_32
+    21300066: Window_Revised_Spritesheet_33
+    21300068: Window_Revised_Spritesheet_34
+    21300070: Window_Revised_Spritesheet_35
+    21300072: Window_Revised_Spritesheet_36
+    21300074: Window_Revised_Spritesheet_37
+    21300076: Window_Revised_Spritesheet_38
+    21300078: Window_Revised_Spritesheet_39
+    21300080: Window_Revised_Spritesheet_40
+    21300082: Window_Revised_Spritesheet_41
+    21300084: Window_Revised_Spritesheet_42
+    21300086: Window_Revised_Spritesheet_43
+    21300088: Window_Revised_Spritesheet_44
+    21300090: Window_Revised_Spritesheet_45
+    21300092: Window_Revised_Spritesheet_46
+    21300094: Window_Revised_Spritesheet_47
+    21300096: Window_Revised_Spritesheet_48
+    21300098: Window_Revised_Spritesheet_49
+    21300100: Window_Revised_Spritesheet_50
+    21300102: Window_Revised_Spritesheet_51
+    21300104: Window_Revised_Spritesheet_52
+    21300106: Window_Revised_Spritesheet_53
+    21300108: Window_Revised_Spritesheet_54
+    21300110: Window_Revised_Spritesheet_55
+    21300112: Window_Revised_Spritesheet_56
+    21300114: Window_Revised_Spritesheet_57
+    21300116: Window_Revised_Spritesheet_58
+    21300118: Window_Revised_Spritesheet_59
+    21300120: Window_Revised_Spritesheet_60
+    21300122: Window_Revised_Spritesheet_61
+    21300124: Window_Revised_Spritesheet_62
+    21300126: Window_Revised_Spritesheet_63
+    21300128: Window_Revised_Spritesheet_64
+    21300130: Window_Revised_Spritesheet_65
+    21300132: Window_Revised_Spritesheet_66
+    21300134: Window_Revised_Spritesheet_67
+    21300136: Window_Revised_Spritesheet_68
+    21300138: Window_Revised_Spritesheet_69
+    21300140: Window_Revised_Spritesheet_70
+    21300142: Window_Revised_Spritesheet_71
+    21300144: Window_Revised_Spritesheet_72
+    21300146: Window_Revised_Spritesheet_73
+    21300148: Window_Revised_Spritesheet_74
+    21300150: Window_Revised_Spritesheet_75
+    21300152: Window_Revised_Spritesheet_76
+    21300154: Window_Revised_Spritesheet_77
+    21300156: Window_Revised_Spritesheet_78
+    21300158: Window_Revised_Spritesheet_79
+    21300160: Window_Revised_Spritesheet_80
+    21300162: Window_Revised_Spritesheet_81
+    21300164: Window_Revised_Spritesheet_82
+    21300166: Window_Revised_Spritesheet_83
+    21300168: Window_Revised_Spritesheet_84
+    21300170: Window_Revised_Spritesheet_85
+    21300172: Window_Revised_Spritesheet_86
+    21300174: Window_Revised_Spritesheet_87
+    21300176: Window_Revised_Spritesheet_88
+    21300178: Window_Revised_Spritesheet_89
+    21300180: Window_Revised_Spritesheet_90
+    21300182: Window_Revised_Spritesheet_91
+    21300184: Window_Revised_Spritesheet_92
+    21300186: Window_Revised_Spritesheet_93
+    21300188: Window_Revised_Spritesheet_94
+    21300190: Window_Revised_Spritesheet_95
+    21300192: Window_Revised_Spritesheet_96
+    21300194: Window_Revised_Spritesheet_97
+    21300196: Window_Revised_Spritesheet_98
+    21300198: Window_Revised_Spritesheet_99
+    21300200: Window_Revised_Spritesheet_100
+    21300202: Window_Revised_Spritesheet_101
+    21300204: Window_Revised_Spritesheet_102
+    21300206: Window_Revised_Spritesheet_103
+    21300208: Window_Revised_Spritesheet_104
+    21300210: Window_Revised_Spritesheet_105
+    21300212: Window_Revised_Spritesheet_106
+    21300214: Window_Revised_Spritesheet_107
+    21300216: Window_Revised_Spritesheet_108
+    21300218: Window_Revised_Spritesheet_109
+    21300220: Window_Revised_Spritesheet_110
+    21300222: Window_Revised_Spritesheet_111
+    21300224: Window_Revised_Spritesheet_112
+    21300226: Window_Revised_Spritesheet_113
+    21300228: Window_Revised_Spritesheet_114
+    21300230: Window_Revised_Spritesheet_115
+    21300232: Window_Revised_Spritesheet_116
+    21300234: Window_Revised_Spritesheet_117
+    21300236: Window_Revised_Spritesheet_118
+    21300238: Window_Revised_Spritesheet_119
+    21300240: Window_Revised_Spritesheet_120
+    21300242: Window_Revised_Spritesheet_121
+    21300244: Window_Revised_Spritesheet_122
+    21300246: Window_Revised_Spritesheet_123
+    21300248: Window_Revised_Spritesheet_124
+    21300250: Window_Revised_Spritesheet_125
+    21300252: Window_Revised_Spritesheet_126
+    21300254: Window_Revised_Spritesheet_127
+    21300256: Window_Revised_Spritesheet_128
+    21300258: Window_Revised_Spritesheet_129
+    21300260: Window_Revised_Spritesheet_130
+    21300262: Window_Revised_Spritesheet_131
+    21300264: Window_Revised_Spritesheet_132
+    21300266: Window_Revised_Spritesheet_133
+    21300268: Window_Revised_Spritesheet_134
+    21300270: Window_Revised_Spritesheet_135
+    21300272: Window_Revised_Spritesheet_136
+    21300274: Window_Revised_Spritesheet_137
+    21300276: Window_Revised_Spritesheet_138
+    21300278: Window_Revised_Spritesheet_139
+    21300280: Window_Revised_Spritesheet_140
+    21300282: Window_Revised_Spritesheet_141
+    21300284: Window_Revised_Spritesheet_142
+    21300286: Window_Revised_Spritesheet_143
+    21300288: Window_Revised_Spritesheet_144
+    21300290: Window_Revised_Spritesheet_145
+    21300292: Window_Revised_Spritesheet_146
+    21300294: Window_Revised_Spritesheet_147
+    21300296: Window_Revised_Spritesheet_148
+    21300298: Window_Revised_Spritesheet_149
+    21300300: Window_Revised_Spritesheet_150
+    21300302: Window_Revised_Spritesheet_151
+    21300304: Window_Revised_Spritesheet_152
+    21300306: Window_Revised_Spritesheet_153
+    21300308: Window_Revised_Spritesheet_154
+    21300310: Window_Revised_Spritesheet_155
+    21300312: Window_Revised_Spritesheet_156
+    21300314: Window_Revised_Spritesheet_157
+    21300316: Window_Revised_Spritesheet_158
+    21300318: Window_Revised_Spritesheet_159
+    21300320: Window_Revised_Spritesheet_160
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -296,13 +276,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_0
+      name: Window_Revised_Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 7686
-        width: 500
-        height: 500
+        x: 0
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,19 +290,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2e06cb5c07252b4abe8d03741601f38
+      spriteID: e3dc78563d5ce4f4d9766818ba6034fb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_1
+      name: Window_Revised_Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 518
-        y: 7686
-        width: 500
-        height: 500
+        x: 512
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,19 +310,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c97fb7b0b7a9f8240a4537712c11d839
+      spriteID: 46115453990991f4bb9257f1036a65e2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_2
+      name: Window_Revised_Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 7686
-        width: 500
-        height: 500
+        x: 1024
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,19 +330,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a994d21d97800c4084acb8f1451cafb
+      spriteID: 822403ac797853e439783bc541e12853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_3
+      name: Window_Revised_Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 7686
-        width: 500
-        height: 500
+        x: 1536
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,19 +350,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18f0f1192db76ff4b8896f242582e63a
+      spriteID: 502d02a6df45d1c46b8be196bf4682ee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_4
+      name: Window_Revised_Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 7686
-        width: 500
-        height: 500
+        x: 2048
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,19 +370,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8bb1b0865b1eff4e806d5d4ce456438
+      spriteID: 9843ae72e91223141a3356d6a74f3b80
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_5
+      name: Window_Revised_Spritesheet_5
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 7686
-        width: 500
-        height: 500
+        x: 2560
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,19 +390,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7db0f5f1e6b6e6345a70292c79e7dcf5
+      spriteID: 215fbf35dd961514d92e7e39242389a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_6
+      name: Window_Revised_Spritesheet_6
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 7686
-        width: 500
-        height: 500
+        x: 3072
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,19 +410,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 353cc77b2ec7e224084f0c462a83325f
+      spriteID: 78610429253150948ace6c38fbfa1cea
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_7
+      name: Window_Revised_Spritesheet_7
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 7686
-        width: 500
-        height: 500
+        x: 3584
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -450,19 +430,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d5c363120dc92647b3e4928a4765a40
+      spriteID: 5bdf2a11e9d39c74a86ec34b3057a781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_8
+      name: Window_Revised_Spritesheet_8
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 7686
-        width: 500
-        height: 500
+        x: 4096
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,19 +450,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3232a66b1f77aca4bac6dcd8ce442a1e
+      spriteID: 9273db7a68adf804191895825cbb2ab9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_9
+      name: Window_Revised_Spritesheet_9
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 7686
-        width: 500
-        height: 500
+        x: 4608
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,19 +470,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af33f6fd007e19249871f93b7e86c1b7
+      spriteID: 6a603a97acccf714f8855c46175920ef
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_10
+      name: Window_Revised_Spritesheet_10
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 7686
-        width: 500
-        height: 500
+        x: 5120
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,19 +490,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e26e187c7fe111a4e8232e3cf99bc476
+      spriteID: bf3121101680598479365e90022f2169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_11
+      name: Window_Revised_Spritesheet_11
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 7686
-        width: 500
-        height: 500
+        x: 5632
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,19 +510,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4c65b135368ed44c8f9b33e095ccb0d
+      spriteID: c12906f82c5ca204d8794626b158da4b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_12
+      name: Window_Revised_Spritesheet_12
       rect:
         serializedVersion: 2
-        x: 6
-        y: 7174
-        width: 500
-        height: 500
+        x: 6144
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,19 +530,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac87602b32b03324180dfcae437a9c30
+      spriteID: eab284e2bc38a8f46837081dff55487b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_13
+      name: Window_Revised_Spritesheet_13
       rect:
         serializedVersion: 2
-        x: 518
-        y: 7174
-        width: 500
-        height: 500
+        x: 0
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,19 +550,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcea33873a73d514aaf0f003303c7b56
+      spriteID: e6c331fa11ed83e4cb294a13468c5539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_14
+      name: Window_Revised_Spritesheet_14
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 7174
-        width: 500
-        height: 500
+        x: 512
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,19 +570,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c2768e503072ae4a96f09f2f39cb71b
+      spriteID: f4b283097da3c014f89c7626bfbd85bc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_15
+      name: Window_Revised_Spritesheet_15
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 7174
-        width: 500
-        height: 500
+        x: 1024
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -610,19 +590,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24323773092a36e499a352064b729c49
+      spriteID: 37f72525e84722e4bb67d9c46e692202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_16
+      name: Window_Revised_Spritesheet_16
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 7174
-        width: 500
-        height: 500
+        x: 1536
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,19 +610,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46fade4cb9f667c4f93fe40f270e7e26
+      spriteID: 21fd8e6163b5bb944a7994422c5ee4ea
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_17
+      name: Window_Revised_Spritesheet_17
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 7174
-        width: 500
-        height: 500
+        x: 2048
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -650,19 +630,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d659cf83b89f4b4699cc72874be32d6
+      spriteID: 51c3d6e4f66a12445b3b465801252f56
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_18
+      name: Window_Revised_Spritesheet_18
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 7174
-        width: 500
-        height: 500
+        x: 2560
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -670,19 +650,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fac4e1592b63bfb4b8d7dd35ce57b962
+      spriteID: 8780c71cf51cbfc42ba9c7c3fc998c55
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_19
+      name: Window_Revised_Spritesheet_19
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 7174
-        width: 500
-        height: 500
+        x: 3072
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,19 +670,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de4ca744155cb3b4c9910c99f98eae45
+      spriteID: 10eb8fc94e215674c9ea3ae07521ecee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_20
+      name: Window_Revised_Spritesheet_20
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 7174
-        width: 500
-        height: 500
+        x: 3584
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,19 +690,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c55b01bd933d8a343853e48f92405661
+      spriteID: a1dde14cadfc7cf469914715ced13e8f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_21
+      name: Window_Revised_Spritesheet_21
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 7174
-        width: 500
-        height: 500
+        x: 4096
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -730,19 +710,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a518c6982fd99f47a1d44bf76f63f61
+      spriteID: 17e116079a29819499606269a4260d3c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_22
+      name: Window_Revised_Spritesheet_22
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 7174
-        width: 500
-        height: 500
+        x: 4608
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,19 +730,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fb31fabfb6a41f428b9193e1c243b9a
+      spriteID: 0e9af73607b941345a07e1594cfabd0c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_23
+      name: Window_Revised_Spritesheet_23
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 7174
-        width: 500
-        height: 500
+        x: 5120
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -770,19 +750,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a16aa4138cf9f384a97ba3252939ad33
+      spriteID: c47ef17cb28f90f45ba5131d4f1afe9b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_24
+      name: Window_Revised_Spritesheet_24
       rect:
         serializedVersion: 2
-        x: 6
-        y: 6662
-        width: 500
-        height: 500
+        x: 5632
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -790,19 +770,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4867ad5a285194d4b9a33f4047b375c9
+      spriteID: 8dad872324a04f94b8e8058996c3c9ee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_25
+      name: Window_Revised_Spritesheet_25
       rect:
         serializedVersion: 2
-        x: 518
-        y: 6662
-        width: 500
-        height: 500
+        x: 6144
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -810,19 +790,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d072801a9bf6e46429b86b2db36673a4
+      spriteID: 9520b261971b7eb469ae2c9a512dc847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_26
+      name: Window_Revised_Spritesheet_26
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 6662
-        width: 500
-        height: 500
+        x: 0
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -830,19 +810,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 277ed06262416254b935386040026867
+      spriteID: 4911e9207400332488f7f20c82807753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_27
+      name: Window_Revised_Spritesheet_27
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 6662
-        width: 500
-        height: 500
+        x: 512
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -850,19 +830,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56516dee36dff81469d554280d90069c
+      spriteID: d662fb58229dd4442908caafe2476405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_28
+      name: Window_Revised_Spritesheet_28
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 6662
-        width: 500
-        height: 500
+        x: 1024
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -870,19 +850,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc28cbc37de8a14438621f2036526b13
+      spriteID: bb2659c66f0cc6848b07932c0bae98dc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_29
+      name: Window_Revised_Spritesheet_29
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 6662
-        width: 500
-        height: 500
+        x: 1536
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -890,19 +870,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8302f7ae5e605e49a6568b881450dbc
+      spriteID: 1da18cc668d23b14281f238ea075dac8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_30
+      name: Window_Revised_Spritesheet_30
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 6662
-        width: 500
-        height: 500
+        x: 2048
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -910,19 +890,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c748193dc6e1a8449788f58a369a66a
+      spriteID: b1ccc2591f79b5b4bb676cfdf3d6a345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_31
+      name: Window_Revised_Spritesheet_31
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 6662
-        width: 500
-        height: 500
+        x: 2560
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -930,19 +910,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6df3dcb51ad077541947571c0db904de
+      spriteID: b157d86588075b840b531390ee1546e3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_32
+      name: Window_Revised_Spritesheet_32
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 6662
-        width: 500
-        height: 500
+        x: 3072
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -950,19 +930,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4799b1705854736449cc46708d980d1d
+      spriteID: 47a00b8d2ddb4b845a22f000f159a3f0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_33
+      name: Window_Revised_Spritesheet_33
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 6662
-        width: 500
-        height: 500
+        x: 3584
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -970,19 +950,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2234e19502942604eadc420ada81de27
+      spriteID: 7ffc52fc26f87de4a97c64eb69ed756d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_34
+      name: Window_Revised_Spritesheet_34
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 6662
-        width: 500
-        height: 500
+        x: 4096
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -990,19 +970,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5692ca82a30d65341ac1fd98f5ee2609
+      spriteID: d36047a4abb04cb438d961dfc27cadd5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_35
+      name: Window_Revised_Spritesheet_35
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 6662
-        width: 500
-        height: 500
+        x: 4608
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1010,19 +990,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cf7c5590992e2a4887438cd9ad4fb53
+      spriteID: 1924238794b58e449b3ff02f783eb3cd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_36
+      name: Window_Revised_Spritesheet_36
       rect:
         serializedVersion: 2
-        x: 6
-        y: 6150
-        width: 500
-        height: 500
+        x: 5120
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1030,19 +1010,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 206c6763697cd39458e7675995b6405e
+      spriteID: dcf39216f43ba574d87936ebed89d599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_37
+      name: Window_Revised_Spritesheet_37
       rect:
         serializedVersion: 2
-        x: 518
-        y: 6150
-        width: 500
-        height: 500
+        x: 5632
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1050,19 +1030,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0abe12fe26ec1a489fe755f7d12035e
+      spriteID: 4ee955e620c48bc43be7c6e207d0762a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_38
+      name: Window_Revised_Spritesheet_38
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 6150
-        width: 500
-        height: 500
+        x: 6144
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1070,19 +1050,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0050919dec642744a331f4dee5d0360
+      spriteID: 0b6818f3a406c1e4fb7031a369aed1d7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_39
+      name: Window_Revised_Spritesheet_39
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 6150
-        width: 500
-        height: 500
+        x: 0
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1090,19 +1070,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adb5d1878ce20c5438b4e80dee0e934d
+      spriteID: e36da326465eda54ba4689f4dffde193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_40
+      name: Window_Revised_Spritesheet_40
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 6150
-        width: 500
-        height: 500
+        x: 512
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1110,19 +1090,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8627693926283de43ad05a46338d7c0a
+      spriteID: 8d0d4655c9e7b1c49b465638ea2cb23f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_41
+      name: Window_Revised_Spritesheet_41
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 6150
-        width: 500
-        height: 500
+        x: 1024
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1130,19 +1110,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cee2f98067142c0429e095f4b848aa0d
+      spriteID: 3d19f72d976957744a6ad5b4af1cbd64
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_42
+      name: Window_Revised_Spritesheet_42
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 6150
-        width: 500
-        height: 500
+        x: 1536
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1150,19 +1130,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ad0fd122e8ab0540aa9641927df13fe
+      spriteID: a227960eb049a7a4a8a883fcdd54a854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_43
+      name: Window_Revised_Spritesheet_43
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 6150
-        width: 500
-        height: 500
+        x: 2048
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1170,19 +1150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57d42533db14edb42a240e882aa37199
+      spriteID: 836af8c5e04b7604a9e79da95148b3e8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_44
+      name: Window_Revised_Spritesheet_44
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 6150
-        width: 500
-        height: 500
+        x: 2560
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1190,19 +1170,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53277c24516980540a8a4584b7d61acb
+      spriteID: 2c5e3f4123b641947820cd2efd4f9834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_45
+      name: Window_Revised_Spritesheet_45
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 6150
-        width: 500
-        height: 500
+        x: 3072
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1210,19 +1190,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc1d95e1c9eb4ac4a97aab9ee35d5baa
+      spriteID: 0895b677a0ed38549b7d13b8ec71610a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_46
+      name: Window_Revised_Spritesheet_46
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 6150
-        width: 500
-        height: 500
+        x: 3584
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1230,19 +1210,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b0e0e040ae76ae42898de18545b6464
+      spriteID: a8dc8692e452658449d5c9289e21e98a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_47
+      name: Window_Revised_Spritesheet_47
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 6150
-        width: 500
-        height: 500
+        x: 4096
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1250,19 +1230,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95cf7939cc88c564b8888e89f3432539
+      spriteID: deba59571bd044a47945e9549ee2973a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_48
+      name: Window_Revised_Spritesheet_48
       rect:
         serializedVersion: 2
-        x: 6
-        y: 5638
-        width: 500
-        height: 500
+        x: 4608
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1270,19 +1250,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b01b8d2704a76b446bbbe05017a85a42
+      spriteID: ada582be443ce284b9bb9e676dd3e655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_49
+      name: Window_Revised_Spritesheet_49
       rect:
         serializedVersion: 2
-        x: 518
-        y: 5638
-        width: 500
-        height: 500
+        x: 5120
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1290,19 +1270,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faa7e56083d949d4aba919b553d0b01f
+      spriteID: f6882239707d3904b80f11f24ec5b919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_50
+      name: Window_Revised_Spritesheet_50
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 5638
-        width: 500
-        height: 500
+        x: 5632
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1310,19 +1290,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0e270d3dc3efff438713f4922bbc274
+      spriteID: 2815aea7a06f46f4d8cb0563e2b6ff79
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_51
+      name: Window_Revised_Spritesheet_51
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 5638
-        width: 500
-        height: 500
+        x: 6144
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1330,19 +1310,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09e5a5f575fe02547b396634a72bc50f
+      spriteID: 155aa4ab35c6b4c42ba151a19d364ab2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_52
+      name: Window_Revised_Spritesheet_52
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 5638
-        width: 500
-        height: 500
+        x: 0
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1350,19 +1330,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66ec892dc15696d47bf56da42b205028
+      spriteID: c3c0b10a93db94b4caa56005497b6f33
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_53
+      name: Window_Revised_Spritesheet_53
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 5638
-        width: 500
-        height: 500
+        x: 512
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1370,19 +1350,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c70573f9c439f474bbace136cb9e630a
+      spriteID: 19ebb9b34fc6b8743ad1f79e0172c1cf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_54
+      name: Window_Revised_Spritesheet_54
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 5638
-        width: 500
-        height: 500
+        x: 1024
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1390,19 +1370,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91299584d3ffb9c4393b15ceb75014e5
+      spriteID: 0ed1ddf333363a94496bb07ced4311b7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_55
+      name: Window_Revised_Spritesheet_55
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 5638
-        width: 500
-        height: 500
+        x: 1536
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1410,19 +1390,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3318cd40a1259b34e924625c74cf3ea1
+      spriteID: 155f67cb9ebac734ba00226f6a4465ad
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_56
+      name: Window_Revised_Spritesheet_56
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 5638
-        width: 500
-        height: 500
+        x: 2048
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1430,19 +1410,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85be90657535c7e47b751009892cea96
+      spriteID: f926c60a906ead447986c1930d6078d8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_57
+      name: Window_Revised_Spritesheet_57
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 5638
-        width: 500
-        height: 500
+        x: 2560
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1450,19 +1430,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29aa57f8b0117764fb221a670f78c662
+      spriteID: 811436e590faf004eb87f8dd9eb848c3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_58
+      name: Window_Revised_Spritesheet_58
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 5638
-        width: 500
-        height: 500
+        x: 3072
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1470,19 +1450,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d6e5f589f6192c4a8638bc083b5402f
+      spriteID: 9e55c6251fa00e5439639629b3fb113d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_59
+      name: Window_Revised_Spritesheet_59
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 5638
-        width: 500
-        height: 500
+        x: 3584
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1490,19 +1470,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a82d7c72fbf075f43894e0d6bfc21440
+      spriteID: e64f58729f4e4ef40badd3eed1ae3be2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_60
+      name: Window_Revised_Spritesheet_60
       rect:
         serializedVersion: 2
-        x: 6
-        y: 5126
-        width: 500
-        height: 500
+        x: 4096
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1510,19 +1490,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c48a8fde278bde4ab5d7f0907f0c645
+      spriteID: f4bc19e849d4d7c428b73f72c4ac7d3b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_61
+      name: Window_Revised_Spritesheet_61
       rect:
         serializedVersion: 2
-        x: 518
-        y: 5126
-        width: 500
-        height: 500
+        x: 4608
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1530,19 +1510,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7761026d0d2456445b3ae86a858f7ee6
+      spriteID: 13fccf1f94141184784e4e96b74c09a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_62
+      name: Window_Revised_Spritesheet_62
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 5126
-        width: 500
-        height: 500
+        x: 5120
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1550,19 +1530,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67051f7b2640bd34592e148fd2a3d62b
+      spriteID: 0ebb15b5830fbfd4d89d147dd281741a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_63
+      name: Window_Revised_Spritesheet_63
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 5126
-        width: 500
-        height: 500
+        x: 5632
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1570,19 +1550,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff6f0c86d18776b4493578310528b08b
+      spriteID: c42c8fccb5c781d45bcd6aa55fbb9e08
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_64
+      name: Window_Revised_Spritesheet_64
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 5126
-        width: 500
-        height: 500
+        x: 6144
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1590,19 +1570,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 215afcd1f043dcd4584d59fab08f7320
+      spriteID: 5970fca5c36326e47881fd7b8fed799c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_65
+      name: Window_Revised_Spritesheet_65
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 5126
-        width: 500
-        height: 500
+        x: 0
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1610,19 +1590,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ff0742945e0aa446adb967baa0d51f0
+      spriteID: 936493fc61919b044ae93942769f9fb4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_66
+      name: Window_Revised_Spritesheet_66
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 5126
-        width: 500
-        height: 500
+        x: 512
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1630,19 +1610,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc5230e21f8b4a042b00ea1d44eee77e
+      spriteID: 366393a9ebc16864fa75e37a5fe2c4b7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_67
+      name: Window_Revised_Spritesheet_67
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 5126
-        width: 500
-        height: 500
+        x: 1024
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1650,19 +1630,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7a0cdc58e7c8e54bbe12a03c91e2c43
+      spriteID: 3401a00bfa1431942ab8a347d8de5693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_68
+      name: Window_Revised_Spritesheet_68
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 5126
-        width: 500
-        height: 500
+        x: 1536
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1670,19 +1650,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82c6546da9fa92140b57e2d7847ab768
+      spriteID: f4927b0d410d6fc4b97d92970933bccc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_69
+      name: Window_Revised_Spritesheet_69
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 5126
-        width: 500
-        height: 500
+        x: 2048
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1690,19 +1670,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4421897451cefb84b88851a45f669e95
+      spriteID: c3b1087137d6df1499401b48d3ffb2b9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_70
+      name: Window_Revised_Spritesheet_70
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 5126
-        width: 500
-        height: 500
+        x: 2560
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1710,19 +1690,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10034016f8574a847a17703519b29f69
+      spriteID: f1fc4c77e2744e14ab882188f0e2cd55
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_71
+      name: Window_Revised_Spritesheet_71
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 5126
-        width: 500
-        height: 500
+        x: 3072
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1730,19 +1710,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25ba988181aa85b4490ef2ac3df3397d
+      spriteID: 7fd87bd37973aa346976ccff9387c705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_72
+      name: Window_Revised_Spritesheet_72
       rect:
         serializedVersion: 2
-        x: 6
-        y: 4614
-        width: 500
-        height: 500
+        x: 3584
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1750,19 +1730,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0652a0d130b2b2844be7a9adf4359771
+      spriteID: 026e6e2947552e748bb48199c81d1a05
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_73
+      name: Window_Revised_Spritesheet_73
       rect:
         serializedVersion: 2
-        x: 518
-        y: 4614
-        width: 500
-        height: 500
+        x: 4096
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1770,19 +1750,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fab8dfa40e470f43955ddb8f6ac03c3
+      spriteID: 48875004e852edd478060138d03ebe90
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_74
+      name: Window_Revised_Spritesheet_74
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 4614
-        width: 500
-        height: 500
+        x: 4608
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1790,19 +1770,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9df0fd928acbbf24db44760453327e2a
+      spriteID: 12f59018f664cb2408a72637a98b4649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_75
+      name: Window_Revised_Spritesheet_75
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 4614
-        width: 500
-        height: 500
+        x: 5120
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1810,19 +1790,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7932b54c97692d041bdfb805d6b2de4f
+      spriteID: b856672320de36b4089917a2ae0b8d50
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_76
+      name: Window_Revised_Spritesheet_76
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 4614
-        width: 500
-        height: 500
+        x: 5632
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1830,19 +1810,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ded96178d7be4bb419dabe8655017864
+      spriteID: 2d8ecfc452d913044a9d6980288249eb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_77
+      name: Window_Revised_Spritesheet_77
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 4614
-        width: 500
-        height: 500
+        x: 6144
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1850,19 +1830,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13484cb26a395eb4e812f247925c242b
+      spriteID: d753e5f8f781ee643bfc8f7b0b862545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_78
+      name: Window_Revised_Spritesheet_78
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 4614
-        width: 500
-        height: 500
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1870,19 +1850,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c0ce337fae264046adc072abb60f952
+      spriteID: 4431d5ad18bd1124083181b1af3d217b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_79
+      name: Window_Revised_Spritesheet_79
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 4614
-        width: 500
-        height: 500
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1890,19 +1870,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed3cf9538d26636439f207856b40eb29
+      spriteID: edd8153b039840145aa953725f7258c3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_80
+      name: Window_Revised_Spritesheet_80
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 4614
-        width: 500
-        height: 500
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1910,19 +1890,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f51ffb7c11f2e8419a87f134cb323df
+      spriteID: cea4bec95d0e71f4fb1844f8338d13d9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_81
+      name: Window_Revised_Spritesheet_81
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 4614
-        width: 500
-        height: 500
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1930,19 +1910,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06d6cf130a4ad10489cce3fc401991e1
+      spriteID: 1e5825d778fdb144d9c9e0a0084de910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_82
+      name: Window_Revised_Spritesheet_82
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 4614
-        width: 500
-        height: 500
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1950,19 +1930,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24a5f86618551e947866ade045170ab8
+      spriteID: d27c2fb9b17c02544aa44fb0254c762d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_83
+      name: Window_Revised_Spritesheet_83
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 4614
-        width: 500
-        height: 500
+        x: 2560
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1970,19 +1950,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbd988e2edc271541bb8206ee4bf2e1e
+      spriteID: 5b204e71ba72a4c4cb04e7e691754c81
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_84
+      name: Window_Revised_Spritesheet_84
       rect:
         serializedVersion: 2
-        x: 6
-        y: 4102
-        width: 500
-        height: 500
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1990,19 +1970,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d240d7d274d7dcc4182085e715b3d4c5
+      spriteID: 47b1cbe9ce729aa419398c1b9d3e36f1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_85
+      name: Window_Revised_Spritesheet_85
       rect:
         serializedVersion: 2
-        x: 518
-        y: 4102
-        width: 500
-        height: 500
+        x: 3584
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2010,19 +1990,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d99569f1303a7dc409db65d0d3824faf
+      spriteID: cee6e00c43dad024b9378b35887ca769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_86
+      name: Window_Revised_Spritesheet_86
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 4102
-        width: 500
-        height: 500
+        x: 4096
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2030,19 +2010,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98cd43774649224418a714becded97f8
+      spriteID: 95b1684e940ac03419becfd4d0fca7dd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_87
+      name: Window_Revised_Spritesheet_87
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 4102
-        width: 500
-        height: 500
+        x: 4608
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2050,19 +2030,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9311e10d41085bd4387ce145907a7520
+      spriteID: e78e03c093a5f70438779c877a2b0291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_88
+      name: Window_Revised_Spritesheet_88
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 4102
-        width: 500
-        height: 500
+        x: 5120
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2070,19 +2050,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72e600e6d608049419f8d446a2a2b161
+      spriteID: 44569eb5fa7c6ba40afcf1940112faf0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_89
+      name: Window_Revised_Spritesheet_89
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 4102
-        width: 500
-        height: 500
+        x: 5632
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2090,19 +2070,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a532cd97dfe419242857e932e65c587c
+      spriteID: dcac0fc71c525694f80f02e6d00d7528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_90
+      name: Window_Revised_Spritesheet_90
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 4102
-        width: 500
-        height: 500
+        x: 6144
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2110,19 +2090,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b65d6a29026de6d4f988363493272cab
+      spriteID: 19867cb1e5080f1438db2a8cbacab794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_91
+      name: Window_Revised_Spritesheet_91
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 4102
-        width: 500
-        height: 500
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2130,19 +2110,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb01e47ea8742a44aae0c0344dd3d605
+      spriteID: f5399ff687d97674a92dba98fda99199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_92
+      name: Window_Revised_Spritesheet_92
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 4102
-        width: 500
-        height: 500
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2150,19 +2130,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 950c4f8ac23cd1e43b5e653ac71e4b72
+      spriteID: 342cd72a095ef114f8d05652ef4d843d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_93
+      name: Window_Revised_Spritesheet_93
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 4102
-        width: 500
-        height: 500
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2170,19 +2150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e695c8c2585f3847bbb051ec6b995e6
+      spriteID: 8925833b798dadb46ad0d69519aab478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_94
+      name: Window_Revised_Spritesheet_94
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 4102
-        width: 500
-        height: 500
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2190,19 +2170,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3160e42f55fbcbb45b9b3bbf745271d8
+      spriteID: be2b0d565d73e4c49aebcdf3e472b88d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_95
+      name: Window_Revised_Spritesheet_95
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 4102
-        width: 500
-        height: 500
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2210,19 +2190,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28900a17b87f3204cb195db292c978ab
+      spriteID: ed81683beba161d4d8fc04af4a6f966b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_96
+      name: Window_Revised_Spritesheet_96
       rect:
         serializedVersion: 2
-        x: 6
-        y: 3590
-        width: 500
-        height: 500
+        x: 2560
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2230,19 +2210,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37da6033b86724f419680f59c923f79a
+      spriteID: e723b332d55ddce489be14fe1c090bc2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_97
+      name: Window_Revised_Spritesheet_97
       rect:
         serializedVersion: 2
-        x: 518
-        y: 3590
-        width: 500
-        height: 500
+        x: 3072
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2250,19 +2230,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b01fe7c4fe70fb44e94b414e13088a81
+      spriteID: e46b7935f83b15648bf8554b908a7ee6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_98
+      name: Window_Revised_Spritesheet_98
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 3590
-        width: 500
-        height: 500
+        x: 3584
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2270,19 +2250,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcb42c87aabafc24491f6cc6f5560971
+      spriteID: 2ccff3f7c9be25e43978bf0648ba6a83
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_99
+      name: Window_Revised_Spritesheet_99
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 3590
-        width: 500
-        height: 500
+        x: 4096
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2290,19 +2270,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f70a640e5cdce094593b1ad7006a4ac2
+      spriteID: 08a26eeb92b4d824eaa118de184d9b53
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_100
+      name: Window_Revised_Spritesheet_100
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 3590
-        width: 500
-        height: 500
+        x: 4608
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2310,19 +2290,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ebb9d4206440db499adb9183fc971ad
+      spriteID: 241f7c94dfe3afc4bbc027a55ef3bdc3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_101
+      name: Window_Revised_Spritesheet_101
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 3590
-        width: 500
-        height: 500
+        x: 5120
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2330,19 +2310,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06d553125a119104487006acb5431035
+      spriteID: 1f273329f6e7fa0498e766df43a17136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_102
+      name: Window_Revised_Spritesheet_102
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 3590
-        width: 500
-        height: 500
+        x: 5632
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2350,19 +2330,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e69f0aed688145e48a8c3173257ab209
+      spriteID: 8e94c4783b6250949b2e197c1cb5c5d5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_103
+      name: Window_Revised_Spritesheet_103
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 3590
-        width: 500
-        height: 500
+        x: 6144
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2370,19 +2350,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9781f8e3e57155b4ba66b487a99cbdf6
+      spriteID: 3cc636716701e654ea1aee22dc6e40c4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_104
+      name: Window_Revised_Spritesheet_104
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 3590
-        width: 500
-        height: 500
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2390,19 +2370,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f1863b7b0f468a409d5877cd6ff0e2f
+      spriteID: dfae44fb4f8121641956640dadadce20
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_105
+      name: Window_Revised_Spritesheet_105
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 3590
-        width: 500
-        height: 500
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2410,19 +2390,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a59c64b8972c7304bb6feaaae82fd329
+      spriteID: 066de67d68a18164d80bf63d5fec9fd8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_106
+      name: Window_Revised_Spritesheet_106
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 3590
-        width: 500
-        height: 500
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2430,19 +2410,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d9a4c28e9481fd4e9f395ca883d98ea
+      spriteID: a0a86efaa94929c448d7a9d10c3f9cfa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_107
+      name: Window_Revised_Spritesheet_107
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 3590
-        width: 500
-        height: 500
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2450,19 +2430,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e70dfa46ca6a23a41b9d70fe1039edef
+      spriteID: ecabfd80879232a4e8095f332b076ce3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_108
+      name: Window_Revised_Spritesheet_108
       rect:
         serializedVersion: 2
-        x: 6
-        y: 3078
-        width: 500
-        height: 500
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2470,19 +2450,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c12f9880ecf60f4288e497b0cb65d3a
+      spriteID: d8444bf5e6693574f8d6650902c81c63
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_109
+      name: Window_Revised_Spritesheet_109
       rect:
         serializedVersion: 2
-        x: 518
-        y: 3078
-        width: 500
-        height: 500
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2490,19 +2470,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 621b9d107d107db4086d389977e4f43b
+      spriteID: 8e90d8cb1b0c9cf468da1aa06a69faac
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_110
+      name: Window_Revised_Spritesheet_110
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 3078
-        width: 500
-        height: 500
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2510,19 +2490,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4df16b2b223fb04eb73a04216401ddd
+      spriteID: 358b949193f55f14bb0daa62edc0147b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_111
+      name: Window_Revised_Spritesheet_111
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 3078
-        width: 500
-        height: 500
+        x: 3584
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2530,19 +2510,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d438af595bae434f9a9156b4cb1ab20
+      spriteID: a613246756bdfb042bcdde9dae1894cc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_112
+      name: Window_Revised_Spritesheet_112
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 3078
-        width: 500
-        height: 500
+        x: 4096
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2550,19 +2530,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cee2992c2d79fc45b7b8d1afa97a2fe
+      spriteID: 4a6a1b5cf2aa72945bb2f40bfd2a2729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_113
+      name: Window_Revised_Spritesheet_113
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 3078
-        width: 500
-        height: 500
+        x: 4608
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2570,19 +2550,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d934b59f2a68655489828892af36efb8
+      spriteID: 420e3120ad777834bbd3a89f526f4d21
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_114
+      name: Window_Revised_Spritesheet_114
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 3078
-        width: 500
-        height: 500
+        x: 5120
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2590,19 +2570,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b25079633d7aa34481dc636d7729035
+      spriteID: eb20894a5ba30d14a9133cc469e0dd7a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_115
+      name: Window_Revised_Spritesheet_115
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 3078
-        width: 500
-        height: 500
+        x: 5632
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2610,19 +2590,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68d7e32219ac3654a96171738cef9d9d
+      spriteID: 11cf37126fc3ea0499e4271a6e42cad9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_116
+      name: Window_Revised_Spritesheet_116
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 3078
-        width: 500
-        height: 500
+        x: 6144
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2630,19 +2610,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 918c8466499ff3d43a5983f003a12053
+      spriteID: 6d1354008442d6d4eb8bc31ad7d547ea
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_117
+      name: Window_Revised_Spritesheet_117
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 3078
-        width: 500
-        height: 500
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2650,19 +2630,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71a515921ba90ca4291b766562455fb8
+      spriteID: a5ded3632193d5b4e8551e9e9473b963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_118
+      name: Window_Revised_Spritesheet_118
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 3078
-        width: 500
-        height: 500
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2670,19 +2650,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29f0bd67bca9ea44dab3ded41b70a487
+      spriteID: 129a18326ad5fbb4c92c8e334a352d71
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_119
+      name: Window_Revised_Spritesheet_119
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 3078
-        width: 500
-        height: 500
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2690,19 +2670,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da4aff65ce2278644b2e6a37af147d07
+      spriteID: 29eb76e5e75d79344ae5f8a0ee6d2dc8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_120
+      name: Window_Revised_Spritesheet_120
       rect:
         serializedVersion: 2
-        x: 6
-        y: 2566
-        width: 500
-        height: 500
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2710,19 +2690,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76b16f00d7ac94a4a8b1c17b3964cc24
+      spriteID: 0a72fcf45dc865f40b5754676cb32546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_121
+      name: Window_Revised_Spritesheet_121
       rect:
         serializedVersion: 2
-        x: 518
-        y: 2566
-        width: 500
-        height: 500
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2730,19 +2710,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6674990c10387c348aa6600dd87253ac
+      spriteID: 2e5a51fecd303624c9e09ceeb2f38b8e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_122
+      name: Window_Revised_Spritesheet_122
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 2566
-        width: 500
-        height: 500
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2750,19 +2730,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88e8bcde7d9a11043b84254e56981802
+      spriteID: d5c43b83205ad664ca198a46c429bb3b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_123
+      name: Window_Revised_Spritesheet_123
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 2566
-        width: 500
-        height: 500
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2770,19 +2750,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12b3308a573963245b816ce237bdd139
+      spriteID: c36cf363e8e1ed446b1cb20dbc683300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_124
+      name: Window_Revised_Spritesheet_124
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 2566
-        width: 500
-        height: 500
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2790,19 +2770,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a753c373fd360bc499c7065fb74561ab
+      spriteID: b6523ec95a3b78943b7817db3d19c3af
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_125
+      name: Window_Revised_Spritesheet_125
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 2566
-        width: 500
-        height: 500
+        x: 4096
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2810,19 +2790,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2aec6dc1222bca4cbb877dd84012961
+      spriteID: 00edb6736fd1ea04495d3e0a429ee76e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_126
+      name: Window_Revised_Spritesheet_126
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 2566
-        width: 500
-        height: 500
+        x: 4608
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2830,19 +2810,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2fb1a3c5dca76b458bae374b2b2ae83
+      spriteID: 6ecee7c44454273408735f44c3b4e014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_127
+      name: Window_Revised_Spritesheet_127
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 2566
-        width: 500
-        height: 500
+        x: 5120
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2850,19 +2830,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56a383869a0065543acfedc89dc68c83
+      spriteID: 20b4a119bd3584c47814b572a77f6b30
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_128
+      name: Window_Revised_Spritesheet_128
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 2566
-        width: 500
-        height: 500
+        x: 5632
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2870,19 +2850,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a77e76faae9b2f64f8a7325e654c2ad8
+      spriteID: 2765e70d00920e34cb8b22950288b217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_129
+      name: Window_Revised_Spritesheet_129
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 2566
-        width: 500
-        height: 500
+        x: 6144
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2890,19 +2870,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e9200007ec9eaf4db23be285b5af3f4
+      spriteID: c236dba6778bc594d92bff5f10cdcd59
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_130
+      name: Window_Revised_Spritesheet_130
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 2566
-        width: 500
-        height: 500
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2910,19 +2890,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 778cfb9d6085b8c4492a15068fd7f10a
+      spriteID: d86d7d352ab6a7f488c3ec9c4e651014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_131
+      name: Window_Revised_Spritesheet_131
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 2566
-        width: 500
-        height: 500
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2930,19 +2910,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90a708dfc5585b14f99f0c4a1ef4832e
+      spriteID: 178f10f288461e04589efff2ca7b827c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_132
+      name: Window_Revised_Spritesheet_132
       rect:
         serializedVersion: 2
-        x: 6
-        y: 2054
-        width: 500
-        height: 500
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2950,19 +2930,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87574eb84fdabd242a90f3eb7399ee09
+      spriteID: ba8a520ecf986e846b0ca73b4cf2fbc3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_133
+      name: Window_Revised_Spritesheet_133
       rect:
         serializedVersion: 2
-        x: 518
-        y: 2054
-        width: 500
-        height: 500
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2970,19 +2950,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89b67dac5247e8948bed1696b18af472
+      spriteID: 4c3718c647d069847b336fa64907c777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_134
+      name: Window_Revised_Spritesheet_134
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 2054
-        width: 500
-        height: 500
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2990,19 +2970,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cdabd2a774b8684bae01be6f961e40f
+      spriteID: 64964462887bbac43b5f64d0eef6a2df
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_135
+      name: Window_Revised_Spritesheet_135
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 2054
-        width: 500
-        height: 500
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3010,19 +2990,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c569bbbc17949e46b31e48e312d1b63
+      spriteID: bb7fabb98a98eee45a977a89e3651d5e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_136
+      name: Window_Revised_Spritesheet_136
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 2054
-        width: 500
-        height: 500
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3030,19 +3010,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84c5672ce7a4b8f43909c5591d361b76
+      spriteID: 0a1f182c32169e84bb5ea09e847ac977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_137
+      name: Window_Revised_Spritesheet_137
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 2054
-        width: 500
-        height: 500
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3050,19 +3030,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a3dbaa37fc821f43a5001a2b800b4b4
+      spriteID: c9dd3bb88831cd74b9dc899a5dfb2043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_138
+      name: Window_Revised_Spritesheet_138
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 2054
-        width: 500
-        height: 500
+        x: 4096
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3070,19 +3050,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dce8428ecb106c047a53c6ca75019bd0
+      spriteID: 85d9101166542804584b85fa70bea30b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_139
+      name: Window_Revised_Spritesheet_139
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 2054
-        width: 500
-        height: 500
+        x: 4608
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3090,19 +3070,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c46bb096d898cfa4f96d7b49d481793c
+      spriteID: c4becc598c99e7f4fafdd606634eb1c0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_140
+      name: Window_Revised_Spritesheet_140
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 2054
-        width: 500
-        height: 500
+        x: 5120
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3110,19 +3090,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdaabd0e3006ced49a1e119baa24f799
+      spriteID: 8498b8363c5c8d9418c6f1a3fde7619b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_141
+      name: Window_Revised_Spritesheet_141
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 2054
-        width: 500
-        height: 500
+        x: 5632
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3130,19 +3110,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a4eb30d629eb5042821b77ab1b05965
+      spriteID: 8a8f39dfee79e7541818644a3ef1ce18
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_142
+      name: Window_Revised_Spritesheet_142
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 2054
-        width: 500
-        height: 500
+        x: 6144
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3150,19 +3130,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8ef1bc69d7f0b647aa7f57ebe8d8006
+      spriteID: c59078001f5362d43810756e40313c1f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_143
+      name: Window_Revised_Spritesheet_143
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 2054
-        width: 500
-        height: 500
+        x: 0
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3170,19 +3150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd56e82b61e374041b204ef2ae8a4cb9
+      spriteID: a78463d07c98c654dbaa56b03467e4df
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_144
+      name: Window_Revised_Spritesheet_144
       rect:
         serializedVersion: 2
-        x: 6
-        y: 1542
-        width: 500
-        height: 500
+        x: 512
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3190,19 +3170,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fcde0383abfe3c4dba07d807dc1d6a4
+      spriteID: 1a42a420569cde34f9c22469b4ab3fbc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_145
+      name: Window_Revised_Spritesheet_145
       rect:
         serializedVersion: 2
-        x: 518
-        y: 1542
-        width: 500
-        height: 500
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3210,19 +3190,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26be5d79cb5482b4ebbfe52ab75fa88c
+      spriteID: 35f401837f0ccde4ba8a89ea893c4018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_146
+      name: Window_Revised_Spritesheet_146
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 1542
-        width: 500
-        height: 500
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3230,19 +3210,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f28e4db966c8aad4fb929d3438c60a18
+      spriteID: ad9b32306c3b4934e8e6613bdc65dcb4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_147
+      name: Window_Revised_Spritesheet_147
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 1542
-        width: 500
-        height: 500
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3250,19 +3230,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2cd8d0927a6d84439102bf24368ae9d
+      spriteID: a55f2dbeea5c36e43b5061b5ab670bb0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_148
+      name: Window_Revised_Spritesheet_148
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 1542
-        width: 500
-        height: 500
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3270,19 +3250,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91cca66364b6b0147944d887e17ee680
+      spriteID: 6ded43c5aa6ead84a99b70dc18177c9f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_149
+      name: Window_Revised_Spritesheet_149
       rect:
         serializedVersion: 2
-        x: 2566
-        y: 1542
-        width: 500
-        height: 500
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3290,19 +3270,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d0f8d545e6a5764697b31b5a1e0b399
+      spriteID: 4ee3fb1708401104fb77254c40ae39cf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_150
+      name: Window_Revised_Spritesheet_150
       rect:
         serializedVersion: 2
-        x: 3078
-        y: 1542
-        width: 500
-        height: 500
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3310,19 +3290,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2360d91b05ff229468e76ddbe516ce6e
+      spriteID: d89aa4b163b572b41b123a9d88abe3d9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_151
+      name: Window_Revised_Spritesheet_151
       rect:
         serializedVersion: 2
-        x: 3590
-        y: 1542
-        width: 500
-        height: 500
+        x: 4096
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3330,19 +3310,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dcc75dcaef883d4aba3f9d31a22f171
+      spriteID: 483d7b2239d70414abe1558bf26d8c82
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_152
+      name: Window_Revised_Spritesheet_152
       rect:
         serializedVersion: 2
-        x: 4102
-        y: 1542
-        width: 500
-        height: 500
+        x: 4608
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3350,19 +3330,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d801b2cf91d22e4d98ad2f01411ce27
+      spriteID: d41fe200b5bec654680ca0768f89fd54
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_153
+      name: Window_Revised_Spritesheet_153
       rect:
         serializedVersion: 2
-        x: 4614
-        y: 1542
-        width: 500
-        height: 500
+        x: 5120
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3370,19 +3350,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1818e07ac37f664da0d0b3a63fb1a13
+      spriteID: 2e1e1f1d7d56d4f4bb93a6c468243ffa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_154
+      name: Window_Revised_Spritesheet_154
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 1542
-        width: 500
-        height: 500
+        x: 5632
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3390,19 +3370,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e40003fefad44574ebe12dbd25c19921
+      spriteID: de5ac9e79911b40499cf91ae9b3bbbf2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_155
+      name: Window_Revised_Spritesheet_155
       rect:
         serializedVersion: 2
-        x: 5638
-        y: 1542
-        width: 500
-        height: 500
+        x: 6144
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3410,19 +3390,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 088bdb4bb5de0ed41bee24266490e3f0
+      spriteID: 1da71a1544b23c34191cedd8ec32275b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_156
+      name: Window_Revised_Spritesheet_156
       rect:
         serializedVersion: 2
-        x: 6
-        y: 1030
-        width: 500
-        height: 500
+        x: 0
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3430,19 +3410,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6106c4daeec15a34cb9e7360362ad74d
+      spriteID: 6776a9b67c832844da071feea171b527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_157
+      name: Window_Revised_Spritesheet_157
       rect:
         serializedVersion: 2
-        x: 518
-        y: 1030
-        width: 500
-        height: 500
+        x: 512
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3450,19 +3430,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 915bc8997ca7c754384763f064138c3c
+      spriteID: 37c6c95a59f06f648a3589c9cee618b4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_158
+      name: Window_Revised_Spritesheet_158
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 1030
-        width: 500
-        height: 500
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3470,19 +3450,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76476a99ac2f68c44b760fc97efb2b94
+      spriteID: 9e6452d49284e764a9bc70805ee60308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_159
+      name: Window_Revised_Spritesheet_159
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 1030
-        width: 500
-        height: 500
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3490,19 +3470,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: debf2a73be7e0734189fb93a81727db6
+      spriteID: d25d3e240ee7509478612302b0680f79
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_160
+      name: Window_Revised_Spritesheet_160
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 1030
-        width: 500
-        height: 500
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3510,407 +3490,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71a50390370b63347825af476357a114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_161
-      rect:
-        serializedVersion: 2
-        x: 2566
-        y: 1030
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b863a06bf3636b49a387e659d98d5cf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_162
-      rect:
-        serializedVersion: 2
-        x: 3078
-        y: 1030
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79b2ec920bd5c8f46b560a2694b73ce7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_163
-      rect:
-        serializedVersion: 2
-        x: 3590
-        y: 1030
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5b6c4269ef420c4588ec9a7f0b3799a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_164
-      rect:
-        serializedVersion: 2
-        x: 4102
-        y: 1030
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38761d8405cdcfb489d0303c5d35e9e9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_165
-      rect:
-        serializedVersion: 2
-        x: 4614
-        y: 1030
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b67bdd2bc8ab5204ead196dcf3e31066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_166
-      rect:
-        serializedVersion: 2
-        x: 5126
-        y: 1030
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0776f0327262b44888a7bae3a785046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_167
-      rect:
-        serializedVersion: 2
-        x: 5638
-        y: 1030
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2589f6118edc45746bb5372560c4ac38
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_168
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 518
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d55f604caaaeae3448718a307bb8f153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_169
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 518
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4cfb9a24b259b1e4199c310002b4d43d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_170
-      rect:
-        serializedVersion: 2
-        x: 1030
-        y: 518
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31d281692b51d4148bb93e64403b9ade
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_171
-      rect:
-        serializedVersion: 2
-        x: 1542
-        y: 518
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4861d5dde30ca642be744179775bf24
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_172
-      rect:
-        serializedVersion: 2
-        x: 2054
-        y: 518
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ddedd0556f67bf4bb22dfdc0f9a8e82
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_173
-      rect:
-        serializedVersion: 2
-        x: 2566
-        y: 518
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d4482d2720e60b45a20661f23afafb4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_174
-      rect:
-        serializedVersion: 2
-        x: 3078
-        y: 518
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 655e901d37f6b0c4abe8f2f340b55b71
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_175
-      rect:
-        serializedVersion: 2
-        x: 3590
-        y: 518
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f48e519877a1f4e468eae04ef0028875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_176
-      rect:
-        serializedVersion: 2
-        x: 4102
-        y: 518
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6529050cfab44c841a0004952747973a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_177
-      rect:
-        serializedVersion: 2
-        x: 4614
-        y: 518
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 571126fa63c1d784999f200b68ec3fb8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_178
-      rect:
-        serializedVersion: 2
-        x: 5126
-        y: 518
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc3eee71391f9e0499c01f2dfa3fd5d0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_179
-      rect:
-        serializedVersion: 2
-        x: 5638
-        y: 518
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e26758b280b19b64aa2dab82af94e2cf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpinningGlobe_SpriteSheet_180
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 6
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8891ec20e77a7704a8531291322bc847
+      spriteID: ca51758ced46fc44b8a69d7047f1504b
       vertices: []
       indices: 
       edges: []
@@ -3918,7 +3498,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: de306cebd54485e428689ccbb196caf6
+    spriteID: 9136a1cc0476ef146b24975fb6f7e09b
     vertices: []
     indices: 
     edges: []

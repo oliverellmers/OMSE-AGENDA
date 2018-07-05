@@ -279,7 +279,7 @@ public class PlaneManager : MonoBehaviour
 
 
     #region VUFORIA_CALLBACKS
-
+    private bool hasSwitchedAR = true;
     void OnVuforiaStarted()
     {
         Debug.Log("OnVuforiaStarted() called.");
@@ -306,6 +306,14 @@ public class PlaneManager : MonoBehaviour
 
             MessageBox.DisplayMessageBox(unsupportedDeviceTitle, unsupportedDeviceBody, false, null);
         }
+
+        if (!hasSwitchedAR)
+            return;
+
+        SwitchARContentManagement switchAr = GameObject.Find("SwitchARContentManagement").GetComponent<SwitchARContentManagement>();
+        switchAr.SwitchA(true);
+        switchAr.SwitchB(false);
+        hasSwitchedAR = false;
     }
 
     void OnVuforiaPaused(bool paused)
