@@ -22,7 +22,7 @@ sysinfo.txt
 
 *.mp4
 *.mov
-*.png
+#*.png
 *.jpg
 *.jpeg
 *.tiff
