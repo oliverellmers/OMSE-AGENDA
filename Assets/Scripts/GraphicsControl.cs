@@ -29,6 +29,8 @@ public class GraphicsControl : MonoBehaviour {
 
     public CanvasGroup instructionsOverlay;
 
+    public CanvasGroup ARCanvas;
+
     /*
     public CanvasGroup instructionCanvasGroup;
     public Text instructionsText;
@@ -64,6 +66,10 @@ public class GraphicsControl : MonoBehaviour {
         //ShowInstructions();
 
         ShowHideInstructions(true);
+
+        ARCanvasDisplay(false);
+
+
     }
 
     private void AnimateGraphicsIn() {
@@ -148,6 +154,29 @@ public class GraphicsControl : MonoBehaviour {
             infoOverlay.blocksRaycasts = false;
             infoOverlay.interactable = false;
             infoOverlay.DOFade(0.0f, transitionTime);
+        }
+
+        yield return new WaitForSeconds(transitionTime);
+    }
+
+    public void ARCanvasDisplay(bool b)
+    {
+        StartCoroutine(DOARCanvasDisplay(b));
+    }
+
+    IEnumerator DOARCanvasDisplay(bool b)
+    {
+        if (b)
+        {
+            ARCanvas.blocksRaycasts = true;
+            ARCanvas.interactable = true;
+            ARCanvas.DOFade(1.0f, transitionTime);
+        }
+        else
+        {
+            ARCanvas.blocksRaycasts = false;
+            ARCanvas.interactable = false;
+            ARCanvas.DOFade(0.0f, transitionTime);
         }
 
         yield return new WaitForSeconds(transitionTime);

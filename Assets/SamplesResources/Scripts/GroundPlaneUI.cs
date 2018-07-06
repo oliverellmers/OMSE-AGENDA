@@ -84,17 +84,17 @@ public class GroundPlaneUI : MonoBehaviour
 
             if (PlaneManager.planeMode == PlaneManager.PlaneMode.GROUND)
             {
-                m_Instructions.text = "Tap to place Astronaut";
+                m_Instructions.text = "Tap to place wormhole";
             }
             else if (PlaneManager.planeMode == PlaneManager.PlaneMode.PLACEMENT)
             {
                 m_Instructions.text = (m_ProductPlacement.IsPlaced) ?
-                    "• Touch and drag to move Chair" +
+                    "• Touch and drag to move object" +
                     "\n• Two fingers to rotate" +
                     ((m_TouchHandler.enablePinchScaling) ? " or pinch to scale" : "") +
                     "\n• Double-tap to reset Anchor location"
                     :
-                    "Tap to place Chair";
+                    "Tap to place object";
             }
         }
         else
@@ -114,7 +114,7 @@ public class GroundPlaneUI : MonoBehaviour
             }
             else if (PlaneManager.planeMode == PlaneManager.PlaneMode.MIDAIR)
             {
-                m_Instructions.text = "Tap to place Drone";
+                m_Instructions.text = "Tap to place object";
             }
         }
     }
