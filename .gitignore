@@ -23,8 +23,8 @@ sysinfo.txt
 *.mp4
 *.mov
 #*.png
-*.jpg
-*.jpeg
+#*.jpg
+#*.jpeg
 *.tiff
 *.ai
 *.psd
