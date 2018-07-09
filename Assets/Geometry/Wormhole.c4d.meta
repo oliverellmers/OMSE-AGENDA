@@ -26,6 +26,16 @@ ModelImporter:
     100040: MaskInner
     100042: MaskOutter
     100044: Wormhole
+    100046: CINEMA_4D_Editor
+    100048: Cloner_2
+    100050: Cube_2_0
+    100052: Cube_2_1
+    100054: Cube_2_2
+    100056: Cube_2_3
+    100058: Cube_2_4
+    100060: Middle
+    100062: Null
+    100064: Outter
     400000: Cloner
     400002: CubeInner_0
     400004: CubeInner_1
@@ -49,6 +59,17 @@ ModelImporter:
     400040: MaskInner
     400042: MaskOutter
     400044: Wormhole
+    400046: CINEMA_4D_Editor
+    400048: Cloner_2
+    400050: Cube_2_0
+    400052: Cube_2_1
+    400054: Cube_2_2
+    400056: Cube_2_3
+    400058: Cube_2_4
+    400060: Middle
+    400062: Null
+    400064: Outter
+    2000000: CINEMA_4D_Editor
     2100000: Mat
     2100002: Mat.1
     2100004: Mat.2
@@ -81,6 +102,13 @@ ModelImporter:
     2300036: MaskInner
     2300038: MaskOutter
     2300040: Wormhole
+    2300042: Cube_2_0
+    2300044: Cube_2_1
+    2300046: Cube_2_2
+    2300048: Cube_2_3
+    2300050: Cube_2_4
+    2300052: Middle
+    2300054: Outter
     3300000: CubeInner_0
     3300002: CubeInner_1
     3300004: CubeInner_2
@@ -102,6 +130,13 @@ ModelImporter:
     3300036: MaskInner
     3300038: MaskOutter
     3300040: Wormhole
+    3300042: Cube_2_0
+    3300044: Cube_2_1
+    3300046: Cube_2_2
+    3300048: Cube_2_3
+    3300050: Cube_2_4
+    3300052: Middle
+    3300054: Outter
     4300000: CubeInner_0
     4300002: CubeInner_1
     4300004: CubeInner_2
@@ -123,6 +158,13 @@ ModelImporter:
     4300036: MaskInner
     4300038: MaskOutter
     4300040: Wormhole
+    4300042: Cube_2_0
+    4300044: Cube_2_1
+    4300046: Cube_2_2
+    4300048: Cube_2_3
+    4300050: Cube_2_4
+    4300052: Middle
+    4300054: Outter
   externalObjects: {}
   materials:
     importMaterials: 1

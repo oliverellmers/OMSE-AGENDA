@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: e6d444d8d0b80c44e880fa7d4379c427
-timeCreated: 1526059682
-licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -39,6 +37,7 @@ ModelImporter:
     100062: stripes19
     100064: stripes20
     100066: stripes21
+    100068: CINEMA_4D_Editor
     400000: Box
     400002: Cap_1
     400004: Cap_1_10
@@ -73,6 +72,7 @@ ModelImporter:
     400062: stripes19
     400064: stripes20
     400066: stripes21
+    400068: CINEMA_4D_Editor
     2100000: stripes21
     2100002: stripes21.1
     2100004: stripes21.2
@@ -282,6 +282,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

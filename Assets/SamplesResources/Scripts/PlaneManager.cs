@@ -272,7 +272,8 @@ public class PlaneManager : MonoBehaviour
 
         // Stop and restart trackers
         m_SmartTerrain.Stop(); // stop SmartTerrain tracker before PositionalDeviceTracker
-        m_PositionalDeviceTracker.Reset();
+        //m_PositionalDeviceTracker.Reset();
+        m_PositionalDeviceTracker.ResetAnchors();
         m_SmartTerrain.Start(); // start SmartTerrain tracker after PositionalDeviceTracker
     }
 
