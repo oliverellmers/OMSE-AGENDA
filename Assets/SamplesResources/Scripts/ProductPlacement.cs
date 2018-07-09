@@ -80,6 +80,9 @@ public class ProductPlacement : MonoBehaviour
                         m_PlacementAugmentationScale);
 
         gameObject.transform.localScale = ProductScaleVector;
+
+        chairRenderer.enabled = false;
+        shadowRenderer.enabled = false;
     }
 
 
@@ -87,14 +90,18 @@ public class ProductPlacement : MonoBehaviour
     {
         if (PlaneManager.planeMode == PlaneManager.PlaneMode.PLACEMENT)
         {
-            shadowRenderer.enabled = chairRenderer.enabled = (IsPlaced || PlaneManager.GroundPlaneHitReceived);
+            //shadowRenderer.enabled = chairRenderer.enabled = (IsPlaced || PlaneManager.GroundPlaneHitReceived);
+            chairRenderer.enabled = false;
+            shadowRenderer.enabled = false;
+
             EnablePreviewModeTransparency(!IsPlaced);
             if (!IsPlaced)
                 UtilityHelper.RotateTowardCamera(gameObject);
         }
         else
         {
-            shadowRenderer.enabled = chairRenderer.enabled = IsPlaced;
+            //shadowRenderer.enabled = chairRenderer.enabled = IsPlaced;
+
         }
 
         if (PlaneManager.planeMode == PlaneManager.PlaneMode.PLACEMENT && IsPlaced)

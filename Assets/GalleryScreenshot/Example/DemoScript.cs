@@ -11,6 +11,8 @@ public class DemoScript : MonoBehaviour {
 	public Text console;
 	public CanvasGroup ui;
     public CanvasGroup uiB;
+    public CanvasGroup uiC;
+
     public Image screenshot;
 	
 	void OnEnable ()
@@ -33,13 +35,14 @@ public class DemoScript : MonoBehaviour {
 		ScreenshotManager.SaveScreenshot("AGENDA_ScreenShot", "AGENDA", "jpeg");
 		if(hideGUI) ui.alpha = 0;
         if (hideGUI) uiB.alpha = 0;
+        if (hideGUI) uiC.alpha = 0;
 	}
 
     IEnumerator FlashScreenShotCanvas() {
 
         yield return new WaitForEndOfFrame();
-        screenshot.DOFade(0f, 0.25f);
-        yield return new WaitForSeconds(0.25f);
+        screenshot.DOFade(0f, 1.25f);
+        yield return new WaitForSeconds(1.25f);
     }
 
 
@@ -52,9 +55,11 @@ public class DemoScript : MonoBehaviour {
 	{
 		console.text += "\nScreenshot has been taken and is now saving...";
 		screenshot.sprite = Sprite.Create(image, new Rect(0, 0, image.width, image.height), new Vector2(.5f, .5f));
-		screenshot.color = Color.white;
+        screenshot.color = new Color(1f, 1f, 1f, 0f);
+        //screenshot.DOColor(new Color(1f, 1f, 1f, 0f), 2f);
 		ui.alpha = 1;
         uiB.alpha = 1;
+        //uiC.alpha = 1;
         StartCoroutine(FlashScreenShotCanvas());
     }
 	
