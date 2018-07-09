@@ -25,6 +25,6 @@ sysinfo.txt
 #*.png
 #*.jpg
 #*.jpeg
-*.tiff
-*.ai
-*.psd
+#*.tiff
+#*.ai
+#*.psd
