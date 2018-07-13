@@ -29,6 +29,7 @@ public class GroundPlaneUI : MonoBehaviour
     const string TITLE_PLACEMENT = "Product Placement";
     const string TITLE_GROUNDPLANE = "Ground Plane";
     const string TITLE_MIDAIR = "Mid-Air";
+    const string TITLE_NONE = "None";
 
     GraphicRaycaster m_GraphicRayCaster;
     PointerEventData m_PointerEventData;
@@ -117,6 +118,11 @@ public class GroundPlaneUI : MonoBehaviour
                 m_Instructions.text = "Tap to place object";
             }
         }
+
+        if (PlaneManager.planeMode == PlaneManager.PlaneMode.NONE) {
+            m_Instructions.text = "";
+        }
+
     }
 
     void OnDestroy()
@@ -136,6 +142,13 @@ public class GroundPlaneUI : MonoBehaviour
         m_PlacementToggle.isOn = true;
     }
 
+    public void AllTogglesOff() {
+        m_PlacementToggle.isOn = false;
+        m_MidAirToggle.isOn = false;
+        m_GroundToggle.isOn = false;
+        m_ResetButton.interactable = false;
+    }
+
     public void UpdateTitle()
     {
         switch (PlaneManager.planeMode)
@@ -148,6 +161,9 @@ public class GroundPlaneUI : MonoBehaviour
                 break;
             case PlaneManager.PlaneMode.PLACEMENT:
                 m_Title.text = TITLE_PLACEMENT;
+                break;
+            case PlaneManager.PlaneMode.NONE:
+                m_Title.text = TITLE_NONE;
                 break;
         }
     }

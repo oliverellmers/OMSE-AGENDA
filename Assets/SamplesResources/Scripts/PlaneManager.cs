@@ -13,6 +13,7 @@ public class PlaneManager : MonoBehaviour
 {
     public enum PlaneMode
     {
+        NONE,
         GROUND,
         MIDAIR,
         PLACEMENT
@@ -238,6 +239,13 @@ public class PlaneManager : MonoBehaviour
             m_MidAirPositioner.enabled = false;
             m_TouchHandler.enableRotation = m_PlacementAugmentation.activeInHierarchy;
         }
+    }
+
+    public void SetNoneMode() {
+        planeMode = PlaneMode.NONE;
+        m_PlaneFinder.enabled = false;
+        m_MidAirPositioner.enabled = false;
+        m_TouchHandler.enableRotation = false;
     }
 
     public void ResetScene()
