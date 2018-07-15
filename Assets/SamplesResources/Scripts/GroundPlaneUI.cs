@@ -85,7 +85,7 @@ public class GroundPlaneUI : MonoBehaviour
 
             if (PlaneManager.planeMode == PlaneManager.PlaneMode.GROUND)
             {
-                m_Instructions.text = "Tap to place wormhole";
+                m_Instructions.text = "Tap to place cronut";
             }
             else if (PlaneManager.planeMode == PlaneManager.PlaneMode.PLACEMENT)
             {
@@ -115,7 +115,7 @@ public class GroundPlaneUI : MonoBehaviour
             }
             else if (PlaneManager.planeMode == PlaneManager.PlaneMode.MIDAIR)
             {
-                m_Instructions.text = "Tap to place object";
+                m_Instructions.text = "Tap to place wormhole";
             }
         }
 
