@@ -12,6 +12,7 @@ public class DemoScript : MonoBehaviour {
 	public CanvasGroup ui;
     public CanvasGroup uiB;
     public CanvasGroup uiC;
+    public CanvasGroup uiD;
 
     public Image screenshot;
 	
@@ -36,12 +37,13 @@ public class DemoScript : MonoBehaviour {
 		if(hideGUI) ui.alpha = 0;
         if (hideGUI) uiB.alpha = 0;
         if (hideGUI) uiC.alpha = 0;
-	}
+        if (hideGUI) uiD.alpha = 0;
+    }
 
     IEnumerator FlashScreenShotCanvas() {
 
         yield return new WaitForEndOfFrame();
-        screenshot.DOFade(0f, 1.25f);
+        screenshot.DOFade(1f, 1.25f);
         yield return new WaitForSeconds(1.25f);
     }
 
@@ -49,18 +51,27 @@ public class DemoScript : MonoBehaviour {
 	public void OnSaveImagePress()
 	{
 		ScreenshotManager.SaveImage(texture, "MyImage", "MyImages", "png");
-	}
+        ScreenshotTaken();
+
+    }
 
 	void ScreenshotTaken(Texture2D image)
 	{
 		console.text += "\nScreenshot has been taken and is now saving...";
 		screenshot.sprite = Sprite.Create(image, new Rect(0, 0, image.width, image.height), new Vector2(.5f, .5f));
-        screenshot.color = new Color(1f, 1f, 1f, 0f);
+        //screenshot.color = new Color(1f, 1f, 1f, 0f);
+        StartCoroutine(DODoColor());
         //screenshot.DOColor(new Color(1f, 1f, 1f, 0f), 2f);
 		ui.alpha = 1;
         uiB.alpha = 1;
         //uiC.alpha = 1;
+        uiD.alpha = 1;
         StartCoroutine(FlashScreenShotCanvas());
+    }
+
+    IEnumerator DODoColor() {
+        screenshot.DOColor(new Color(2f, 2f, 2f, 0f), 2f);
+        yield return new WaitForSeconds(2f);
     }
 	
 	void ScreenshotSaved(string path)
