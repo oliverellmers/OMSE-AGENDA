@@ -51,7 +51,7 @@ public class DemoScript : MonoBehaviour {
 	public void OnSaveImagePress()
 	{
 		ScreenshotManager.SaveImage(texture, "MyImage", "MyImages", "png");
-        ScreenshotTaken();
+        //ScreenshotTaken();
 
     }
 
