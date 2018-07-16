@@ -67,6 +67,8 @@ public class DemoScript : MonoBehaviour {
         //uiC.alpha = 1;
         uiD.alpha = 1;
         StartCoroutine(FlashScreenShotCanvas());
+        //GameObject.Find("Behaviour").GetComponent<PlaneManager>().ResetScene();
+        //GameObject.Find("Behaviour").GetComponent<PlaneManager>().ResetScene();
     }
 
     IEnumerator DODoColor() {

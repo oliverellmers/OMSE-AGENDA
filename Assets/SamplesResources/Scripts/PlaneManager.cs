@@ -7,6 +7,7 @@ countries.
 
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using Vuforia;
 
 public class PlaneManager : MonoBehaviour
@@ -28,7 +29,7 @@ public class PlaneManager : MonoBehaviour
     public GameObject m_MidAirAugmentation;
     public GameObject m_PlacementAugmentation;
     public static bool GroundPlaneHitReceived, AstronautIsPlaced;
-    public static PlaneMode planeMode = PlaneMode.PLACEMENT;
+    public static PlaneMode planeMode = PlaneMode.NONE;
 
     public static bool AnchorExists
     {
@@ -82,10 +83,19 @@ public class PlaneManager : MonoBehaviour
         UtilityHelper.EnableRendererColliderCanvas(m_PlaneAugmentation, false);
         UtilityHelper.EnableRendererColliderCanvas(m_MidAirAugmentation, false);
         UtilityHelper.EnableRendererColliderCanvas(m_PlacementAugmentation, false);
+
+        SetNoneMode();
     }
 
     void Update()
     {
+        /*
+        if(m_PlaneFinder != null){
+            m_PlaneFinder.enabled = !IsPointerOverUIObject();
+        }
+        */
+
+
         if (!VuforiaRuntimeUtilities.IsPlayMode() && !AnchorExists)
         {
             AnchorExists = DoAnchorsExist();
@@ -106,6 +116,15 @@ public class PlaneManager : MonoBehaviour
         VuforiaARController.Instance.UnregisterOnPauseCallback(OnVuforiaPaused);
         DeviceTrackerARController.Instance.UnregisterTrackerStartedCallback(OnTrackerStarted);
         DeviceTrackerARController.Instance.UnregisterDevicePoseStatusChangedCallback(OnDevicePoseStatusChanged);
+    }
+
+    private bool IsPointerOverUIObject(){
+
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        return results.Count > 0;
     }
 
     #endregion // MONOBEHAVIOUR_METHODS
