@@ -12,6 +12,7 @@ public class SimpleSceneFader : MonoBehaviour {
 	private static float alphaAdd = 0f;
 
     public Color imgColor;
+    public Image animImage;
 
 
 	// errors are coming, becasue you are using static variables.
@@ -37,6 +38,7 @@ public class SimpleSceneFader : MonoBehaviour {
 				newAlpha = img.color.a - alphaAdd;
 			}
 			img.color = new Color (imgColor.r, imgColor.g, imgColor.b, newAlpha);
+            animImage.color = new Color(animImage.color.r, animImage.color.g, animImage.color.b, newAlpha);
 			if (newAlpha <= 0f) {
 				ResetData ( );
 			}

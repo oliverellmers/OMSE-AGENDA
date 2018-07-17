@@ -15,6 +15,7 @@ public class DemoScript : MonoBehaviour {
     public CanvasGroup uiD;
 
     public Image screenshot;
+    public Text screenShotText;
 	
 	void OnEnable ()
 	{
@@ -43,8 +44,12 @@ public class DemoScript : MonoBehaviour {
     IEnumerator FlashScreenShotCanvas() {
 
         yield return new WaitForEndOfFrame();
-        screenshot.DOFade(1f, 1.25f);
-        yield return new WaitForSeconds(1.25f);
+        screenshot.DOFade(1f, 0.35f).SetEase(Ease.InElastic);
+        screenShotText.DOFade(1f, 0.35f).SetEase(Ease.InElastic);
+        yield return new WaitForSeconds(0.35f);
+        screenshot.DOFade(0f, 3.0f).SetEase(Ease.OutCubic);
+        screenShotText.DOFade(0f, 3.0f).SetEase(Ease.OutCubic);
+        yield return new WaitForSeconds(3.0f);
     }
 
 
@@ -59,22 +64,20 @@ public class DemoScript : MonoBehaviour {
 	{
 		console.text += "\nScreenshot has been taken and is now saving...";
 		screenshot.sprite = Sprite.Create(image, new Rect(0, 0, image.width, image.height), new Vector2(.5f, .5f));
-        //screenshot.color = new Color(1f, 1f, 1f, 0f);
-        StartCoroutine(DODoColor());
-        //screenshot.DOColor(new Color(1f, 1f, 1f, 0f), 2f);
 		ui.alpha = 1;
         uiB.alpha = 1;
-        //uiC.alpha = 1;
         uiD.alpha = 1;
         StartCoroutine(FlashScreenShotCanvas());
-        //GameObject.Find("Behaviour").GetComponent<PlaneManager>().ResetScene();
-        //GameObject.Find("Behaviour").GetComponent<PlaneManager>().ResetScene();
+        //StartCoroutine(DODoColor());
     }
 
+    /*
     IEnumerator DODoColor() {
-        screenshot.DOColor(new Color(2f, 2f, 2f, 0f), 2f);
+        screenshot.DOColor(new Color(0.5f, 0.5f, 0.5f, 0f), 2f);
+        screenShotText.DOColor(new Color(0.5f, 0.5f, 0.5f, 0f), 2f);
         yield return new WaitForSeconds(2f);
-    }
+
+    }*/
 	
 	void ScreenshotSaved(string path)
 	{

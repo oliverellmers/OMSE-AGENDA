@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{55E748CE-DA5E-832F-C7FB-61F332C8DFE8}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SamplesResources/Scripts/GroundPlaneUI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GalleryScreenshot/Example/DemoScript.cs">
     <Files>
-      <File FileName="Assets/SamplesResources/Scripts/PlaneManager.cs" Line="127" Column="34" />
-      <File FileName="Assets/SamplesResources/Scripts/ProductPlacement.cs" Line="96" Column="1" />
-      <File FileName="Assets/GalleryScreenshot/Example/DemoScript.cs" Line="70" Column="11" />
+      <File FileName="Assets/GalleryScreenshot/Example/DemoScript.cs" Line="61" Column="7" />
       <File FileName="Assets/Scripts/RaycastObjectUIVisibility.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ToggleBGVisibility.cs" Line="22" Column="27" />
-      <File FileName="Assets/SamplesResources/Scripts/GroundPlaneUI.cs" Line="51" Column="9" />
+      <File FileName="Assets/SamplesResources/Scripts/GroundPlaneUI.cs" Line="51" Column="1" />
+      <File FileName="Assets/Scripts/CanvasGroupVisible.cs" Line="26" Column="5" />
+      <File FileName="Assets/Scripts/AllTogglesOff.cs" Line="35" Column="1" />
+      <File FileName="Assets/Scripts/LoadingSceneBehaviour.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" Line="11" Column="1" />
+      <File FileName="Assets/Simple Scene Fader/Scripts/Main/SimpleSceneFader.cs" Line="8" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
