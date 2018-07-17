@@ -19,6 +19,44 @@ ModelImporter:
     100026: SidesA
     100028: SidesB
     100030: //RootNode
+    100032: Circle_1_0
+    100034: Circle_1_1
+    100036: Circle_1_10
+    100038: Circle_1_11
+    100040: Circle_1_12
+    100042: Circle_1_13
+    100044: Circle_1_14
+    100046: Circle_1_15
+    100048: Circle_1_16
+    100050: Circle_1_17
+    100052: Circle_1_18
+    100054: Circle_1_19
+    100056: Circle_1_2
+    100058: Circle_1_20
+    100060: Circle_1_21
+    100062: Circle_1_22
+    100064: Circle_1_23
+    100066: Circle_1_24
+    100068: Circle_1_25
+    100070: Circle_1_26
+    100072: Circle_1_27
+    100074: Circle_1_28
+    100076: Circle_1_29
+    100078: Circle_1_3
+    100080: Circle_1_4
+    100082: Circle_1_5
+    100084: Circle_1_6
+    100086: Circle_1_7
+    100088: Circle_1_8
+    100090: Circle_1_9
+    100092: Cloner
+    100094: Cloner_2
+    100096: Formula
+    100098: Loft
+    100100: Subdivision_Surface
+    100102: Subdivision_Surface_1
+    100104: Subdivision_Surface_2
+    100106: Cube
     400000: CINEMA_4D_Editor
     400002: Cube_2_0
     400004: Cube_2_0_2
@@ -35,8 +73,48 @@ ModelImporter:
     400026: SidesA
     400028: SidesB
     400030: //RootNode
+    400032: Circle_1_0
+    400034: Circle_1_1
+    400036: Circle_1_10
+    400038: Circle_1_11
+    400040: Circle_1_12
+    400042: Circle_1_13
+    400044: Circle_1_14
+    400046: Circle_1_15
+    400048: Circle_1_16
+    400050: Circle_1_17
+    400052: Circle_1_18
+    400054: Circle_1_19
+    400056: Circle_1_2
+    400058: Circle_1_20
+    400060: Circle_1_21
+    400062: Circle_1_22
+    400064: Circle_1_23
+    400066: Circle_1_24
+    400068: Circle_1_25
+    400070: Circle_1_26
+    400072: Circle_1_27
+    400074: Circle_1_28
+    400076: Circle_1_29
+    400078: Circle_1_3
+    400080: Circle_1_4
+    400082: Circle_1_5
+    400084: Circle_1_6
+    400086: Circle_1_7
+    400088: Circle_1_8
+    400090: Circle_1_9
+    400092: Cloner
+    400094: Cloner_2
+    400096: Formula
+    400098: Loft
+    400100: Subdivision_Surface
+    400102: Subdivision_Surface_1
+    400104: Subdivision_Surface_2
+    400106: Cube
     2000000: CINEMA_4D_Editor
     2100000: No Name
+    2100002: Mat
+    2100004: Mat.1
     2300000: Cube_2_0
     2300002: Cube_2_0_2
     2300004: Cube_2_1
@@ -49,6 +127,11 @@ ModelImporter:
     2300018: Cube_2_4_2
     2300020: Middle
     2300022: Outter
+    2300024: Cloner_2
+    2300026: Subdivision_Surface_1
+    2300028: Subdivision_Surface_2
+    2300030: Cloner
+    2300032: Cube
     3300000: Cube_2_0
     3300002: Cube_2_0_2
     3300004: Cube_2_1
@@ -61,6 +144,11 @@ ModelImporter:
     3300018: Cube_2_4_2
     3300020: Middle
     3300022: Outter
+    3300024: Cloner_2
+    3300026: Subdivision_Surface_1
+    3300028: Subdivision_Surface_2
+    3300030: Cloner
+    3300032: Cube
     4300000: Cube_2_0
     4300002: Cube_2_1
     4300004: Cube_2_2
@@ -73,6 +161,11 @@ ModelImporter:
     4300018: Cube_2_4_2
     4300020: Middle
     4300022: Outter
+    4300024: Cloner_2
+    4300026: Subdivision_Surface_2
+    4300028: Subdivision_Surface_1
+    4300030: Cloner
+    4300032: Cube
   externalObjects: {}
   materials:
     importMaterials: 1
