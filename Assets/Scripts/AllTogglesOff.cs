@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class AllTogglesOff : MonoBehaviour {
 
     public Toggle[] toggles = new Toggle[3];
+    public CanvasGroupVisible resetButtonGGV;
 
     private PlaneManager m_planeManager;
     private GroundPlaneUI m_groundPlaneUI;
@@ -28,6 +29,7 @@ public class AllTogglesOff : MonoBehaviour {
                 Debug.Log("All toggles are off!");
                 m_planeManager.SetNoneMode();
                 m_groundPlaneUI.AllTogglesOff();
+                resetButtonGGV.DisplayCanvasGroup(false);
             }
         }
     }
