@@ -91,12 +91,12 @@ public class GroundPlaneUI : MonoBehaviour
             else if (PlaneManager.planeMode == PlaneManager.PlaneMode.PLACEMENT)
             {
                 m_Instructions.text = (m_ProductPlacement.IsPlaced) ?
-                    "• Touch and drag to move object" +
+                    "• Touch and drag to move wormhole" +
                     "\n• Two fingers to rotate" +
                     ((m_TouchHandler.enablePinchScaling) ? " or pinch to scale" : "") +
                     "\n• Double-tap to reset Anchor location"
                     :
-                    "Tap to place object";
+                    "Tap to place wormhole";
             }
         }
         else
