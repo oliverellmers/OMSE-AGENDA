@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: b468a34af1286834280d4a0d89ef95f5
+timeCreated: 1530391758
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 1
+    100002: 1_Disc
+    100004: 1_Extrude
+    100006: 1_Outline
+    100008: 2
+    100010: 2_Disc
+    100012: 2_Extrude
+    100014: 2_Outline
+    100016: 3
+    100018: 3_Disc
+    100020: 3_Extrude
+    100022: 3_Outline
+    100024: 4
+    100026: 4_Disc
+    100028: 4_Extrude
+    100030: 4_Outline
+    100032: 5
+    100034: 5_Disc
+    100036: 5_Extrude
+    100038: 5_Outline
+    100040: 6_Disc
+    100042: 6_Extrude
+    100044: 6_Outline
+    100046: ANALOG_DEVICE
+    100048: DepthMask
+    100050: IN_A_DIGITAL_WORLD
+    100052: LOGO
+    100054: OMSE_CO
+    100056: //RootNode
+    100058: THE_HUMAN_MIND
+    100060: CINEMA_4D_Editor
+    100062: INNER_1
+    100064: INNER_2
+    100066: INNER_3
+    100068: INNER_4
+    100070: INNER_5
+    400000: 1
+    400002: 1_Disc
+    400004: 1_Extrude
+    400006: 1_Outline
+    400008: 2
+    400010: 2_Disc
+    400012: 2_Extrude
+    400014: 2_Outline
+    400016: 3
+    400018: 3_Disc
+    400020: 3_Extrude
+    400022: 3_Outline
+    400024: 4
+    400026: 4_Disc
+    400028: 4_Extrude
+    400030: 4_Outline
+    400032: 5
+    400034: 5_Disc
+    400036: 5_Extrude
+    400038: 5_Outline
+    400040: 6_Disc
+    400042: 6_Extrude
+    400044: 6_Outline
+    400046: ANALOG_DEVICE
+    400048: DepthMask
+    400050: IN_A_DIGITAL_WORLD
+    400052: LOGO
+    400054: OMSE_CO
+    400056: //RootNode
+    400058: THE_HUMAN_MIND
+    400060: CINEMA_4D_Editor
+    400062: INNER_1
+    400064: INNER_2
+    400066: INNER_3
+    400068: INNER_4
+    400070: INNER_5
+    2100000: No Name
+    2100002: White_Unlit
+    2100004: Blue_Unlit
+    2100006: 6
+    2100008: 5
+    2100010: 4
+    2100012: 3
+    2100014: 2
+    2100016: 1
+    2100018: OUTER_GRID_vert
+    2100020: INNER_GRID_hor
+    2100022: OUTER_GRID_vert.1
+    2100024: INNER_GRID_hor.1
+    2100026: OUTER_GRID_vert.2
+    2100028: INNER_GRID_hor.2
+    2100030: OUTER_GRID_vert.3
+    2100032: INNER_GRID_hor.3
+    2100034: OUTER_GRID_vert.4
+    2100036: INNER_GRID_hor.4
+    2100038: OUTER_GRID_vert.5
+    2300000: 1_Disc
+    2300002: 1_Extrude
+    2300004: 1_Outline
+    2300006: 2_Disc
+    2300008: 2_Extrude
+    2300010: 2_Outline
+    2300012: 3_Disc
+    2300014: 3_Extrude
+    2300016: 3_Outline
+    2300018: 4_Disc
+    2300020: 4_Extrude
+    2300022: 4_Outline
+    2300024: 5_Disc
+    2300026: 5_Extrude
+    2300028: 5_Outline
+    2300030: 6_Disc
+    2300032: 6_Extrude
+    2300034: 6_Outline
+    2300036: DepthMask
+    2300038: INNER_1
+    2300040: INNER_2
+    2300042: INNER_3
+    2300044: INNER_4
+    2300046: INNER_5
+    3300000: 1_Disc
+    3300002: 1_Extrude
+    3300004: 1_Outline
+    3300006: 2_Disc
+    3300008: 2_Extrude
+    3300010: 2_Outline
+    3300012: 3_Disc
+    3300014: 3_Extrude
+    3300016: 3_Outline
+    3300018: 4_Disc
+    3300020: 4_Extrude
+    3300022: 4_Outline
+    3300024: 5_Disc
+    3300026: 5_Extrude
+    3300028: 5_Outline
+    3300030: 6_Disc
+    3300032: 6_Extrude
+    3300034: 6_Outline
+    3300036: DepthMask
+    3300038: INNER_1
+    3300040: INNER_2
+    3300042: INNER_3
+    3300044: INNER_4
+    3300046: INNER_5
+    4300000: DepthMask
+    4300002: 6_Outline
+    4300004: 6_Extrude
+    4300006: 6_Disc
+    4300008: 5_Outline
+    4300010: 5_Extrude
+    4300012: 5_Disc
+    4300014: 4_Outline
+    4300016: 4_Extrude
+    4300018: 4_Disc
+    4300020: 3_Outline
+    4300022: 3_Extrude
+    4300024: 3_Disc
+    4300026: 2_Outline
+    4300028: 2_Extrude
+    4300030: 2_Disc
+    4300032: 1_Outline
+    4300034: 1_Extrude
+    4300036: 1_Disc
+    4300038: INNER_5
+    4300040: INNER_4
+    4300042: INNER_3
+    4300044: INNER_2
+    4300046: INNER_1
+    7400000: CINEMA_4D_Main
+    9500000: //RootNode
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1
+    second: {fileID: 2100000, guid: e314380358cc6c34bad5ce2ae0d87569, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2
+    second: {fileID: 2100000, guid: a0ebce41352b38745a00a3272106cddf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3
+    second: {fileID: 2100000, guid: 20d019f2f935cb04e8b1a8b42240e144, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4
+    second: {fileID: 2100000, guid: c287fe8c68860294fa7b4be557119a48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5
+    second: {fileID: 2100000, guid: 4c976249bfec7b844863c55fd3e4a94a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 6
+    second: {fileID: 2100000, guid: 9b9a3000000d7dd48b5519646aba3757, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue_Unlit
+    second: {fileID: 2100000, guid: 188c4c7890aa82545b83be9b7616daed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INNER_GRID_hor
+    second: {fileID: 2100000, guid: 6dd2654b117bdaa478cd7ec223c09774, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INNER_GRID_hor.1
+    second: {fileID: 2100000, guid: 84f8a8a758e011342b88f5d6bafd8fb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INNER_GRID_hor.2
+    second: {fileID: 2100000, guid: 6a0abd87169811b42976d924346b98e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INNER_GRID_hor.3
+    second: {fileID: 2100000, guid: 8f39db54cbe4d5340ab9d4759d7ebc0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INNER_GRID_hor.4
+    second: {fileID: 2100000, guid: 13d583592f9dfdb48b9efa27a36153ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 45bfce30aa7da4b4da1ddeb2c5d01b6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OUTER_GRID_vert
+    second: {fileID: 2100000, guid: 5cc6ff920a23def48897d6df4b147a04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OUTER_GRID_vert.1
+    second: {fileID: 2100000, guid: 8615e51f05e7c4f42b7e547bc32ce8d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OUTER_GRID_vert.2
+    second: {fileID: 2100000, guid: c848406b1d76deb44be77257c6984ea1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OUTER_GRID_vert.3
+    second: {fileID: 2100000, guid: f956ca1b72a03814ea9cd33e6305eb73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OUTER_GRID_vert.4
+    second: {fileID: 2100000, guid: c960793aecf6ac342a4c58faf0cf31b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OUTER_GRID_vert.5
+    second: {fileID: 2100000, guid: 2d64856324a9a054380f7a29264d500f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White_Unlit
+    second: {fileID: 2100000, guid: 4ffcdd4019cd607458c1aa80258eec08, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CINEMA_4D_Main
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 539
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

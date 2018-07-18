@@ -43,5 +43,8 @@ public class PauseHitTest : MonoBehaviour /*, IPointerUpHandler, IPointerDownHan
 
         //Debug.Log("anchorInputListenerBehaviour.enabled: " + anchorInputListenerBehaviour.enabled);
         //Debug.Log("contentPositioningBehaviour.enabled: " + contentPositioningBehaviour.enabled);
+
+
+        Debug.Log("IsPointerOverUIObject(): " + IsPointerOverUIObject());
     }
 }
