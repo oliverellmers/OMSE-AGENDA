@@ -65,7 +65,7 @@ public class SimpleSceneFader : MonoBehaviour {
 	}
 
 	void ChangeScene ( ) {
-		SceneManager.LoadScene ("" + PlayerPrefs.GetString ("SceneToLoad"));
+        SceneManager.LoadScene ("" + PlayerPrefs.GetString ("SceneToLoad"));
 	}
 
 	public void ResetData ( ) {

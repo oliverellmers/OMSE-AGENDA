@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{55E748CE-DA5E-832F-C7FB-61F332C8DFE8}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GraphicsControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Simple Scene Fader/Scripts/Main/SSF_Add.cs">
     <Files>
       <File FileName="Assets/SamplesResources/Scripts/GroundPlaneUI.cs" Line="99" Column="45" />
       <File FileName="Assets/Scripts/CanvasGroupVisible.cs" Line="23" Column="35" />
@@ -11,8 +11,10 @@
       <File FileName="Assets/Scripts/PauseHitTest.cs" Line="45" Column="20" />
       <File FileName="Assets/Scripts/AnimateTiledTexture.cs" Line="23" Column="39" />
       <File FileName="Assets/Scripts/AnimateRoundWormholeTexture.cs" Line="7" Column="1" />
-      <File FileName="Assets/SamplesResources/Scripts/PlaneManager.cs" Line="75" Column="40" />
-      <File FileName="Assets/Scripts/GraphicsControl.cs" Line="82" Column="39" />
+      <File FileName="Assets/SamplesResources/Scripts/PlaneManager.cs" Line="388" Column="50" />
+      <File FileName="Assets/Scripts/GraphicsControl.cs" Line="203" Column="57" />
+      <File FileName="Assets/GalleryScreenshot/Example/DemoScript.cs" Line="49" Column="48" />
+      <File FileName="Assets/Simple Scene Fader/Scripts/Main/SSF_Add.cs" Line="15" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

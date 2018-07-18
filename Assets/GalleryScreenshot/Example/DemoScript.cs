@@ -46,7 +46,7 @@ public class DemoScript : MonoBehaviour {
         yield return new WaitForEndOfFrame();
         screenshot.DOFade(1f, 0.35f).SetEase(Ease.InElastic);
         screenShotText.DOFade(1f, 0.35f).SetEase(Ease.InElastic);
-        yield return new WaitForSeconds(0.35f);
+        yield return new WaitForSeconds(1.35f);
         screenshot.DOFade(0f, 3.0f).SetEase(Ease.OutCubic);
         screenShotText.DOFade(0f, 3.0f).SetEase(Ease.OutCubic);
         yield return new WaitForSeconds(3.0f);
