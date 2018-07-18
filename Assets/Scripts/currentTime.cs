@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class currentTime : MonoBehaviour {
 
-	public Text Date;
+	//public Text Date;
 
 	// Use this for initialization
 	void Start () {
@@ -24,7 +24,7 @@ public class currentTime : MonoBehaviour {
 //		int minutes = dt.Now.Minute;
 //		int seconds = dt.Now.Second;
 		//print(System.DateTime.Now.ToString("'TIME'  HH:mm:ss  DATE  dd/MM/18"));
-		GetComponent<Text> ().text = System.DateTime.Now.ToString ("'TIME'   HH : mm : ss");
-		Date.GetComponent<Text>().text = System.DateTime.Now.ToString ("DATE   dd / MM / yy");
+		GetComponent<Text> ().text = System.DateTime.Now.ToString ("HH : mm : ss");
+		//Date.GetComponent<Text>().text = System.DateTime.Now.ToString ("DATE   dd / MM / yy");
 	}
 }

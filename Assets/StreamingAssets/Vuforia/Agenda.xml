@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="widthTemp" size="1.000000 1.450271" />
+    <ImageTarget name="designSpace" size="1.000000 1.447500" />
+    <ImageTarget name="weightTemp" size="1.000000 1.447527" />
+    <ImageTarget name="Facade" size="1.000000 1.447527" />
+    <ImageTarget name="StockExchange" size="1.000000 1.447527" />
+    <ImageTarget name="Hyperloop" size="1.000000 1.447527" />
+    <ImageTarget name="Helix" size="1.000000 1.447527" />
+    <ImageTarget name="Font-Factory" size="1.000000 1.447527" />
+    <ImageTarget name="agendaBox-1" size="1.000000 1.000000" />
+    <ImageTarget name="multi" size="1.000000 1.416561" />
+    <ImageTarget name="Agenda_Uppercase-OSC_Interpolation_NEW02" size="1.000000 1.412072" />
+    <ImageTarget name="Agenda_Grow" size="1.000000 1.415000" />
+    <ImageTarget name="ball_01" size="1.000000 1.414286" />
+    <ImageTarget name="aaa" size="1.000000 1.414349" />
+    <ImageTarget name="rollblue" size="1.000000 1.411848" />
+    <ImageTarget name="wallTest" size="1.000000 1.418478" />
+    <CylinderTarget name="blueCylinder" sideLength="3.950000"/>
+    <CylinderTarget name="yellowCylinder" sideLength="3.950000"/>
+  </Tracking>
+</QCARConfig>
