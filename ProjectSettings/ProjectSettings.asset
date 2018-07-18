@@ -154,7 +154,8 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.OMSE.AGENDA
     iOS: com.OMSE.AGENDA
-  buildNumber: {}
+  buildNumber:
+    iOS: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 26
   AndroidTargetSdkVersion: 0

@@ -384,7 +384,8 @@ public class PlaneManager : MonoBehaviour
         Debug.Log("OnVuforiaPaused(" + paused.ToString() + ") called.");
 
         if (paused)
-            ResetScene();
+            //ResetScene();
+            Debug.Log("Should reset scene here");
     }
 
     #endregion // VUFORIA_CALLBACKS
