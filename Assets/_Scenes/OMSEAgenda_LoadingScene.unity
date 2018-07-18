@@ -561,7 +561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneLoader: {fileID: 675994901}
   loadDelay: 5
-  nextScene: OMSEAgenda_Main_PostPrintIntegration01
+  nextScene: OMSEAgenda_Main_PostPrintIntegration01_CanvasRescaling
 --- !u!114 &675994903
 MonoBehaviour:
   m_ObjectHideFlags: 0
