@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: ce89fe1b37582f6428a4bb37d242cfe8
-timeCreated: 1530470191
-licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -1179,6 +1177,7 @@ ModelImporter:
     7400000: CINEMA_4D_Main
     9500000: //RootNode
     11100000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -1353,6 +1352,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

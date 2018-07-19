@@ -1,0 +1,482 @@
+fileFormatVersion: 2
+guid: 9bdf03142b99040f3bc322859b39003e
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Boole
+    100002: Cap_1
+    100004: Cap_2
+    100006: Cloner_1
+    100008: Extrude
+    100010: Formula
+    100012: Plane
+    100014: semi
+    100016: semi_2
+    100018: Step
+    100020: Sweep_10
+    100022: Sweep_11
+    100024: Sweep_12
+    100026: Sweep_13
+    100028: Sweep_14
+    100030: Sweep_15
+    100032: Sweep_16
+    100034: Sweep_17
+    100036: Sweep_18
+    100038: Sweep_19
+    100040: Sweep_1_0
+    100042: Sweep_1_1
+    100044: Sweep_1_2
+    100046: Sweep_1_20
+    100048: Sweep_1_21
+    100050: Sweep_1_22
+    100052: Sweep_1_23
+    100054: Sweep_1_24
+    100056: Sweep_1_25
+    100058: Sweep_1_26
+    100060: Sweep_1_27
+    100062: Sweep_1_28
+    100064: Sweep_1_29
+    100066: Sweep_1_3
+    100068: Sweep_1_4
+    100070: Sweep_1_5
+    100072: Sweep_1_6
+    100074: Sweep_1_7
+    100076: Sweep_1_8
+    100078: Sweep_1_9
+    100080: //RootNode
+    400000: Boole
+    400002: Cap_1
+    400004: Cap_2
+    400006: Cloner_1
+    400008: Extrude
+    400010: Formula
+    400012: Plane
+    400014: semi
+    400016: semi_2
+    400018: Step
+    400020: Sweep_10
+    400022: Sweep_11
+    400024: Sweep_12
+    400026: Sweep_13
+    400028: Sweep_14
+    400030: Sweep_15
+    400032: Sweep_16
+    400034: Sweep_17
+    400036: Sweep_18
+    400038: Sweep_19
+    400040: Sweep_1_0
+    400042: Sweep_1_1
+    400044: Sweep_1_2
+    400046: Sweep_1_20
+    400048: Sweep_1_21
+    400050: Sweep_1_22
+    400052: Sweep_1_23
+    400054: Sweep_1_24
+    400056: Sweep_1_25
+    400058: Sweep_1_26
+    400060: Sweep_1_27
+    400062: Sweep_1_28
+    400064: Sweep_1_29
+    400066: Sweep_1_3
+    400068: Sweep_1_4
+    400070: Sweep_1_5
+    400072: Sweep_1_6
+    400074: Sweep_1_7
+    400076: Sweep_1_8
+    400078: Sweep_1_9
+    400080: //RootNode
+    2100000: Mat.2
+    2100002: Mat.1
+    2100004: Mat.1.1
+    2100006: Mat.1.2
+    2100008: Mat.1.3
+    2100010: Mat.1.4
+    2100012: Mat.1.5
+    2100014: Mat.1.6
+    2100016: Mat.1.7
+    2100018: Mat.1.8
+    2100020: Mat.1.9
+    2100022: Mat.1.10
+    2100024: Mat.1.11
+    2100026: Mat.1.12
+    2100028: Mat.1.13
+    2100030: Mat.1.14
+    2100032: Mat.1.15
+    2100034: Mat.1.16
+    2100036: Mat.1.17
+    2100038: Mat.1.18
+    2100040: Mat.1.19
+    2100042: Mat.1.20
+    2100044: Mat.1.21
+    2100046: Mat.1.22
+    2100048: Mat.1.23
+    2100050: Mat.1.24
+    2100052: Mat.1.25
+    2100054: Mat.1.26
+    2100056: Mat.1.27
+    2100058: Mat.1.28
+    2100060: Mat.1.29
+    2300000: Plane
+    2300002: Sweep_10
+    2300004: Sweep_11
+    2300006: Sweep_12
+    2300008: Sweep_13
+    2300010: Sweep_14
+    2300012: Sweep_15
+    2300014: Sweep_16
+    2300016: Sweep_17
+    2300018: Sweep_18
+    2300020: Sweep_19
+    2300022: Sweep_1_0
+    2300024: Sweep_1_1
+    2300026: Sweep_1_2
+    2300028: Sweep_1_20
+    2300030: Sweep_1_21
+    2300032: Sweep_1_22
+    2300034: Sweep_1_23
+    2300036: Sweep_1_24
+    2300038: Sweep_1_25
+    2300040: Sweep_1_26
+    2300042: Sweep_1_27
+    2300044: Sweep_1_28
+    2300046: Sweep_1_29
+    2300048: Sweep_1_3
+    2300050: Sweep_1_4
+    2300052: Sweep_1_5
+    2300054: Sweep_1_6
+    2300056: Sweep_1_7
+    2300058: Sweep_1_8
+    2300060: Sweep_1_9
+    3300000: Plane
+    3300002: Sweep_10
+    3300004: Sweep_11
+    3300006: Sweep_12
+    3300008: Sweep_13
+    3300010: Sweep_14
+    3300012: Sweep_15
+    3300014: Sweep_16
+    3300016: Sweep_17
+    3300018: Sweep_18
+    3300020: Sweep_19
+    3300022: Sweep_1_0
+    3300024: Sweep_1_1
+    3300026: Sweep_1_2
+    3300028: Sweep_1_20
+    3300030: Sweep_1_21
+    3300032: Sweep_1_22
+    3300034: Sweep_1_23
+    3300036: Sweep_1_24
+    3300038: Sweep_1_25
+    3300040: Sweep_1_26
+    3300042: Sweep_1_27
+    3300044: Sweep_1_28
+    3300046: Sweep_1_29
+    3300048: Sweep_1_3
+    3300050: Sweep_1_4
+    3300052: Sweep_1_5
+    3300054: Sweep_1_6
+    3300056: Sweep_1_7
+    3300058: Sweep_1_8
+    3300060: Sweep_1_9
+    4300000: Plane
+    4300002: Sweep_1_0
+    4300004: Sweep_1_1
+    4300006: Sweep_1_2
+    4300008: Sweep_1_3
+    4300010: Sweep_1_4
+    4300012: Sweep_1_5
+    4300014: Sweep_1_6
+    4300016: Sweep_1_7
+    4300018: Sweep_1_8
+    4300020: Sweep_1_9
+    4300022: Sweep_10
+    4300024: Sweep_11
+    4300026: Sweep_12
+    4300028: Sweep_13
+    4300030: Sweep_14
+    4300032: Sweep_15
+    4300034: Sweep_16
+    4300036: Sweep_17
+    4300038: Sweep_18
+    4300040: Sweep_19
+    4300042: Sweep_1_20
+    4300044: Sweep_1_21
+    4300046: Sweep_1_22
+    4300048: Sweep_1_23
+    4300050: Sweep_1_24
+    4300052: Sweep_1_25
+    4300054: Sweep_1_26
+    4300056: Sweep_1_27
+    4300058: Sweep_1_28
+    4300060: Sweep_1_29
+    7400000: wormWiggle
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1
+    second: {fileID: 2100000, guid: 57aab3262d1fe4d8797656dee09f969b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.1
+    second: {fileID: 2100000, guid: d1acaacd7b3834e2aa3439da42faae81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.10
+    second: {fileID: 2100000, guid: 6acc8a5fea7414d2683988974f7453d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.11
+    second: {fileID: 2100000, guid: 8495e87df36ff4ee3b45424986848552, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.12
+    second: {fileID: 2100000, guid: 552dd5212e9e44bf3985872050fd1fbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.13
+    second: {fileID: 2100000, guid: 53b505a704a4140eb956a07ba104d0c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.14
+    second: {fileID: 2100000, guid: ed613b8b21679470bb38d995890490f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.15
+    second: {fileID: 2100000, guid: 8db3ddbca371848749c34105ceb0e95f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.16
+    second: {fileID: 2100000, guid: 5c85fc5d28feb416b9dc5afc7645c5d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.17
+    second: {fileID: 2100000, guid: 50bdd77fab92248e5a29365e07eb124e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.18
+    second: {fileID: 2100000, guid: 1ec196524ff2749fab756e107424ecb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.19
+    second: {fileID: 2100000, guid: 6f53b1c2149b347e0b80a70c0399d32c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.2
+    second: {fileID: 2100000, guid: a2eebd846cff84beb994077e528ed938, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.20
+    second: {fileID: 2100000, guid: 5acb76374fbc24c03b2f839ad004bf65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.21
+    second: {fileID: 2100000, guid: 75e12087b51274f34a75c0e83a5d91e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.22
+    second: {fileID: 2100000, guid: a3fdb1a74327c4bb78831fcd18a310f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.23
+    second: {fileID: 2100000, guid: 94b8a78e826684f7a98f4fb0cab5da17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.24
+    second: {fileID: 2100000, guid: 6dd4baf0e68e745e6ba7e8f6fd657a4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.25
+    second: {fileID: 2100000, guid: 47ebbe3dca1314d5abedad3b51601bc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.26
+    second: {fileID: 2100000, guid: 42467628b8a6141ecbddd10b6a7262e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.27
+    second: {fileID: 2100000, guid: 5e195f88539304e39ba7e4e2022f7f34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.28
+    second: {fileID: 2100000, guid: 5e3bcac8a50a64358a305ffca3431825, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.29
+    second: {fileID: 2100000, guid: cf0bb91d9327547edb71eb4b02f14674, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.3
+    second: {fileID: 2100000, guid: ab3d5d92a489549319f7f84046a68a9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.4
+    second: {fileID: 2100000, guid: 3d8f28b8033c84e5eb9b3b6e738cae6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.5
+    second: {fileID: 2100000, guid: a22b4923fb84f4a23b7d4d3c5999f0d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.6
+    second: {fileID: 2100000, guid: 0e078856588cd471dbdc2ff37db889a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.7
+    second: {fileID: 2100000, guid: b245f83a4e6844a9094c41a2669b4baa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.8
+    second: {fileID: 2100000, guid: 223ef5833acb34432ad721c5cd328ec0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1.9
+    second: {fileID: 2100000, guid: b153964e15d164b47b1fb603ec5e9a8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.2
+    second: {fileID: 2100000, guid: 6f843174464d846d8a1606f5598b60bf, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: worm3
+    second: {fileID: 2800000, guid: db82c63512d0d41c89e83b02b9f5619c, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: wormWiggle
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

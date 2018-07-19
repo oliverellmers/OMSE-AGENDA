@@ -755,6 +755,7 @@ MonoBehaviour:
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Agenda.xml
+  mExtendedTracking: 0
   mAspectRatio: 1.447527
   mImageTargetType: 0
   mWidth: 1
