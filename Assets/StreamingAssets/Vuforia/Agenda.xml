@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="homeWall" size="1.000000 0.661111" />
     <ImageTarget name="cornerTemp" size="1.000000 1.451560" />
     <ImageTarget name="widthTemp" size="1.000000 1.450271" />
     <ImageTarget name="designSpace" size="1.000000 1.447500" />
