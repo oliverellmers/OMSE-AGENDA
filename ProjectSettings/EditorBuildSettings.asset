@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/OMSEAgenda_LoadingScene.unity
-    guid: a3366f6c48d7e664aa59871479b3fa00
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 35b96a7225ffe294c9a450f4b9582c98
   - enabled: 1
     path: Assets/_Scenes/OMSEAgenda_Main_PostPrintIntegration01_CanvasRescaling.unity
     guid: b7063d164b9d3433ba2c6402ce6dd8b4
