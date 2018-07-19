@@ -56,7 +56,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Texture:
         m_Texture: {fileID: 2800000, guid: 27dc4b6d636b845e6ba73509994425df, type: 3}
-        m_Scale: {x: 5, y: -5}
+        m_Scale: {x: 4, y: 6}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
@@ -65,7 +65,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DistSpeed: -0.125
     - _DstBlend: 0
-    - _Falloff: 0.52
+    - _Falloff: 0.67
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -74,12 +74,12 @@ Material:
     - _OcclusionStrength: 1
     - _OpacitySwitch: 0
     - _Parallax: 0.02
-    - _Scale_U: 0.4
-    - _Scale_V: 2
+    - _Scale_U: 1
+    - _Scale_V: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TransitionDistance: 400
+    - _TransitionDistance: 100
     - _UVSec: 0
     - _ZWrite: 1
     - _node_3108: 0
