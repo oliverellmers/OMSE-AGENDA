@@ -12,6 +12,8 @@ ModelImporter:
     100012: Group_Cube_1
     100014: //RootNode
     100016: Sweep
+    100018: CINEMA_4D_Editor
+    100020: Circle
     400000: Cap_1
     400002: Cap_2
     400004: Cube
@@ -21,6 +23,9 @@ ModelImporter:
     400012: Group_Cube_1
     400014: //RootNode
     400016: Sweep
+    400018: CINEMA_4D_Editor
+    400020: Circle
+    2000000: CINEMA_4D_Editor
     2100000: No Name
     2100002: Mat.1
     2100004: Mat.1.1
@@ -119,7 +124,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    swapUVChannels: 0
+    swapUVChannels: 1
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1

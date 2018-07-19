@@ -176,7 +176,6 @@ public class PlaneManager : MonoBehaviour
                     m_ContentPositioningBehaviour.PositionContentAtPlaneAnchor(result);
                     UtilityHelper.EnableRendererColliderCanvas(m_PlaneAugmentation, true);
 
-                    // Astronaut should rotate toward camera with each placement
                     m_PlaneAugmentation.transform.localPosition = Vector3.zero;
                     UtilityHelper.RotateTowardCamera(m_PlaneAugmentation);
 
@@ -191,6 +190,7 @@ public class PlaneManager : MonoBehaviour
                         m_ContentPositioningBehaviour.AnchorStage = m_PlacementAnchor;
                         m_ContentPositioningBehaviour.PositionContentAtPlaneAnchor(result);
                         UtilityHelper.EnableRendererColliderCanvas(m_PlacementAugmentation, true);
+
                     }
 
                     if (!m_ProductPlacement.IsPlaced)
@@ -226,6 +226,19 @@ public class PlaneManager : MonoBehaviour
 
     public void SetGroundMode(bool active)
     {
+        // reset augmentations
+        m_PlaneAugmentation.transform.position = Vector3.zero;
+        m_PlaneAugmentation.transform.localEulerAngles = Vector3.zero;
+        UtilityHelper.EnableRendererColliderCanvas(m_PlaneAugmentation, false);
+
+        m_MidAirAugmentation.transform.position = Vector3.zero;
+        m_MidAirAugmentation.transform.localEulerAngles = Vector3.zero;
+        UtilityHelper.EnableRendererColliderCanvas(m_MidAirAugmentation, false);
+
+        m_ProductPlacement.Reset();
+        UtilityHelper.EnableRendererColliderCanvas(m_PlacementAugmentation, false);
+
+
         if (active)
         {
             planeMode = PlaneMode.GROUND;
@@ -238,6 +251,8 @@ public class PlaneManager : MonoBehaviour
 
     public void SetMidAirMode(bool active)
     {
+        
+
         if (active)
         {
             planeMode = PlaneMode.MIDAIR;
@@ -250,6 +265,20 @@ public class PlaneManager : MonoBehaviour
 
     public void SetPlacementMode(bool active)
     {
+        
+        // reset augmentations
+        m_PlaneAugmentation.transform.position = Vector3.zero;
+        m_PlaneAugmentation.transform.localEulerAngles = Vector3.zero;
+        UtilityHelper.EnableRendererColliderCanvas(m_PlaneAugmentation, false);
+
+        m_MidAirAugmentation.transform.position = Vector3.zero;
+        m_MidAirAugmentation.transform.localEulerAngles = Vector3.zero;
+        UtilityHelper.EnableRendererColliderCanvas(m_MidAirAugmentation, false);
+
+        m_ProductPlacement.Reset();
+        UtilityHelper.EnableRendererColliderCanvas(m_PlacementAugmentation, false);
+
+
         if (active)
         {
             planeMode = PlaneMode.PLACEMENT;
