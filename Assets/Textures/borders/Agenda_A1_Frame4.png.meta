@@ -69,7 +69,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 12
     textureCompression: 1
@@ -80,9 +80,9 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: iPhone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 33
+    textureFormat: 57
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
