@@ -91,8 +91,8 @@ public class GroundPlaneUI : MonoBehaviour
             else if (PlaneManager.planeMode == PlaneManager.PlaneMode.PLACEMENT)
             {
                 m_Instructions.text = (m_ProductPlacement.IsPlaced) ?
-                    "Drag to move, two fingers to rotate" +
-                    ((m_TouchHandler.enablePinchScaling) ? "\npinch to scale or double tap to reset" : "") /*+
+                    "Drag to move, " +
+                    ((m_TouchHandler.enablePinchScaling) ? "pinch to scale" : "") /*+
                     "\nDouble-tap to reset Anchor location"*/
                     :
                     "Tap to place wormhole";

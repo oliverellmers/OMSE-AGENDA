@@ -4,10 +4,17 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: CINEMA_4D_Editor
+    100004: fbxNode
     400000: //RootNode
+    400002: CINEMA_4D_Editor
+    400004: fbxNode
+    2000000: CINEMA_4D_Editor
     2100000: No Name
     2300000: //RootNode
+    2300002: fbxNode
     3300000: //RootNode
+    3300002: fbxNode
     4300000: fbxNode
   externalObjects: {}
   materials:
