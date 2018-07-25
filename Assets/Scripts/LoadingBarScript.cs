@@ -87,6 +87,7 @@ public class LoadingBarScript : MonoBehaviour {
             yield return new WaitForSeconds(fadeTimeIn);
         }
         else {
+            yield return new WaitForSeconds(1.0f);
             loadingItemsCG.DOFade(0f, fadeTimeOut).SetEase(Ease.OutCubic);
             yield return new WaitForSeconds(fadeTimeOut);
             GameObject.Destroy(transform.gameObject);
