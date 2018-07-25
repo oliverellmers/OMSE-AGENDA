@@ -20,8 +20,8 @@
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
 
-*.mp4
-*.mov
+#*.mp4
+#*.mov
 #*.png
 #*.jpg
 #*.jpeg
